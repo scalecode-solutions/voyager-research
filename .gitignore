@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+._*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Don't redistribute copyrighted video content
+*.mp4
+*.webm
+*.mkv
+
+# Working files
+scratch/
+*.tmp

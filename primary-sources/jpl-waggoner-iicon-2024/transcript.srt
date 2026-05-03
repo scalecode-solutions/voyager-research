@@ -1,0 +1,9615 @@
+1
+00:00:15,119 --> 00:00:18,470
+
+hello um so thanks for having me um I
+
+2
+00:00:18,470 --> 00:00:18,480
+hello um so thanks for having me um I
+ 
+
+3
+00:00:18,480 --> 00:00:19,950
+hello um so thanks for having me um I
+want to tell you the incredible work
+
+4
+00:00:19,950 --> 00:00:19,960
+want to tell you the incredible work
+ 
+
+5
+00:00:19,960 --> 00:00:21,429
+want to tell you the incredible work
+that the three teams you see on the
+
+6
+00:00:21,429 --> 00:00:21,439
+that the three teams you see on the
+ 
+
+7
+00:00:21,439 --> 00:00:23,670
+that the three teams you see on the
+screen here we had the Voyer flight team
+
+8
+00:00:23,670 --> 00:00:23,680
+screen here we had the Voyer flight team
+ 
+
+9
+00:00:23,680 --> 00:00:25,710
+screen here we had the Voyer flight team
+and anomaly team that helped us resolve
+
+10
+00:00:25,710 --> 00:00:25,720
+and anomaly team that helped us resolve
+ 
+
+11
+00:00:25,720 --> 00:00:27,669
+and anomaly team that helped us resolve
+the anomaly that happened on the flight
+
+12
+00:00:27,669 --> 00:00:27,679
+the anomaly that happened on the flight
+ 
+
+13
+00:00:27,679 --> 00:00:30,150
+the anomaly that happened on the flight
+data subsystem and the deep space
+
+14
+00:00:30,150 --> 00:00:30,160
+data subsystem and the deep space
+ 
+
+15
+00:00:30,160 --> 00:00:31,749
+data subsystem and the deep space
+Network which is the set of antennas we
+
+16
+00:00:31,749 --> 00:00:31,759
+Network which is the set of antennas we
+ 
+
+17
+00:00:31,759 --> 00:00:34,310
+Network which is the set of antennas we
+use to track our spacecraft um the
+
+18
+00:00:34,310 --> 00:00:34,320
+use to track our spacecraft um the
+ 
+
+19
+00:00:34,320 --> 00:00:35,709
+use to track our spacecraft um the
+biggest question you may have is what's
+
+20
+00:00:35,709 --> 00:00:35,719
+biggest question you may have is what's
+ 
+
+21
+00:00:35,719 --> 00:00:38,389
+biggest question you may have is what's
+a mission assurance manager so I have
+
+22
+00:00:38,389 --> 00:00:38,399
+a mission assurance manager so I have
+ 
+
+23
+00:00:38,399 --> 00:00:40,350
+a mission assurance manager so I have
+the best job in the whole world whenever
+
+24
+00:00:40,350 --> 00:00:40,360
+the best job in the whole world whenever
+ 
+
+25
+00:00:40,360 --> 00:00:41,830
+the best job in the whole world whenever
+anything goes wrong with an instrument
+
+26
+00:00:41,830 --> 00:00:41,840
+anything goes wrong with an instrument
+ 
+
+27
+00:00:41,840 --> 00:00:43,910
+anything goes wrong with an instrument
+or a spacecraft I get to jump in and
+
+28
+00:00:43,910 --> 00:00:43,920
+or a spacecraft I get to jump in and
+ 
+
+29
+00:00:43,920 --> 00:00:45,670
+or a spacecraft I get to jump in and
+help solve the problem and additionally
+
+30
+00:00:45,670 --> 00:00:45,680
+help solve the problem and additionally
+ 
+
+31
+00:00:45,680 --> 00:00:48,670
+help solve the problem and additionally
+I'm kind of the independent reviewer um
+
+32
+00:00:48,670 --> 00:00:48,680
+I'm kind of the independent reviewer um
+ 
+
+33
+00:00:48,680 --> 00:00:50,430
+I'm kind of the independent reviewer um
+you can all imagine back when you were
+
+34
+00:00:50,430 --> 00:00:50,440
+you can all imagine back when you were
+ 
+
+35
+00:00:50,440 --> 00:00:51,670
+you can all imagine back when you were
+younger you'd get together with your
+
+36
+00:00:51,670 --> 00:00:51,680
+younger you'd get together with your
+ 
+
+37
+00:00:51,680 --> 00:00:53,150
+younger you'd get together with your
+friends you have this great idea and it
+
+38
+00:00:53,150 --> 00:00:53,160
+friends you have this great idea and it
+ 
+
+39
+00:00:53,160 --> 00:00:54,869
+friends you have this great idea and it
+would go terribly wrong well that
+
+40
+00:00:54,869 --> 00:00:54,879
+would go terribly wrong well that
+ 
+
+41
+00:00:54,879 --> 00:00:56,590
+would go terribly wrong well that
+happens to engineers and professionals
+
+42
+00:00:56,590 --> 00:00:56,600
+happens to engineers and professionals
+ 
+
+43
+00:00:56,600 --> 00:00:58,430
+happens to engineers and professionals
+at all levels and so that's my job is to
+
+44
+00:00:58,430 --> 00:00:58,440
+at all levels and so that's my job is to
+ 
+
+45
+00:00:58,440 --> 00:01:00,270
+at all levels and so that's my job is to
+be the adult in the room and make sure
+
+46
+00:01:00,270 --> 00:01:00,280
+be the adult in the room and make sure
+ 
+
+47
+00:01:00,280 --> 00:01:01,910
+be the adult in the room and make sure
+we don't have
+
+48
+00:01:01,910 --> 00:01:01,920
+we don't have
+ 
+
+49
+00:01:01,920 --> 00:01:04,869
+we don't have
+issues so to get started I want to tell
+
+50
+00:01:04,869 --> 00:01:04,879
+issues so to get started I want to tell
+ 
+
+51
+00:01:04,879 --> 00:01:06,390
+issues so to get started I want to tell
+you a little bit about the mission so
+
+52
+00:01:06,390 --> 00:01:06,400
+you a little bit about the mission so
+ 
+
+53
+00:01:06,400 --> 00:01:08,149
+you a little bit about the mission so
+you understand why it's so important to
+
+54
+00:01:08,149 --> 00:01:08,159
+you understand why it's so important to
+ 
+
+55
+00:01:08,159 --> 00:01:10,830
+you understand why it's so important to
+us and it is very important to us so the
+
+56
+00:01:10,830 --> 00:01:10,840
+us and it is very important to us so the
+ 
+
+57
+00:01:10,840 --> 00:01:12,270
+us and it is very important to us so the
+voyagers launched in
+
+58
+00:01:12,270 --> 00:01:12,280
+voyagers launched in
+ 
+
+59
+00:01:12,280 --> 00:01:14,950
+voyagers launched in
+1977 and they were designed to explore
+
+60
+00:01:14,950 --> 00:01:14,960
+1977 and they were designed to explore
+ 
+
+61
+00:01:14,960 --> 00:01:16,710
+1977 and they were designed to explore
+the outer planet specifically Jupiter
+
+62
+00:01:16,710 --> 00:01:16,720
+the outer planet specifically Jupiter
+ 
+
+63
+00:01:16,720 --> 00:01:18,390
+the outer planet specifically Jupiter
+and Saturn of course they got to all
+
+64
+00:01:18,390 --> 00:01:18,400
+and Saturn of course they got to all
+ 
+
+65
+00:01:18,400 --> 00:01:20,990
+and Saturn of course they got to all
+four of them Voyer 2 doing Uranus and
+
+66
+00:01:20,990 --> 00:01:21,000
+four of them Voyer 2 doing Uranus and
+ 
+
+67
+00:01:21,000 --> 00:01:23,230
+four of them Voyer 2 doing Uranus and
+Neptune and that changed the way we
+
+68
+00:01:23,230 --> 00:01:23,240
+Neptune and that changed the way we
+ 
+
+69
+00:01:23,240 --> 00:01:24,749
+Neptune and that changed the way we
+thought about the solar system utterly
+
+70
+00:01:24,749 --> 00:01:24,759
+thought about the solar system utterly
+ 
+
+71
+00:01:24,759 --> 00:01:27,270
+thought about the solar system utterly
+changed planetary science after that in
+
+72
+00:01:27,270 --> 00:01:27,280
+changed planetary science after that in
+ 
+
+73
+00:01:27,280 --> 00:01:30,429
+changed planetary science after that in
+the 1990s we became a he spheric mission
+
+74
+00:01:30,429 --> 00:01:30,439
+the 1990s we became a he spheric mission
+ 
+
+75
+00:01:30,439 --> 00:01:32,389
+the 1990s we became a he spheric mission
+the he sphere is a magnetic bubble that
+
+76
+00:01:32,389 --> 00:01:32,399
+the he sphere is a magnetic bubble that
+ 
+
+77
+00:01:32,399 --> 00:01:34,749
+the he sphere is a magnetic bubble that
+surrounds the Sun and we're in the heos
+
+78
+00:01:34,749 --> 00:01:34,759
+surrounds the Sun and we're in the heos
+ 
+
+79
+00:01:34,759 --> 00:01:36,710
+surrounds the Sun and we're in the heos
+spere it's actually very far far out
+
+80
+00:01:36,710 --> 00:01:36,720
+spere it's actually very far far out
+ 
+
+81
+00:01:36,720 --> 00:01:39,749
+spere it's actually very far far out
+even Beyond planet's orbits and the idea
+
+82
+00:01:39,749 --> 00:01:39,759
+even Beyond planet's orbits and the idea
+ 
+
+83
+00:01:39,759 --> 00:01:41,590
+even Beyond planet's orbits and the idea
+here was that Voyer would move out
+
+84
+00:01:41,590 --> 00:01:41,600
+here was that Voyer would move out
+ 
+
+85
+00:01:41,600 --> 00:01:43,190
+here was that Voyer would move out
+Beyond these planets sample the outer
+
+86
+00:01:43,190 --> 00:01:43,200
+Beyond these planets sample the outer
+ 
+
+87
+00:01:43,200 --> 00:01:45,109
+Beyond these planets sample the outer
+heliosphere and then perhaps make it
+
+88
+00:01:45,109 --> 00:01:45,119
+heliosphere and then perhaps make it
+ 
+
+89
+00:01:45,119 --> 00:01:46,789
+heliosphere and then perhaps make it
+Interstellar space because nobody knew
+
+90
+00:01:46,789 --> 00:01:46,799
+Interstellar space because nobody knew
+ 
+
+91
+00:01:46,799 --> 00:01:48,950
+Interstellar space because nobody knew
+there was a huos spere boundary nobody
+
+92
+00:01:48,950 --> 00:01:48,960
+there was a huos spere boundary nobody
+ 
+
+93
+00:01:48,960 --> 00:01:51,270
+there was a huos spere boundary nobody
+knew how far it was and so that was our
+
+94
+00:01:51,270 --> 00:01:51,280
+knew how far it was and so that was our
+ 
+
+95
+00:01:51,280 --> 00:01:54,230
+knew how far it was and so that was our
+new goal in 1990 today we've crossed
+
+96
+00:01:54,230 --> 00:01:54,240
+new goal in 1990 today we've crossed
+ 
+
+97
+00:01:54,240 --> 00:01:55,789
+new goal in 1990 today we've crossed
+that boundary as you'll see and we're
+
+98
+00:01:55,789 --> 00:01:55,799
+that boundary as you'll see and we're
+ 
+
+99
+00:01:55,799 --> 00:01:57,469
+that boundary as you'll see and we're
+actually in innerstellar space and I
+
+100
+00:01:57,469 --> 00:01:57,479
+actually in innerstellar space and I
+ 
+
+101
+00:01:57,479 --> 00:01:58,990
+actually in innerstellar space and I
+think this may be our most important
+
+102
+00:01:58,990 --> 00:01:59,000
+think this may be our most important
+ 
+
+103
+00:01:59,000 --> 00:02:01,190
+think this may be our most important
+data set that we ever collect because
+
+104
+00:02:01,190 --> 00:02:01,200
+data set that we ever collect because
+ 
+
+105
+00:02:01,200 --> 00:02:02,830
+data set that we ever collect because
+nobody's going to be here again for
+
+106
+00:02:02,830 --> 00:02:02,840
+nobody's going to be here again for
+ 
+
+107
+00:02:02,840 --> 00:02:05,789
+nobody's going to be here again for
+decades perhaps longer um these two
+
+108
+00:02:05,789 --> 00:02:05,799
+decades perhaps longer um these two
+ 
+
+109
+00:02:05,799 --> 00:02:07,950
+decades perhaps longer um these two
+spacecraft are deep in their exposive
+
+110
+00:02:07,950 --> 00:02:07,960
+spacecraft are deep in their exposive
+ 
+
+111
+00:02:07,960 --> 00:02:09,710
+spacecraft are deep in their exposive
+space giving us information that's
+
+112
+00:02:09,710 --> 00:02:09,720
+space giving us information that's
+ 
+
+113
+00:02:09,720 --> 00:02:12,270
+space giving us information that's
+critically important why because as you
+
+114
+00:02:12,270 --> 00:02:12,280
+critically important why because as you
+ 
+
+115
+00:02:12,280 --> 00:02:14,990
+critically important why because as you
+can see in the upper corner there other
+
+116
+00:02:14,990 --> 00:02:15,000
+can see in the upper corner there other
+ 
+
+117
+00:02:15,000 --> 00:02:16,790
+can see in the upper corner there other
+stars have you heliosphere as well
+
+118
+00:02:16,790 --> 00:02:16,800
+stars have you heliosphere as well
+ 
+
+119
+00:02:16,800 --> 00:02:18,869
+stars have you heliosphere as well
+they're called astrospheres so an
+
+120
+00:02:18,869 --> 00:02:18,879
+they're called astrospheres so an
+ 
+
+121
+00:02:18,879 --> 00:02:20,750
+they're called astrospheres so an
+astronomer can collect those photons and
+
+122
+00:02:20,750 --> 00:02:20,760
+astronomer can collect those photons and
+ 
+
+123
+00:02:20,760 --> 00:02:22,110
+astronomer can collect those photons and
+make an interpretation what they're
+
+124
+00:02:22,110 --> 00:02:22,120
+make an interpretation what they're
+ 
+
+125
+00:02:22,120 --> 00:02:24,190
+make an interpretation what they're
+seeing but it's really valuable to have
+
+126
+00:02:24,190 --> 00:02:24,200
+seeing but it's really valuable to have
+ 
+
+127
+00:02:24,200 --> 00:02:26,150
+seeing but it's really valuable to have
+the actual understanding of what that
+
+128
+00:02:26,150 --> 00:02:26,160
+the actual understanding of what that
+ 
+
+129
+00:02:26,160 --> 00:02:27,790
+the actual understanding of what that
+inner Stiller space might be like that
+
+130
+00:02:27,790 --> 00:02:27,800
+inner Stiller space might be like that
+ 
+
+131
+00:02:27,800 --> 00:02:30,030
+inner Stiller space might be like that
+those shock waves are interacting with
+
+132
+00:02:30,030 --> 00:02:30,040
+those shock waves are interacting with
+ 
+
+133
+00:02:30,040 --> 00:02:31,949
+those shock waves are interacting with
+so it gives astronomers ground truth in
+
+134
+00:02:31,949 --> 00:02:31,959
+so it gives astronomers ground truth in
+ 
+
+135
+00:02:31,959 --> 00:02:34,229
+so it gives astronomers ground truth in
+terms of interpreting things like this
+
+136
+00:02:34,229 --> 00:02:34,239
+terms of interpreting things like this
+ 
+
+137
+00:02:34,239 --> 00:02:36,190
+terms of interpreting things like this
+the other um the other thing you can see
+
+138
+00:02:36,190 --> 00:02:36,200
+the other um the other thing you can see
+ 
+
+139
+00:02:36,200 --> 00:02:38,470
+the other um the other thing you can see
+here is that this is some data from one
+
+140
+00:02:38,470 --> 00:02:38,480
+here is that this is some data from one
+ 
+
+141
+00:02:38,480 --> 00:02:40,229
+here is that this is some data from one
+of our instruments this is the plasma
+
+142
+00:02:40,229 --> 00:02:40,239
+of our instruments this is the plasma
+ 
+
+143
+00:02:40,239 --> 00:02:42,910
+of our instruments this is the plasma
+wave subsystem um what it does is it
+
+144
+00:02:42,910 --> 00:02:42,920
+wave subsystem um what it does is it
+ 
+
+145
+00:02:42,920 --> 00:02:46,030
+wave subsystem um what it does is it
+collects electromagnetic uh information
+
+146
+00:02:46,030 --> 00:02:46,040
+collects electromagnetic uh information
+ 
+
+147
+00:02:46,040 --> 00:02:48,190
+collects electromagnetic uh information
+frequencies Against Time which we heard
+
+148
+00:02:48,190 --> 00:02:48,200
+frequencies Against Time which we heard
+ 
+
+149
+00:02:48,200 --> 00:02:51,390
+frequencies Against Time which we heard
+about earlier today um the PWS actually
+
+150
+00:02:51,390 --> 00:02:51,400
+about earlier today um the PWS actually
+ 
+
+151
+00:02:51,400 --> 00:02:54,990
+about earlier today um the PWS actually
+collects plasma waves plasmas are ions
+
+152
+00:02:54,990 --> 00:02:55,000
+collects plasma waves plasmas are ions
+ 
+
+153
+00:02:55,000 --> 00:02:57,710
+collects plasma waves plasmas are ions
+and electrons that are um embedded in a
+
+154
+00:02:57,710 --> 00:02:57,720
+and electrons that are um embedded in a
+ 
+
+155
+00:02:57,720 --> 00:02:59,350
+and electrons that are um embedded in a
+magnetic field when that situation
+
+156
+00:02:59,350 --> 00:02:59,360
+magnetic field when that situation
+ 
+
+157
+00:02:59,360 --> 00:03:01,550
+magnetic field when that situation
+happens those particles will exhibit
+
+158
+00:03:01,550 --> 00:03:01,560
+happens those particles will exhibit
+ 
+
+159
+00:03:01,560 --> 00:03:03,470
+happens those particles will exhibit
+wavelike characteristics so this
+
+160
+00:03:03,470 --> 00:03:03,480
+wavelike characteristics so this
+ 
+
+161
+00:03:03,480 --> 00:03:05,630
+wavelike characteristics so this
+instrument's designed to find those all
+
+162
+00:03:05,630 --> 00:03:05,640
+instrument's designed to find those all
+ 
+
+163
+00:03:05,640 --> 00:03:09,750
+instrument's designed to find those all
+these dark splotches are actually uh the
+
+164
+00:03:09,750 --> 00:03:09,760
+these dark splotches are actually uh the
+ 
+
+165
+00:03:09,760 --> 00:03:11,789
+these dark splotches are actually uh the
+what happens when a when a corono mass
+
+166
+00:03:11,789 --> 00:03:11,799
+what happens when a when a corono mass
+ 
+
+167
+00:03:11,799 --> 00:03:13,390
+what happens when a when a corono mass
+injection the things that cause Roars on
+
+168
+00:03:13,390 --> 00:03:13,400
+injection the things that cause Roars on
+ 
+
+169
+00:03:13,400 --> 00:03:15,309
+injection the things that cause Roars on
+Earth those propagate out for years and
+
+170
+00:03:15,309 --> 00:03:15,319
+Earth those propagate out for years and
+ 
+
+171
+00:03:15,319 --> 00:03:17,229
+Earth those propagate out for years and
+when they hit the Helia sphere they
+
+172
+00:03:17,229 --> 00:03:17,239
+when they hit the Helia sphere they
+ 
+
+173
+00:03:17,239 --> 00:03:19,270
+when they hit the Helia sphere they
+actually ring into Interstellar space so
+
+174
+00:03:19,270 --> 00:03:19,280
+actually ring into Interstellar space so
+ 
+
+175
+00:03:19,280 --> 00:03:21,990
+actually ring into Interstellar space so
+Voyer was hearing the the eruptions from
+
+176
+00:03:21,990 --> 00:03:22,000
+Voyer was hearing the the eruptions from
+ 
+
+177
+00:03:22,000 --> 00:03:24,030
+Voyer was hearing the the eruptions from
+the Sun even outside the helipa which
+
+178
+00:03:24,030 --> 00:03:24,040
+the Sun even outside the helipa which
+ 
+
+179
+00:03:24,040 --> 00:03:25,990
+the Sun even outside the helipa which
+was very cool nobody really expected
+
+180
+00:03:25,990 --> 00:03:26,000
+was very cool nobody really expected
+ 
+
+181
+00:03:26,000 --> 00:03:30,350
+was very cool nobody really expected
+that and you can see this uh a very line
+
+182
+00:03:30,350 --> 00:03:30,360
+that and you can see this uh a very line
+ 
+
+183
+00:03:30,360 --> 00:03:32,550
+that and you can see this uh a very line
+there's a thin line that goes out uh
+
+184
+00:03:32,550 --> 00:03:32,560
+there's a thin line that goes out uh
+ 
+
+185
+00:03:32,560 --> 00:03:34,309
+there's a thin line that goes out uh
+that thin line represents the primary
+
+186
+00:03:34,309 --> 00:03:34,319
+that thin line represents the primary
+ 
+
+187
+00:03:34,319 --> 00:03:36,030
+that thin line represents the primary
+plasma frequency and that gives us
+
+188
+00:03:36,030 --> 00:03:36,040
+plasma frequency and that gives us
+ 
+
+189
+00:03:36,040 --> 00:03:38,070
+plasma frequency and that gives us
+density so this is just one example the
+
+190
+00:03:38,070 --> 00:03:38,080
+density so this is just one example the
+ 
+
+191
+00:03:38,080 --> 00:03:40,030
+density so this is just one example the
+amazing um science that these
+
+192
+00:03:40,030 --> 00:03:40,040
+amazing um science that these
+ 
+
+193
+00:03:40,040 --> 00:03:42,350
+amazing um science that these
+instruments are still
+
+194
+00:03:42,350 --> 00:03:42,360
+instruments are still
+ 
+
+195
+00:03:42,360 --> 00:03:46,830
+instruments are still
+providing oh excuse me so this is a a uh
+
+196
+00:03:46,830 --> 00:03:46,840
+providing oh excuse me so this is a a uh
+ 
+
+197
+00:03:46,840 --> 00:03:48,630
+providing oh excuse me so this is a a uh
+map of essentially where we were and
+
+198
+00:03:48,630 --> 00:03:48,640
+map of essentially where we were and
+ 
+
+199
+00:03:48,640 --> 00:03:51,390
+map of essentially where we were and
+where we are this is astronomical units
+
+200
+00:03:51,390 --> 00:03:51,400
+where we are this is astronomical units
+ 
+
+201
+00:03:51,400 --> 00:03:54,069
+where we are this is astronomical units
+on the the x-axis on the bottom
+
+202
+00:03:54,069 --> 00:03:54,079
+on the the x-axis on the bottom
+ 
+
+203
+00:03:54,079 --> 00:03:55,789
+on the the x-axis on the bottom
+astronomic unit is a distance between
+
+204
+00:03:55,789 --> 00:03:55,799
+astronomic unit is a distance between
+ 
+
+205
+00:03:55,799 --> 00:03:57,309
+astronomic unit is a distance between
+the Earth and the Sun or about eight
+
+206
+00:03:57,309 --> 00:03:57,319
+the Earth and the Sun or about eight
+ 
+
+207
+00:03:57,319 --> 00:03:59,470
+the Earth and the Sun or about eight
+light minutes uh you can see we're well
+
+208
+00:03:59,470 --> 00:03:59,480
+light minutes uh you can see we're well
+ 
+
+209
+00:03:59,480 --> 00:04:02,149
+light minutes uh you can see we're well
+out there out from the Sun and uh this
+
+210
+00:04:02,149 --> 00:04:02,159
+out there out from the Sun and uh this
+ 
+
+211
+00:04:02,159 --> 00:04:03,949
+out there out from the Sun and uh this
+is the ecliptic latitude in other words
+
+212
+00:04:03,949 --> 00:04:03,959
+is the ecliptic latitude in other words
+ 
+
+213
+00:04:03,959 --> 00:04:05,869
+is the ecliptic latitude in other words
+how far north and south we are if you
+
+214
+00:04:05,869 --> 00:04:05,879
+how far north and south we are if you
+ 
+
+215
+00:04:05,879 --> 00:04:07,550
+how far north and south we are if you
+look down at the tiles you can imagine
+
+216
+00:04:07,550 --> 00:04:07,560
+look down at the tiles you can imagine
+ 
+
+217
+00:04:07,560 --> 00:04:10,069
+look down at the tiles you can imagine
+one of those is an au Voyer one is about
+
+218
+00:04:10,069 --> 00:04:10,079
+one of those is an au Voyer one is about
+ 
+
+219
+00:04:10,079 --> 00:04:12,830
+one of those is an au Voyer one is about
+as far away as this patio is across so
+
+220
+00:04:12,830 --> 00:04:12,840
+as far away as this patio is across so
+ 
+
+221
+00:04:12,840 --> 00:04:14,270
+as far away as this patio is across so
+and the distance between Earth and Mars
+
+222
+00:04:14,270 --> 00:04:14,280
+and the distance between Earth and Mars
+ 
+
+223
+00:04:14,280 --> 00:04:16,069
+and the distance between Earth and Mars
+is about that far so you can see the
+
+224
+00:04:16,069 --> 00:04:16,079
+is about that far so you can see the
+ 
+
+225
+00:04:16,079 --> 00:04:18,629
+is about that far so you can see the
+voyers are extremely far
+
+226
+00:04:18,629 --> 00:04:18,639
+voyers are extremely far
+ 
+
+227
+00:04:18,639 --> 00:04:21,710
+voyers are extremely far
+away oh actually you'll see the uh blue
+
+228
+00:04:21,710 --> 00:04:21,720
+away oh actually you'll see the uh blue
+ 
+
+229
+00:04:21,720 --> 00:04:23,469
+away oh actually you'll see the uh blue
+boundary there is also where we crossed
+
+230
+00:04:23,469 --> 00:04:23,479
+boundary there is also where we crossed
+ 
+
+231
+00:04:23,479 --> 00:04:25,390
+boundary there is also where we crossed
+into the inner Stellar space so it was
+
+232
+00:04:25,390 --> 00:04:25,400
+into the inner Stellar space so it was
+ 
+
+233
+00:04:25,400 --> 00:04:27,430
+into the inner Stellar space so it was
+much further out than most astronomers
+
+234
+00:04:27,430 --> 00:04:27,440
+much further out than most astronomers
+ 
+
+235
+00:04:27,440 --> 00:04:30,029
+much further out than most astronomers
+thought so these are our instruments uh
+
+236
+00:04:30,029 --> 00:04:30,039
+thought so these are our instruments uh
+ 
+
+237
+00:04:30,039 --> 00:04:32,270
+thought so these are our instruments uh
+we have a magnetometer we have the
+
+238
+00:04:32,270 --> 00:04:32,280
+we have a magnetometer we have the
+ 
+
+239
+00:04:32,280 --> 00:04:34,830
+we have a magnetometer we have the
+plasma wave subsystem um they're mounted
+
+240
+00:04:34,830 --> 00:04:34,840
+plasma wave subsystem um they're mounted
+ 
+
+241
+00:04:34,840 --> 00:04:35,990
+plasma wave subsystem um they're mounted
+they use these antennas the
+
+242
+00:04:35,990 --> 00:04:36,000
+they use these antennas the
+ 
+
+243
+00:04:36,000 --> 00:04:37,670
+they use these antennas the
+magnetometers are on a boom to keep them
+
+244
+00:04:37,670 --> 00:04:37,680
+magnetometers are on a boom to keep them
+ 
+
+245
+00:04:37,680 --> 00:04:39,870
+magnetometers are on a boom to keep them
+was in the spacecraft the PWS uses these
+
+246
+00:04:39,870 --> 00:04:39,880
+was in the spacecraft the PWS uses these
+ 
+
+247
+00:04:39,880 --> 00:04:42,629
+was in the spacecraft the PWS uses these
+whip antennas this is a 13 M boom so
+
+248
+00:04:42,629 --> 00:04:42,639
+whip antennas this is a 13 M boom so
+ 
+
+249
+00:04:42,639 --> 00:04:44,710
+whip antennas this is a 13 M boom so
+these are not little spacecraft this is
+
+250
+00:04:44,710 --> 00:04:44,720
+these are not little spacecraft this is
+ 
+
+251
+00:04:44,720 --> 00:04:48,230
+these are not little spacecraft this is
+a three uh 3 meter across hyen antenna
+
+252
+00:04:48,230 --> 00:04:48,240
+a three uh 3 meter across hyen antenna
+ 
+
+253
+00:04:48,240 --> 00:04:49,510
+a three uh 3 meter across hyen antenna
+um and then we have some particle
+
+254
+00:04:49,510 --> 00:04:49,520
+um and then we have some particle
+ 
+
+255
+00:04:49,520 --> 00:04:50,950
+um and then we have some particle
+instruments we have the cosmic ray
+
+256
+00:04:50,950 --> 00:04:50,960
+instruments we have the cosmic ray
+ 
+
+257
+00:04:50,960 --> 00:04:52,830
+instruments we have the cosmic ray
+subsystem looking at high energy
+
+258
+00:04:52,830 --> 00:04:52,840
+subsystem looking at high energy
+ 
+
+259
+00:04:52,840 --> 00:04:54,749
+subsystem looking at high energy
+particles and then a couple of plasma
+
+260
+00:04:54,749 --> 00:04:54,759
+particles and then a couple of plasma
+ 
+
+261
+00:04:54,759 --> 00:04:57,550
+particles and then a couple of plasma
+instruments so those are our spacecraft
+
+262
+00:04:57,550 --> 00:04:57,560
+instruments so those are our spacecraft
+ 
+
+263
+00:04:57,560 --> 00:04:58,909
+instruments so those are our spacecraft
+and the instruments that are still
+
+264
+00:04:58,909 --> 00:04:58,919
+and the instruments that are still
+ 
+
+265
+00:04:58,919 --> 00:05:01,230
+and the instruments that are still
+active
+
+266
+00:05:01,230 --> 00:05:01,240
+active
+ 
+
+267
+00:05:01,240 --> 00:05:03,469
+active
+so let's talk about our spacecraft
+
+268
+00:05:03,469 --> 00:05:03,479
+so let's talk about our spacecraft
+ 
+
+269
+00:05:03,479 --> 00:05:06,550
+so let's talk about our spacecraft
+status so we are 15 billion miles away
+
+270
+00:05:06,550 --> 00:05:06,560
+status so we are 15 billion miles away
+ 
+
+271
+00:05:06,560 --> 00:05:08,189
+status so we are 15 billion miles away
+for Voyager one I'm going to talk mostly
+
+272
+00:05:08,189 --> 00:05:08,199
+for Voyager one I'm going to talk mostly
+ 
+
+273
+00:05:08,199 --> 00:05:09,350
+for Voyager one I'm going to talk mostly
+about Voyer one because that's what
+
+274
+00:05:09,350 --> 00:05:09,360
+about Voyer one because that's what
+ 
+
+275
+00:05:09,360 --> 00:05:11,510
+about Voyer one because that's what
+we're here to talk about our Li time is
+
+276
+00:05:11,510 --> 00:05:11,520
+we're here to talk about our Li time is
+ 
+
+277
+00:05:11,520 --> 00:05:13,830
+we're here to talk about our Li time is
+22 and a half hours one way in other
+
+278
+00:05:13,830 --> 00:05:13,840
+22 and a half hours one way in other
+ 
+
+279
+00:05:13,840 --> 00:05:15,110
+22 and a half hours one way in other
+words that's how long it takes to stick
+
+280
+00:05:15,110 --> 00:05:15,120
+words that's how long it takes to stick
+ 
+
+281
+00:05:15,120 --> 00:05:16,749
+words that's how long it takes to stick
+of the command to our spacecraft to get
+
+282
+00:05:16,749 --> 00:05:16,759
+of the command to our spacecraft to get
+ 
+
+283
+00:05:16,759 --> 00:05:19,790
+of the command to our spacecraft to get
+a roundtrip response it's 45 hours so
+
+284
+00:05:19,790 --> 00:05:19,800
+a roundtrip response it's 45 hours so
+ 
+
+285
+00:05:19,800 --> 00:05:21,710
+a roundtrip response it's 45 hours so
+basically we get contact with our
+
+286
+00:05:21,710 --> 00:05:21,720
+basically we get contact with our
+ 
+
+287
+00:05:21,720 --> 00:05:23,469
+basically we get contact with our
+spacecraft after we do something two
+
+288
+00:05:23,469 --> 00:05:23,479
+spacecraft after we do something two
+ 
+
+289
+00:05:23,479 --> 00:05:26,629
+spacecraft after we do something two
+days later um this uh diagram in the
+
+290
+00:05:26,629 --> 00:05:26,639
+days later um this uh diagram in the
+ 
+
+291
+00:05:26,639 --> 00:05:28,390
+days later um this uh diagram in the
+upper corner there shows you Voyer one
+
+292
+00:05:28,390 --> 00:05:28,400
+upper corner there shows you Voyer one
+ 
+
+293
+00:05:28,400 --> 00:05:30,430
+upper corner there shows you Voyer one
+and Voyer 2 Crossing outside the
+
+294
+00:05:30,430 --> 00:05:30,440
+and Voyer 2 Crossing outside the
+ 
+
+295
+00:05:30,440 --> 00:05:33,270
+and Voyer 2 Crossing outside the
+heliopause it's another graphic um I
+
+296
+00:05:33,270 --> 00:05:33,280
+heliopause it's another graphic um I
+ 
+
+297
+00:05:33,280 --> 00:05:34,550
+heliopause it's another graphic um I
+like it because it shows that we're
+
+298
+00:05:34,550 --> 00:05:34,560
+like it because it shows that we're
+ 
+
+299
+00:05:34,560 --> 00:05:35,909
+like it because it shows that we're
+actually moving out through the nose of
+
+300
+00:05:35,909 --> 00:05:35,919
+actually moving out through the nose of
+ 
+
+301
+00:05:35,919 --> 00:05:37,710
+actually moving out through the nose of
+the heliopause in other words just by
+
+302
+00:05:37,710 --> 00:05:37,720
+the heliopause in other words just by
+ 
+
+303
+00:05:37,720 --> 00:05:39,870
+the heliopause in other words just by
+dumb luck we ended up leaving the solar
+
+304
+00:05:39,870 --> 00:05:39,880
+dumb luck we ended up leaving the solar
+ 
+
+305
+00:05:39,880 --> 00:05:41,469
+dumb luck we ended up leaving the solar
+system in the direction the sun was
+
+306
+00:05:41,469 --> 00:05:41,479
+system in the direction the sun was
+ 
+
+307
+00:05:41,479 --> 00:05:44,029
+system in the direction the sun was
+going so the voyagers are no longer
+
+308
+00:05:44,029 --> 00:05:44,039
+going so the voyagers are no longer
+ 
+
+309
+00:05:44,039 --> 00:05:45,710
+going so the voyagers are no longer
+gravitationally bound of the sun they're
+
+310
+00:05:45,710 --> 00:05:45,720
+gravitationally bound of the sun they're
+ 
+
+311
+00:05:45,720 --> 00:05:47,110
+gravitationally bound of the sun they're
+actually orbiting the center of the
+
+312
+00:05:47,110 --> 00:05:47,120
+actually orbiting the center of the
+ 
+
+313
+00:05:47,120 --> 00:05:50,150
+actually orbiting the center of the
+Galaxy and they have a 230 million year
+
+314
+00:05:50,150 --> 00:05:50,160
+Galaxy and they have a 230 million year
+ 
+
+315
+00:05:50,160 --> 00:05:53,590
+Galaxy and they have a 230 million year
+period so they're moving about uh 3 Au
+
+316
+00:05:53,590 --> 00:05:53,600
+period so they're moving about uh 3 Au
+ 
+
+317
+00:05:53,600 --> 00:05:57,309
+period so they're moving about uh 3 Au
+per year faster than the solar
+
+318
+00:05:57,309 --> 00:05:57,319
+
+ 
+
+319
+00:05:57,319 --> 00:06:00,550
+
+system so imagine a candle
+
+320
+00:06:00,550 --> 00:06:00,560
+system so imagine a candle
+ 
+
+321
+00:06:00,560 --> 00:06:02,189
+system so imagine a candle
+um you can see the light from it you can
+
+322
+00:06:02,189 --> 00:06:02,199
+um you can see the light from it you can
+ 
+
+323
+00:06:02,199 --> 00:06:04,950
+um you can see the light from it you can
+feel the heat so all that energy if you
+
+324
+00:06:04,950 --> 00:06:04,960
+feel the heat so all that energy if you
+ 
+
+325
+00:06:04,960 --> 00:06:07,950
+feel the heat so all that energy if you
+collect it then take that and divide it
+
+326
+00:06:07,950 --> 00:06:07,960
+collect it then take that and divide it
+ 
+
+327
+00:06:07,960 --> 00:06:11,510
+collect it then take that and divide it
+by six so 1 six of a candle that's 13
+
+328
+00:06:11,510 --> 00:06:11,520
+by six so 1 six of a candle that's 13
+ 
+
+329
+00:06:11,520 --> 00:06:14,469
+by six so 1 six of a candle that's 13
+watts of energy so a 70 M station the
+
+330
+00:06:14,469 --> 00:06:14,479
+watts of energy so a 70 M station the
+ 
+
+331
+00:06:14,479 --> 00:06:18,150
+watts of energy so a 70 M station the
+large dish will run the far far right uh
+
+332
+00:06:18,150 --> 00:06:18,160
+large dish will run the far far right uh
+ 
+
+333
+00:06:18,160 --> 00:06:20,589
+large dish will run the far far right uh
+that station 70 M across can detect that
+
+334
+00:06:20,589 --> 00:06:20,599
+that station 70 M across can detect that
+ 
+
+335
+00:06:20,599 --> 00:06:23,029
+that station 70 M across can detect that
+signal and pull 160 bits per second out
+
+336
+00:06:23,029 --> 00:06:23,039
+signal and pull 160 bits per second out
+ 
+
+337
+00:06:23,039 --> 00:06:26,309
+signal and pull 160 bits per second out
+of it three 34 met stations that we
+
+338
+00:06:26,309 --> 00:06:26,319
+of it three 34 met stations that we
+ 
+
+339
+00:06:26,319 --> 00:06:28,749
+of it three 34 met stations that we
+array together they can also perform
+
+340
+00:06:28,749 --> 00:06:28,759
+array together they can also perform
+ 
+
+341
+00:06:28,759 --> 00:06:30,790
+array together they can also perform
+that feed so that's essentially how we
+
+342
+00:06:30,790 --> 00:06:30,800
+that feed so that's essentially how we
+ 
+
+343
+00:06:30,800 --> 00:06:32,510
+that feed so that's essentially how we
+collect data the spacecraft are always
+
+344
+00:06:32,510 --> 00:06:32,520
+collect data the spacecraft are always
+ 
+
+345
+00:06:32,520 --> 00:06:34,469
+collect data the spacecraft are always
+broadcasting we can track it as often we
+
+346
+00:06:34,469 --> 00:06:34,479
+broadcasting we can track it as often we
+ 
+
+347
+00:06:34,479 --> 00:06:36,710
+broadcasting we can track it as often we
+can get these antennas um we can
+
+348
+00:06:36,710 --> 00:06:36,720
+can get these antennas um we can
+ 
+
+349
+00:06:36,720 --> 00:06:38,670
+can get these antennas um we can
+actually go up to 1.2 kilobits per
+
+350
+00:06:38,670 --> 00:06:38,680
+actually go up to 1.2 kilobits per
+ 
+
+351
+00:06:38,680 --> 00:06:40,150
+actually go up to 1.2 kilobits per
+second and that's how we get that data I
+
+352
+00:06:40,150 --> 00:06:40,160
+second and that's how we get that data I
+ 
+
+353
+00:06:40,160 --> 00:06:42,270
+second and that's how we get that data I
+showed you earlier it's recorded on our
+
+354
+00:06:42,270 --> 00:06:42,280
+showed you earlier it's recorded on our
+ 
+
+355
+00:06:42,280 --> 00:06:44,230
+showed you earlier it's recorded on our
+fancy digital tape craft recorder it's
+
+356
+00:06:44,230 --> 00:06:44,240
+fancy digital tape craft recorder it's
+ 
+
+357
+00:06:44,240 --> 00:06:46,909
+fancy digital tape craft recorder it's
+an eight track and it's still reog grade
+
+358
+00:06:46,909 --> 00:06:46,919
+an eight track and it's still reog grade
+ 
+
+359
+00:06:46,919 --> 00:06:49,430
+an eight track and it's still reog grade
+um that's uh that data comes down only
+
+360
+00:06:49,430 --> 00:06:49,440
+um that's uh that data comes down only
+ 
+
+361
+00:06:49,440 --> 00:06:51,230
+um that's uh that data comes down only
+when we can array all the stations so
+
+362
+00:06:51,230 --> 00:06:51,240
+when we can array all the stations so
+ 
+
+363
+00:06:51,240 --> 00:06:53,189
+when we can array all the stations so
+this picture happened earlier this year
+
+364
+00:06:53,189 --> 00:06:53,199
+this picture happened earlier this year
+ 
+
+365
+00:06:53,199 --> 00:06:54,990
+this picture happened earlier this year
+this the first time we array all six
+
+366
+00:06:54,990 --> 00:06:55,000
+this the first time we array all six
+ 
+
+367
+00:06:55,000 --> 00:06:56,950
+this the first time we array all six
+antennas we usually have only five in
+
+368
+00:06:56,950 --> 00:06:56,960
+antennas we usually have only five in
+ 
+
+369
+00:06:56,960 --> 00:06:59,550
+antennas we usually have only five in
+the array so we're uh we're working to
+
+370
+00:06:59,550 --> 00:06:59,560
+the array so we're uh we're working to
+ 
+
+371
+00:06:59,560 --> 00:07:00,950
+the array so we're uh we're working to
+to try and get more and more antennas
+
+372
+00:07:00,950 --> 00:07:00,960
+to try and get more and more antennas
+ 
+
+373
+00:07:00,960 --> 00:07:02,270
+to try and get more and more antennas
+because we're getting out near the limit
+
+374
+00:07:02,270 --> 00:07:02,280
+because we're getting out near the limit
+ 
+
+375
+00:07:02,280 --> 00:07:05,150
+because we're getting out near the limit
+of This 1.2 kilobits per
+
+376
+00:07:05,150 --> 00:07:05,160
+of This 1.2 kilobits per
+ 
+
+377
+00:07:05,160 --> 00:07:08,430
+of This 1.2 kilobits per
+second excuse me we don't have a safe
+
+378
+00:07:08,430 --> 00:07:08,440
+second excuse me we don't have a safe
+ 
+
+379
+00:07:08,440 --> 00:07:10,270
+second excuse me we don't have a safe
+mode many spacecraft play it safe when
+
+380
+00:07:10,270 --> 00:07:10,280
+mode many spacecraft play it safe when
+ 
+
+381
+00:07:10,280 --> 00:07:11,670
+mode many spacecraft play it safe when
+something goes wrong they kind of shut
+
+382
+00:07:11,670 --> 00:07:11,680
+something goes wrong they kind of shut
+ 
+
+383
+00:07:11,680 --> 00:07:13,830
+something goes wrong they kind of shut
+things down and stop doing things Voyer
+
+384
+00:07:13,830 --> 00:07:13,840
+things down and stop doing things Voyer
+ 
+
+385
+00:07:13,840 --> 00:07:15,909
+things down and stop doing things Voyer
+one just resets its processors picks up
+
+386
+00:07:15,909 --> 00:07:15,919
+one just resets its processors picks up
+ 
+
+387
+00:07:15,919 --> 00:07:17,990
+one just resets its processors picks up
+the pieces and goes it has very robust
+
+388
+00:07:17,990 --> 00:07:18,000
+the pieces and goes it has very robust
+ 
+
+389
+00:07:18,000 --> 00:07:20,430
+the pieces and goes it has very robust
+wall protection very aggressive we have
+
+390
+00:07:20,430 --> 00:07:20,440
+wall protection very aggressive we have
+ 
+
+391
+00:07:20,440 --> 00:07:22,390
+wall protection very aggressive we have
+94 years of experience with our flight
+
+392
+00:07:22,390 --> 00:07:22,400
+94 years of experience with our flight
+ 
+
+393
+00:07:22,400 --> 00:07:24,550
+94 years of experience with our flight
+systems between the two spacecraft we
+
+394
+00:07:24,550 --> 00:07:24,560
+systems between the two spacecraft we
+ 
+
+395
+00:07:24,560 --> 00:07:26,550
+systems between the two spacecraft we
+have about 12 people working on
+
+396
+00:07:26,550 --> 00:07:26,560
+have about 12 people working on
+ 
+
+397
+00:07:26,560 --> 00:07:28,990
+have about 12 people working on
+spacecraft now so there many of them are
+
+398
+00:07:28,990 --> 00:07:29,000
+spacecraft now so there many of them are
+ 
+
+399
+00:07:29,000 --> 00:07:31,710
+spacecraft now so there many of them are
+part-time that's a lot of spacecraft for
+
+400
+00:07:31,710 --> 00:07:31,720
+part-time that's a lot of spacecraft for
+ 
+
+401
+00:07:31,720 --> 00:07:33,150
+part-time that's a lot of spacecraft for
+very few on a
+
+402
+00:07:33,150 --> 00:07:33,160
+very few on a
+ 
+
+403
+00:07:33,160 --> 00:07:35,670
+very few on a
+people and then our big our big problem
+
+404
+00:07:35,670 --> 00:07:35,680
+people and then our big our big problem
+ 
+
+405
+00:07:35,680 --> 00:07:36,950
+people and then our big our big problem
+that we're dealing with is power and
+
+406
+00:07:36,950 --> 00:07:36,960
+that we're dealing with is power and
+ 
+
+407
+00:07:36,960 --> 00:07:39,189
+that we're dealing with is power and
+thermal these days so we launched with
+
+408
+00:07:39,189 --> 00:07:39,199
+thermal these days so we launched with
+ 
+
+409
+00:07:39,199 --> 00:07:41,350
+thermal these days so we launched with
+uh enough plutonium to power the
+
+410
+00:07:41,350 --> 00:07:41,360
+uh enough plutonium to power the
+ 
+
+411
+00:07:41,360 --> 00:07:43,469
+uh enough plutonium to power the
+spacecraft it has a half-life of about
+
+412
+00:07:43,469 --> 00:07:43,479
+spacecraft it has a half-life of about
+ 
+
+413
+00:07:43,479 --> 00:07:45,990
+spacecraft it has a half-life of about
+88 years this is a picture of the fuel
+
+414
+00:07:45,990 --> 00:07:46,000
+88 years this is a picture of the fuel
+ 
+
+415
+00:07:46,000 --> 00:07:47,990
+88 years this is a picture of the fuel
+clads when they're fresh they glow red
+
+416
+00:07:47,990 --> 00:07:48,000
+clads when they're fresh they glow red
+ 
+
+417
+00:07:48,000 --> 00:07:50,230
+clads when they're fresh they glow red
+hot um they're embedded in in little
+
+418
+00:07:50,230 --> 00:07:50,240
+hot um they're embedded in in little
+ 
+
+419
+00:07:50,240 --> 00:07:52,550
+hot um they're embedded in in little
+cans that stick off Voyager and there's
+
+420
+00:07:52,550 --> 00:07:52,560
+cans that stick off Voyager and there's
+ 
+
+421
+00:07:52,560 --> 00:07:53,869
+cans that stick off Voyager and there's
+thermac couples around them they
+
+422
+00:07:53,869 --> 00:07:53,879
+thermac couples around them they
+ 
+
+423
+00:07:53,879 --> 00:07:55,629
+thermac couples around them they
+generate electricity based on the heat
+
+424
+00:07:55,629 --> 00:07:55,639
+generate electricity based on the heat
+ 
+
+425
+00:07:55,639 --> 00:07:57,830
+generate electricity based on the heat
+difference between the interior and the
+
+426
+00:07:57,830 --> 00:07:57,840
+difference between the interior and the
+ 
+
+427
+00:07:57,840 --> 00:08:00,749
+difference between the interior and the
+exterior um we're down to about as much
+
+428
+00:08:00,749 --> 00:08:00,759
+exterior um we're down to about as much
+ 
+
+429
+00:08:00,759 --> 00:08:02,950
+exterior um we're down to about as much
+power as a box fan or a rice cooker at
+
+430
+00:08:02,950 --> 00:08:02,960
+power as a box fan or a rice cooker at
+ 
+
+431
+00:08:02,960 --> 00:08:04,749
+power as a box fan or a rice cooker at
+this point for those big spacecraft
+
+432
+00:08:04,749 --> 00:08:04,759
+this point for those big spacecraft
+ 
+
+433
+00:08:04,759 --> 00:08:06,830
+this point for those big spacecraft
+which is pretty incredible we also just
+
+434
+00:08:06,830 --> 00:08:06,840
+which is pretty incredible we also just
+ 
+
+435
+00:08:06,840 --> 00:08:08,710
+which is pretty incredible we also just
+started operating them with unregulated
+
+436
+00:08:08,710 --> 00:08:08,720
+started operating them with unregulated
+ 
+
+437
+00:08:08,720 --> 00:08:10,950
+started operating them with unregulated
+voltages because we realized we could
+
+438
+00:08:10,950 --> 00:08:10,960
+voltages because we realized we could
+ 
+
+439
+00:08:10,960 --> 00:08:12,430
+voltages because we realized we could
+turn we could go off the voltage
+
+440
+00:08:12,430 --> 00:08:12,440
+turn we could go off the voltage
+ 
+
+441
+00:08:12,440 --> 00:08:13,950
+turn we could go off the voltage
+regulator and keep our instruments
+
+442
+00:08:13,950 --> 00:08:13,960
+regulator and keep our instruments
+ 
+
+443
+00:08:13,960 --> 00:08:15,710
+regulator and keep our instruments
+powered which is the the reason we're
+
+444
+00:08:15,710 --> 00:08:15,720
+powered which is the the reason we're
+ 
+
+445
+00:08:15,720 --> 00:08:18,350
+powered which is the the reason we're
+there and um that was kind of a scary
+
+446
+00:08:18,350 --> 00:08:18,360
+there and um that was kind of a scary
+ 
+
+447
+00:08:18,360 --> 00:08:20,869
+there and um that was kind of a scary
+moment for us but it worked well so so
+
+448
+00:08:20,869 --> 00:08:20,879
+moment for us but it worked well so so
+ 
+
+449
+00:08:20,879 --> 00:08:23,230
+moment for us but it worked well so so
+far so good generally we have to take
+
+450
+00:08:23,230 --> 00:08:23,240
+far so good generally we have to take
+ 
+
+451
+00:08:23,240 --> 00:08:25,629
+far so good generally we have to take
+action within a year or less all the
+
+452
+00:08:25,629 --> 00:08:25,639
+action within a year or less all the
+ 
+
+453
+00:08:25,639 --> 00:08:27,270
+action within a year or less all the
+time because of our power and thermal
+
+454
+00:08:27,270 --> 00:08:27,280
+time because of our power and thermal
+ 
+
+455
+00:08:27,280 --> 00:08:29,189
+time because of our power and thermal
+constraints the less power we have of
+
+456
+00:08:29,189 --> 00:08:29,199
+constraints the less power we have of
+ 
+
+457
+00:08:29,199 --> 00:08:30,629
+constraints the less power we have of
+course we risk undervolting our
+
+458
+00:08:30,629 --> 00:08:30,639
+course we risk undervolting our
+ 
+
+459
+00:08:30,639 --> 00:08:33,310
+course we risk undervolting our
+spacecraft and power is also dissipated
+
+460
+00:08:33,310 --> 00:08:33,320
+spacecraft and power is also dissipated
+ 
+
+461
+00:08:33,320 --> 00:08:35,029
+spacecraft and power is also dissipated
+so we have thermal issues we may freeze
+
+462
+00:08:35,029 --> 00:08:35,039
+so we have thermal issues we may freeze
+ 
+
+463
+00:08:35,039 --> 00:08:37,070
+so we have thermal issues we may freeze
+our roll lines we'll talk about that a
+
+464
+00:08:37,070 --> 00:08:37,080
+our roll lines we'll talk about that a
+ 
+
+465
+00:08:37,080 --> 00:08:38,469
+our roll lines we'll talk about that a
+little
+
+466
+00:08:38,469 --> 00:08:38,479
+little
+ 
+
+467
+00:08:38,479 --> 00:08:41,110
+little
+more this is a functional block diagram
+
+468
+00:08:41,110 --> 00:08:41,120
+more this is a functional block diagram
+ 
+
+469
+00:08:41,120 --> 00:08:43,509
+more this is a functional block diagram
+of our spacecraft um you can see Voyer
+
+470
+00:08:43,509 --> 00:08:43,519
+of our spacecraft um you can see Voyer
+ 
+
+471
+00:08:43,519 --> 00:08:45,670
+of our spacecraft um you can see Voyer
+one looks pretty darn good red is things
+
+472
+00:08:45,670 --> 00:08:45,680
+one looks pretty darn good red is things
+ 
+
+473
+00:08:45,680 --> 00:08:47,870
+one looks pretty darn good red is things
+that are failed and black are things
+
+474
+00:08:47,870 --> 00:08:47,880
+that are failed and black are things
+ 
+
+475
+00:08:47,880 --> 00:08:50,389
+that are failed and black are things
+that are powered off because power and
+
+476
+00:08:50,389 --> 00:08:50,399
+that are powered off because power and
+ 
+
+477
+00:08:50,399 --> 00:08:51,949
+that are powered off because power and
+then we have a few gold items that are
+
+478
+00:08:51,949 --> 00:08:51,959
+then we have a few gold items that are
+ 
+
+479
+00:08:51,959 --> 00:08:53,990
+then we have a few gold items that are
+just degraded subsystems so I think we
+
+480
+00:08:53,990 --> 00:08:54,000
+just degraded subsystems so I think we
+ 
+
+481
+00:08:54,000 --> 00:08:56,230
+just degraded subsystems so I think we
+all wish our our appliances worked this
+
+482
+00:08:56,230 --> 00:08:56,240
+all wish our our appliances worked this
+ 
+
+483
+00:08:56,240 --> 00:09:00,470
+all wish our our appliances worked this
+well after 47 years um I'll PL out this
+
+484
+00:09:00,470 --> 00:09:00,480
+well after 47 years um I'll PL out this
+ 
+
+485
+00:09:00,480 --> 00:09:03,470
+well after 47 years um I'll PL out this
+uh right here this is the flight data
+
+486
+00:09:03,470 --> 00:09:03,480
+uh right here this is the flight data
+ 
+
+487
+00:09:03,480 --> 00:09:04,870
+uh right here this is the flight data
+subsystem we're going to be talking a
+
+488
+00:09:04,870 --> 00:09:04,880
+subsystem we're going to be talking a
+ 
+
+489
+00:09:04,880 --> 00:09:06,269
+subsystem we're going to be talking a
+lot about that you'll notice there's a
+
+490
+00:09:06,269 --> 00:09:06,279
+lot about that you'll notice there's a
+ 
+
+491
+00:09:06,279 --> 00:09:09,190
+lot about that you'll notice there's a
+very thin line going down into the toet
+
+492
+00:09:09,190 --> 00:09:09,200
+very thin line going down into the toet
+ 
+
+493
+00:09:09,200 --> 00:09:11,990
+very thin line going down into the toet
+modulation unit and then down into the
+
+494
+00:09:11,990 --> 00:09:12,000
+modulation unit and then down into the
+ 
+
+495
+00:09:12,000 --> 00:09:14,550
+modulation unit and then down into the
+uh the radio subsystem down there so
+
+496
+00:09:14,550 --> 00:09:14,560
+uh the radio subsystem down there so
+ 
+
+497
+00:09:14,560 --> 00:09:15,949
+uh the radio subsystem down there so
+this is the path we're going to talk
+
+498
+00:09:15,949 --> 00:09:15,959
+this is the path we're going to talk
+ 
+
+499
+00:09:15,959 --> 00:09:17,470
+this is the path we're going to talk
+about the path from the flight data
+
+500
+00:09:17,470 --> 00:09:17,480
+about the path from the flight data
+ 
+
+501
+00:09:17,480 --> 00:09:20,150
+about the path from the flight data
+computer to the temp modulation unit to
+
+502
+00:09:20,150 --> 00:09:20,160
+computer to the temp modulation unit to
+ 
+
+503
+00:09:20,160 --> 00:09:22,190
+computer to the temp modulation unit to
+the
+
+504
+00:09:22,190 --> 00:09:22,200
+the
+ 
+
+505
+00:09:22,200 --> 00:09:25,389
+the
+radio um just quickly um speaking of
+
+506
+00:09:25,389 --> 00:09:25,399
+radio um just quickly um speaking of
+ 
+
+507
+00:09:25,399 --> 00:09:27,350
+radio um just quickly um speaking of
+things that are wrong to keep our
+
+508
+00:09:27,350 --> 00:09:27,360
+things that are wrong to keep our
+ 
+
+509
+00:09:27,360 --> 00:09:29,550
+things that are wrong to keep our
+spacecraft operating uh we have to make
+
+510
+00:09:29,550 --> 00:09:29,560
+spacecraft operating uh we have to make
+ 
+
+511
+00:09:29,560 --> 00:09:31,190
+spacecraft operating uh we have to make
+changes all the time and it's getting
+
+512
+00:09:31,190 --> 00:09:31,200
+changes all the time and it's getting
+ 
+
+513
+00:09:31,200 --> 00:09:32,910
+changes all the time and it's getting
+more and more frequent back in the early
+
+514
+00:09:32,910 --> 00:09:32,920
+more and more frequent back in the early
+ 
+
+515
+00:09:32,920 --> 00:09:36,110
+more and more frequent back in the early
+part of the last decade um it was not a
+
+516
+00:09:36,110 --> 00:09:36,120
+part of the last decade um it was not a
+ 
+
+517
+00:09:36,120 --> 00:09:37,590
+part of the last decade um it was not a
+big deal we had things happen
+
+518
+00:09:37,590 --> 00:09:37,600
+big deal we had things happen
+ 
+
+519
+00:09:37,600 --> 00:09:39,710
+big deal we had things happen
+occasionally that we had to adjust to
+
+520
+00:09:39,710 --> 00:09:39,720
+occasionally that we had to adjust to
+ 
+
+521
+00:09:39,720 --> 00:09:41,310
+occasionally that we had to adjust to
+more and more now we're having to take
+
+522
+00:09:41,310 --> 00:09:41,320
+more and more now we're having to take
+ 
+
+523
+00:09:41,320 --> 00:09:43,150
+more and more now we're having to take
+steps to either keep from losing an
+
+524
+00:09:43,150 --> 00:09:43,160
+steps to either keep from losing an
+ 
+
+525
+00:09:43,160 --> 00:09:45,350
+steps to either keep from losing an
+instrument avoid degradation or actually
+
+526
+00:09:45,350 --> 00:09:45,360
+instrument avoid degradation or actually
+ 
+
+527
+00:09:45,360 --> 00:09:47,590
+instrument avoid degradation or actually
+we prevent the loss of our spacecraft so
+
+528
+00:09:47,590 --> 00:09:47,600
+we prevent the loss of our spacecraft so
+ 
+
+529
+00:09:47,600 --> 00:09:49,069
+we prevent the loss of our spacecraft so
+it's getting tougher to fly these with
+
+530
+00:09:49,069 --> 00:09:49,079
+it's getting tougher to fly these with
+ 
+
+531
+00:09:49,079 --> 00:09:50,590
+it's getting tougher to fly these with
+our small
+
+532
+00:09:50,590 --> 00:09:50,600
+our small
+ 
+
+533
+00:09:50,600 --> 00:09:52,870
+our small
+Team all right this is what you guys
+
+534
+00:09:52,870 --> 00:09:52,880
+Team all right this is what you guys
+ 
+
+535
+00:09:52,880 --> 00:09:55,470
+Team all right this is what you guys
+came to he computers in the anomaly so
+
+536
+00:09:55,470 --> 00:09:55,480
+came to he computers in the anomaly so
+ 
+
+537
+00:09:55,480 --> 00:09:57,430
+came to he computers in the anomaly so
+we have three very cool computers on the
+
+538
+00:09:57,430 --> 00:09:57,440
+we have three very cool computers on the
+ 
+
+539
+00:09:57,440 --> 00:09:59,750
+we have three very cool computers on the
+Voyer spacecraft and they're two of each
+
+540
+00:09:59,750 --> 00:09:59,760
+Voyer spacecraft and they're two of each
+ 
+
+541
+00:09:59,760 --> 00:10:02,630
+Voyer spacecraft and they're two of each
+type for redundancy um these are
+
+542
+00:10:02,630 --> 00:10:02,640
+type for redundancy um these are
+ 
+
+543
+00:10:02,640 --> 00:10:04,350
+type for redundancy um these are
+Humanity's oldest continuous
+
+544
+00:10:04,350 --> 00:10:04,360
+Humanity's oldest continuous
+ 
+
+545
+00:10:04,360 --> 00:10:06,150
+Humanity's oldest continuous
+continuously operating computers so I
+
+546
+00:10:06,150 --> 00:10:06,160
+continuously operating computers so I
+ 
+
+547
+00:10:06,160 --> 00:10:08,030
+continuously operating computers so I
+think it's important to remember that is
+
+548
+00:10:08,030 --> 00:10:08,040
+think it's important to remember that is
+ 
+
+549
+00:10:08,040 --> 00:10:09,350
+think it's important to remember that is
+as you hear about them these are the
+
+550
+00:10:09,350 --> 00:10:09,360
+as you hear about them these are the
+ 
+
+551
+00:10:09,360 --> 00:10:11,550
+as you hear about them these are the
+first reprogrammable de deep space
+
+552
+00:10:11,550 --> 00:10:11,560
+first reprogrammable de deep space
+ 
+
+553
+00:10:11,560 --> 00:10:14,069
+first reprogrammable de deep space
+flight computers they operate without
+
+554
+00:10:14,069 --> 00:10:14,079
+flight computers they operate without
+ 
+
+555
+00:10:14,079 --> 00:10:15,949
+flight computers they operate without
+microprocessors and each has its own
+
+556
+00:10:15,949 --> 00:10:15,959
+microprocessors and each has its own
+ 
+
+557
+00:10:15,959 --> 00:10:18,949
+microprocessors and each has its own
+unique GPL constructed Assembly Language
+
+558
+00:10:18,949 --> 00:10:18,959
+unique GPL constructed Assembly Language
+ 
+
+559
+00:10:18,959 --> 00:10:22,030
+unique GPL constructed Assembly Language
+so the CCs is basically responsible for
+
+560
+00:10:22,030 --> 00:10:22,040
+so the CCs is basically responsible for
+ 
+
+561
+00:10:22,040 --> 00:10:23,750
+so the CCs is basically responsible for
+issuing commands to the spacecraft it's
+
+562
+00:10:23,750 --> 00:10:23,760
+issuing commands to the spacecraft it's
+ 
+
+563
+00:10:23,760 --> 00:10:25,550
+issuing commands to the spacecraft it's
+a viking machine essentially the Viking
+
+564
+00:10:25,550 --> 00:10:25,560
+a viking machine essentially the Viking
+ 
+
+565
+00:10:25,560 --> 00:10:27,910
+a viking machine essentially the Viking
+Landers and orbiters used a computer of
+
+566
+00:10:27,910 --> 00:10:27,920
+Landers and orbiters used a computer of
+ 
+
+567
+00:10:27,920 --> 00:10:30,670
+Landers and orbiters used a computer of
+this type and it's an 18-bit interrupt
+
+568
+00:10:30,670 --> 00:10:30,680
+this type and it's an 18-bit interrupt
+ 
+
+569
+00:10:30,680 --> 00:10:33,190
+this type and it's an 18-bit interrupt
+driven processor um constructed out of
+
+570
+00:10:33,190 --> 00:10:33,200
+driven processor um constructed out of
+ 
+
+571
+00:10:33,200 --> 00:10:35,670
+driven processor um constructed out of
+transistors it's TTL logic we actually
+
+572
+00:10:35,670 --> 00:10:35,680
+transistors it's TTL logic we actually
+ 
+
+573
+00:10:35,680 --> 00:10:37,430
+transistors it's TTL logic we actually
+use some RC Logic on some of our
+
+574
+00:10:37,430 --> 00:10:37,440
+use some RC Logic on some of our
+ 
+
+575
+00:10:37,440 --> 00:10:39,470
+use some RC Logic on some of our
+subsystems but this is a fancy TTL
+
+576
+00:10:39,470 --> 00:10:39,480
+subsystems but this is a fancy TTL
+ 
+
+577
+00:10:39,480 --> 00:10:42,230
+subsystems but this is a fancy TTL
+machine and it has nine or 4,000 words
+
+578
+00:10:42,230 --> 00:10:42,240
+machine and it has nine or 4,000 words
+ 
+
+579
+00:10:42,240 --> 00:10:44,829
+machine and it has nine or 4,000 words
+of plated wire memory um if you don't
+
+580
+00:10:44,829 --> 00:10:44,839
+of plated wire memory um if you don't
+ 
+
+581
+00:10:44,839 --> 00:10:46,069
+of plated wire memory um if you don't
+know what that is you can look it up in
+
+582
+00:10:46,069 --> 00:10:46,079
+know what that is you can look it up in
+ 
+
+583
+00:10:46,079 --> 00:10:47,829
+know what that is you can look it up in
+the internet but it reminds you of
+
+584
+00:10:47,829 --> 00:10:47,839
+the internet but it reminds you of
+ 
+
+585
+00:10:47,839 --> 00:10:50,389
+the internet but it reminds you of
+Rebecca's talk and the uh the weaving
+
+586
+00:10:50,389 --> 00:10:50,399
+Rebecca's talk and the uh the weaving
+ 
+
+587
+00:10:50,399 --> 00:10:52,389
+Rebecca's talk and the uh the weaving
+it's essentially a set of wires and you
+
+588
+00:10:52,389 --> 00:10:52,399
+it's essentially a set of wires and you
+ 
+
+589
+00:10:52,399 --> 00:10:54,310
+it's essentially a set of wires and you
+store data on them by putting a small
+
+590
+00:10:54,310 --> 00:10:54,320
+store data on them by putting a small
+ 
+
+591
+00:10:54,320 --> 00:10:55,870
+store data on them by putting a small
+magnetic field into the wires and it
+
+592
+00:10:55,870 --> 00:10:55,880
+magnetic field into the wires and it
+ 
+
+593
+00:10:55,880 --> 00:10:59,350
+magnetic field into the wires and it
+works great after all these years um our
+
+594
+00:10:59,350 --> 00:10:59,360
+works great after all these years um our
+ 
+
+595
+00:10:59,360 --> 00:11:01,910
+works great after all these years um our
+attitude control subsystem it is used to
+
+596
+00:11:01,910 --> 00:11:01,920
+attitude control subsystem it is used to
+ 
+
+597
+00:11:01,920 --> 00:11:03,509
+attitude control subsystem it is used to
+control the attitude and pointing of our
+
+598
+00:11:03,509 --> 00:11:03,519
+control the attitude and pointing of our
+ 
+
+599
+00:11:03,519 --> 00:11:06,310
+control the attitude and pointing of our
+spacecraft it's a very similar machine
+
+600
+00:11:06,310 --> 00:11:06,320
+spacecraft it's a very similar machine
+ 
+
+601
+00:11:06,320 --> 00:11:08,870
+spacecraft it's a very similar machine
+um it uh it has an extra board that they
+
+602
+00:11:08,870 --> 00:11:08,880
+um it uh it has an extra board that they
+ 
+
+603
+00:11:08,880 --> 00:11:10,310
+um it uh it has an extra board that they
+used to make sure that there was enough
+
+604
+00:11:10,310 --> 00:11:10,320
+used to make sure that there was enough
+ 
+
+605
+00:11:10,320 --> 00:11:12,110
+used to make sure that there was enough
+speed to manage the attitude of the
+
+606
+00:11:12,110 --> 00:11:12,120
+speed to manage the attitude of the
+ 
+
+607
+00:11:12,120 --> 00:11:14,710
+speed to manage the attitude of the
+spacecraft these two are basically alike
+
+608
+00:11:14,710 --> 00:11:14,720
+spacecraft these two are basically alike
+ 
+
+609
+00:11:14,720 --> 00:11:17,190
+spacecraft these two are basically alike
+Voyer on on the the command computer
+
+610
+00:11:17,190 --> 00:11:17,200
+Voyer on on the the command computer
+ 
+
+611
+00:11:17,200 --> 00:11:18,949
+Voyer on on the the command computer
+system we actually use both processors
+
+612
+00:11:18,949 --> 00:11:18,959
+system we actually use both processors
+ 
+
+613
+00:11:18,959 --> 00:11:21,470
+system we actually use both processors
+because we're short on memory so finally
+
+614
+00:11:21,470 --> 00:11:21,480
+because we're short on memory so finally
+ 
+
+615
+00:11:21,480 --> 00:11:23,389
+because we're short on memory so finally
+the one that matters to us is over on
+
+616
+00:11:23,389 --> 00:11:23,399
+the one that matters to us is over on
+ 
+
+617
+00:11:23,399 --> 00:11:26,269
+the one that matters to us is over on
+the far side that's the fds so this was
+
+618
+00:11:26,269 --> 00:11:26,279
+the far side that's the fds so this was
+ 
+
+619
+00:11:26,279 --> 00:11:28,030
+the far side that's the fds so this was
+added because during the planning for
+
+620
+00:11:28,030 --> 00:11:28,040
+added because during the planning for
+ 
+
+621
+00:11:28,040 --> 00:11:29,949
+added because during the planning for
+the mission they realized that when when
+
+622
+00:11:29,949 --> 00:11:29,959
+the mission they realized that when when
+ 
+
+623
+00:11:29,959 --> 00:11:31,750
+the mission they realized that when when
+Voyager flew through a planetary system
+
+624
+00:11:31,750 --> 00:11:31,760
+Voyager flew through a planetary system
+ 
+
+625
+00:11:31,760 --> 00:11:33,829
+Voyager flew through a planetary system
+it was going to overwhelm the spacecraft
+
+626
+00:11:33,829 --> 00:11:33,839
+it was going to overwhelm the spacecraft
+ 
+
+627
+00:11:33,839 --> 00:11:35,990
+it was going to overwhelm the spacecraft
+data system all this data coming in and
+
+628
+00:11:35,990 --> 00:11:36,000
+data system all this data coming in and
+ 
+
+629
+00:11:36,000 --> 00:11:38,389
+data system all this data coming in and
+under a day essentially um they didn't
+
+630
+00:11:38,389 --> 00:11:38,399
+under a day essentially um they didn't
+ 
+
+631
+00:11:38,399 --> 00:11:40,069
+under a day essentially um they didn't
+think these computers could handle it so
+
+632
+00:11:40,069 --> 00:11:40,079
+think these computers could handle it so
+ 
+
+633
+00:11:40,079 --> 00:11:43,110
+think these computers could handle it so
+they built a seos machine and uh it has
+
+634
+00:11:43,110 --> 00:11:43,120
+they built a seos machine and uh it has
+ 
+
+635
+00:11:43,120 --> 00:11:46,350
+they built a seos machine and uh it has
+8,000 words of memory and um this was
+
+636
+00:11:46,350 --> 00:11:46,360
+8,000 words of memory and um this was
+ 
+
+637
+00:11:46,360 --> 00:11:48,069
+8,000 words of memory and um this was
+put on board basically to make sure that
+
+638
+00:11:48,069 --> 00:11:48,079
+put on board basically to make sure that
+ 
+
+639
+00:11:48,079 --> 00:11:50,190
+put on board basically to make sure that
+we could process all that data this is a
+
+640
+00:11:50,190 --> 00:11:50,200
+we could process all that data this is a
+ 
+
+641
+00:11:50,200 --> 00:11:52,629
+we could process all that data this is a
+very important computer for us because
+
+642
+00:11:52,629 --> 00:11:52,639
+very important computer for us because
+ 
+
+643
+00:11:52,639 --> 00:11:55,030
+very important computer for us because
+it uh basically commands the instruments
+
+644
+00:11:55,030 --> 00:11:55,040
+it uh basically commands the instruments
+ 
+
+645
+00:11:55,040 --> 00:11:56,790
+it uh basically commands the instruments
+it coets and formats all of our science
+
+646
+00:11:56,790 --> 00:11:56,800
+it coets and formats all of our science
+ 
+
+647
+00:11:56,800 --> 00:11:58,550
+it coets and formats all of our science
+and engineering Telemetry and it
+
+648
+00:11:58,550 --> 00:11:58,560
+and engineering Telemetry and it
+ 
+
+649
+00:11:58,560 --> 00:12:01,910
+and engineering Telemetry and it
+provides all of our timing
+
+650
+00:12:01,910 --> 00:12:01,920
+
+ 
+
+651
+00:12:01,920 --> 00:12:04,790
+
+information so what happened and how did
+
+652
+00:12:04,790 --> 00:12:04,800
+information so what happened and how did
+ 
+
+653
+00:12:04,800 --> 00:12:05,990
+information so what happened and how did
+we figure it
+
+654
+00:12:05,990 --> 00:12:06,000
+we figure it
+ 
+
+655
+00:12:06,000 --> 00:12:09,230
+we figure it
+out so back in November of last year we
+
+656
+00:12:09,230 --> 00:12:09,240
+out so back in November of last year we
+ 
+
+657
+00:12:09,240 --> 00:12:11,790
+out so back in November of last year we
+had a normal pass come up but we had no
+
+658
+00:12:11,790 --> 00:12:11,800
+had a normal pass come up but we had no
+ 
+
+659
+00:12:11,800 --> 00:12:14,350
+had a normal pass come up but we had no
+Telemetry so Telemetry is basically
+
+660
+00:12:14,350 --> 00:12:14,360
+Telemetry so Telemetry is basically
+ 
+
+661
+00:12:14,360 --> 00:12:16,150
+Telemetry so Telemetry is basically
+processed by taking looking for a frame
+
+662
+00:12:16,150 --> 00:12:16,160
+processed by taking looking for a frame
+ 
+
+663
+00:12:16,160 --> 00:12:18,590
+processed by taking looking for a frame
+marker saying this is a packet of data
+
+664
+00:12:18,590 --> 00:12:18,600
+marker saying this is a packet of data
+ 
+
+665
+00:12:18,600 --> 00:12:20,310
+marker saying this is a packet of data
+and we're going to decode it and look at
+
+666
+00:12:20,310 --> 00:12:20,320
+and we're going to decode it and look at
+ 
+
+667
+00:12:20,320 --> 00:12:22,550
+and we're going to decode it and look at
+what it says um we were not getting
+
+668
+00:12:22,550 --> 00:12:22,560
+what it says um we were not getting
+ 
+
+669
+00:12:22,560 --> 00:12:25,310
+what it says um we were not getting
+those frame markers and um the only good
+
+670
+00:12:25,310 --> 00:12:25,320
+those frame markers and um the only good
+ 
+
+671
+00:12:25,320 --> 00:12:26,750
+those frame markers and um the only good
+thing was we had a carrier signal
+
+672
+00:12:26,750 --> 00:12:26,760
+thing was we had a carrier signal
+ 
+
+673
+00:12:26,760 --> 00:12:28,310
+thing was we had a carrier signal
+otherwise we' have been really scared so
+
+674
+00:12:28,310 --> 00:12:28,320
+otherwise we' have been really scared so
+ 
+
+675
+00:12:28,320 --> 00:12:29,949
+otherwise we' have been really scared so
+we could see this the carrier but it was
+
+676
+00:12:29,949 --> 00:12:29,959
+we could see this the carrier but it was
+ 
+
+677
+00:12:29,959 --> 00:12:32,949
+we could see this the carrier but it was
+not being modulated so our deep space
+
+678
+00:12:32,949 --> 00:12:32,959
+not being modulated so our deep space
+ 
+
+679
+00:12:32,959 --> 00:12:34,949
+not being modulated so our deep space
+tracking Network all those antennas they
+
+680
+00:12:34,949 --> 00:12:34,959
+tracking Network all those antennas they
+ 
+
+681
+00:12:34,959 --> 00:12:36,189
+tracking Network all those antennas they
+worked for several days and they
+
+682
+00:12:36,189 --> 00:12:36,199
+worked for several days and they
+ 
+
+683
+00:12:36,199 --> 00:12:37,790
+worked for several days and they
+determined that we were seeing a
+
+684
+00:12:37,790 --> 00:12:37,800
+determined that we were seeing a
+ 
+
+685
+00:12:37,800 --> 00:12:40,470
+determined that we were seeing a
+constant frams of zero and one symbols
+
+686
+00:12:40,470 --> 00:12:40,480
+constant frams of zero and one symbols
+ 
+
+687
+00:12:40,480 --> 00:12:42,990
+constant frams of zero and one symbols
+and um there were no Toom Fame markers
+
+688
+00:12:42,990 --> 00:12:43,000
+and um there were no Toom Fame markers
+ 
+
+689
+00:12:43,000 --> 00:12:45,470
+and um there were no Toom Fame markers
+whatsoever so the result here was that
+
+690
+00:12:45,470 --> 00:12:45,480
+whatsoever so the result here was that
+ 
+
+691
+00:12:45,480 --> 00:12:47,550
+whatsoever so the result here was that
+we had no visibility on our spacecraft
+
+692
+00:12:47,550 --> 00:12:47,560
+we had no visibility on our spacecraft
+ 
+
+693
+00:12:47,560 --> 00:12:49,710
+we had no visibility on our spacecraft
+Voyager will will drift back and forth
+
+694
+00:12:49,710 --> 00:12:49,720
+Voyager will will drift back and forth
+ 
+
+695
+00:12:49,720 --> 00:12:51,870
+Voyager will will drift back and forth
+based on sun position and we can see
+
+696
+00:12:51,870 --> 00:12:51,880
+based on sun position and we can see
+ 
+
+697
+00:12:51,880 --> 00:12:54,030
+based on sun position and we can see
+that slight signal variation from over a
+
+698
+00:12:54,030 --> 00:12:54,040
+that slight signal variation from over a
+ 
+
+699
+00:12:54,040 --> 00:12:56,310
+that slight signal variation from over a
+few hours uh we could see that our radio
+
+700
+00:12:56,310 --> 00:12:56,320
+few hours uh we could see that our radio
+ 
+
+701
+00:12:56,320 --> 00:12:58,350
+few hours uh we could see that our radio
+frequencies were per predict and we see
+
+702
+00:12:58,350 --> 00:12:58,360
+frequencies were per predict and we see
+ 
+
+703
+00:12:58,360 --> 00:12:59,750
+frequencies were per predict and we see
+in the next few days we could see we
+
+704
+00:12:59,750 --> 00:12:59,760
+in the next few days we could see we
+ 
+
+705
+00:12:59,760 --> 00:13:01,230
+in the next few days we could see we
+could command our spacecraft but that
+
+706
+00:13:01,230 --> 00:13:01,240
+could command our spacecraft but that
+ 
+
+707
+00:13:01,240 --> 00:13:03,629
+could command our spacecraft but that
+was it uh somebody on our team pointed
+
+708
+00:13:03,629 --> 00:13:03,639
+was it uh somebody on our team pointed
+ 
+
+709
+00:13:03,639 --> 00:13:04,829
+was it uh somebody on our team pointed
+out this is kind of like having your
+
+710
+00:13:04,829 --> 00:13:04,839
+out this is kind of like having your
+ 
+
+711
+00:13:04,839 --> 00:13:06,790
+out this is kind of like having your
+monitor broken and having to find out
+
+712
+00:13:06,790 --> 00:13:06,800
+monitor broken and having to find out
+ 
+
+713
+00:13:06,800 --> 00:13:09,189
+monitor broken and having to find out
+where your cursor is to fix the monitor
+
+714
+00:13:09,189 --> 00:13:09,199
+where your cursor is to fix the monitor
+ 
+
+715
+00:13:09,199 --> 00:13:11,949
+where your cursor is to fix the monitor
+so not a very good situation for us so
+
+716
+00:13:11,949 --> 00:13:11,959
+so not a very good situation for us so
+ 
+
+717
+00:13:11,959 --> 00:13:14,430
+so not a very good situation for us so
+we formed an anomaly team this was about
+
+718
+00:13:14,430 --> 00:13:14,440
+we formed an anomaly team this was about
+ 
+
+719
+00:13:14,440 --> 00:13:15,990
+we formed an anomaly team this was about
+another dozen people that were brought
+
+720
+00:13:15,990 --> 00:13:16,000
+another dozen people that were brought
+ 
+
+721
+00:13:16,000 --> 00:13:17,590
+another dozen people that were brought
+in who are specialists in various
+
+722
+00:13:17,590 --> 00:13:17,600
+in who are specialists in various
+ 
+
+723
+00:13:17,600 --> 00:13:19,150
+in who are specialists in various
+disciplines to help us out which is kind
+
+724
+00:13:19,150 --> 00:13:19,160
+disciplines to help us out which is kind
+ 
+
+725
+00:13:19,160 --> 00:13:21,550
+disciplines to help us out which is kind
+of the way JPL does these
+
+726
+00:13:21,550 --> 00:13:21,560
+of the way JPL does these
+ 
+
+727
+00:13:21,560 --> 00:13:24,550
+of the way JPL does these
+things so new initially we realized it
+
+728
+00:13:24,550 --> 00:13:24,560
+things so new initially we realized it
+ 
+
+729
+00:13:24,560 --> 00:13:26,670
+things so new initially we realized it
+we had to be the fds the tmu or the
+
+730
+00:13:26,670 --> 00:13:26,680
+we had to be the fds the tmu or the
+ 
+
+731
+00:13:26,680 --> 00:13:28,750
+we had to be the fds the tmu or the
+radio frequency subsystem after a little
+
+732
+00:13:28,750 --> 00:13:28,760
+radio frequency subsystem after a little
+ 
+
+733
+00:13:28,760 --> 00:13:29,629
+radio frequency subsystem after a little
+work
+
+734
+00:13:29,629 --> 00:13:29,639
+work
+ 
+
+735
+00:13:29,639 --> 00:13:32,189
+work
+and we changed the frequency this is an
+
+736
+00:13:32,189 --> 00:13:32,199
+and we changed the frequency this is an
+ 
+
+737
+00:13:32,199 --> 00:13:34,110
+and we changed the frequency this is an
+example by commanding the tmu and the
+
+738
+00:13:34,110 --> 00:13:34,120
+example by commanding the tmu and the
+ 
+
+739
+00:13:34,120 --> 00:13:36,350
+example by commanding the tmu and the
+RFS but occasionally it didn't work
+
+740
+00:13:36,350 --> 00:13:36,360
+RFS but occasionally it didn't work
+ 
+
+741
+00:13:36,360 --> 00:13:38,509
+RFS but occasionally it didn't work
+which was puzzling we also had What's
+
+742
+00:13:38,509 --> 00:13:38,519
+which was puzzling we also had What's
+ 
+
+743
+00:13:38,519 --> 00:13:40,030
+which was puzzling we also had What's
+called the open loop recorder which is
+
+744
+00:13:40,030 --> 00:13:40,040
+called the open loop recorder which is
+ 
+
+745
+00:13:40,040 --> 00:13:41,870
+called the open loop recorder which is
+essentially using the DSN instead of
+
+746
+00:13:41,870 --> 00:13:41,880
+essentially using the DSN instead of
+ 
+
+747
+00:13:41,880 --> 00:13:44,550
+essentially using the DSN instead of
+collect data like a radio telescope and
+
+748
+00:13:44,550 --> 00:13:44,560
+collect data like a radio telescope and
+ 
+
+749
+00:13:44,560 --> 00:13:46,069
+collect data like a radio telescope and
+what happened was we could see that we
+
+750
+00:13:46,069 --> 00:13:46,079
+what happened was we could see that we
+ 
+
+751
+00:13:46,079 --> 00:13:47,829
+what happened was we could see that we
+were getting these modulations which
+
+752
+00:13:47,829 --> 00:13:47,839
+were getting these modulations which
+ 
+
+753
+00:13:47,839 --> 00:13:49,509
+were getting these modulations which
+told us the clock signal was working
+
+754
+00:13:49,509 --> 00:13:49,519
+told us the clock signal was working
+ 
+
+755
+00:13:49,519 --> 00:13:51,509
+told us the clock signal was working
+because the speed was about right so we
+
+756
+00:13:51,509 --> 00:13:51,519
+because the speed was about right so we
+ 
+
+757
+00:13:51,519 --> 00:13:53,590
+because the speed was about right so we
+knew that pieces were working across the
+
+758
+00:13:53,590 --> 00:13:53,600
+knew that pieces were working across the
+ 
+
+759
+00:13:53,600 --> 00:13:55,590
+knew that pieces were working across the
+the set of three subsystems but we
+
+760
+00:13:55,590 --> 00:13:55,600
+the set of three subsystems but we
+ 
+
+761
+00:13:55,600 --> 00:13:58,030
+the set of three subsystems but we
+weren't sure what was wrong yet so we we
+
+762
+00:13:58,030 --> 00:13:58,040
+weren't sure what was wrong yet so we we
+ 
+
+763
+00:13:58,040 --> 00:13:59,550
+weren't sure what was wrong yet so we we
+pretty much focused on the
+
+764
+00:13:59,550 --> 00:13:59,560
+pretty much focused on the
+ 
+
+765
+00:13:59,560 --> 00:14:02,110
+pretty much focused on the
+fds um based on the fact that we were
+
+766
+00:14:02,110 --> 00:14:02,120
+fds um based on the fact that we were
+ 
+
+767
+00:14:02,120 --> 00:14:03,790
+fds um based on the fact that we were
+getting these kinds of Transitions and
+
+768
+00:14:03,790 --> 00:14:03,800
+getting these kinds of Transitions and
+ 
+
+769
+00:14:03,800 --> 00:14:05,749
+getting these kinds of Transitions and
+the fds wasn't doing much in response to
+
+770
+00:14:05,749 --> 00:14:05,759
+the fds wasn't doing much in response to
+ 
+
+771
+00:14:05,759 --> 00:14:08,670
+the fds wasn't doing much in response to
+our commands so our top priority was to
+
+772
+00:14:08,670 --> 00:14:08,680
+our commands so our top priority was to
+ 
+
+773
+00:14:08,680 --> 00:14:10,710
+our commands so our top priority was to
+figure out what the FTS was and how it
+
+774
+00:14:10,710 --> 00:14:10,720
+figure out what the FTS was and how it
+ 
+
+775
+00:14:10,720 --> 00:14:12,870
+figure out what the FTS was and how it
+worked because unfortunately the person
+
+776
+00:14:12,870 --> 00:14:12,880
+worked because unfortunately the person
+ 
+
+777
+00:14:12,880 --> 00:14:14,550
+worked because unfortunately the person
+who was the real expert had retired
+
+778
+00:14:14,550 --> 00:14:14,560
+who was the real expert had retired
+ 
+
+779
+00:14:14,560 --> 00:14:16,670
+who was the real expert had retired
+decades ago and the person who was their
+
+780
+00:14:16,670 --> 00:14:16,680
+decades ago and the person who was their
+ 
+
+781
+00:14:16,680 --> 00:14:18,949
+decades ago and the person who was their
+fill in their backup had retired two
+
+782
+00:14:18,949 --> 00:14:18,959
+fill in their backup had retired two
+ 
+
+783
+00:14:18,959 --> 00:14:21,829
+fill in their backup had retired two
+years ago so it was the worst place it
+
+784
+00:14:21,829 --> 00:14:21,839
+years ago so it was the worst place it
+ 
+
+785
+00:14:21,839 --> 00:14:23,389
+years ago so it was the worst place it
+could have hit
+
+786
+00:14:23,389 --> 00:14:23,399
+could have hit
+ 
+
+787
+00:14:23,399 --> 00:14:26,389
+could have hit
+us so these are some examples of some of
+
+788
+00:14:26,389 --> 00:14:26,399
+us so these are some examples of some of
+ 
+
+789
+00:14:26,399 --> 00:14:28,629
+us so these are some examples of some of
+the documentation we dug up on the fds
+
+790
+00:14:28,629 --> 00:14:28,639
+the documentation we dug up on the fds
+ 
+
+791
+00:14:28,639 --> 00:14:32,389
+the documentation we dug up on the fds
+and I hope you guys can see them that's
+
+792
+00:14:32,389 --> 00:14:32,399
+and I hope you guys can see them that's
+ 
+
+793
+00:14:32,399 --> 00:14:34,230
+and I hope you guys can see them that's
+good because we couldn't read
+
+794
+00:14:34,230 --> 00:14:34,240
+good because we couldn't read
+ 
+
+795
+00:14:34,240 --> 00:14:37,509
+good because we couldn't read
+those so they're all handwritten uh the
+
+796
+00:14:37,509 --> 00:14:37,519
+those so they're all handwritten uh the
+ 
+
+797
+00:14:37,519 --> 00:14:39,110
+those so they're all handwritten uh the
+one up on the upper left has got some
+
+798
+00:14:39,110 --> 00:14:39,120
+one up on the upper left has got some
+ 
+
+799
+00:14:39,120 --> 00:14:41,470
+one up on the upper left has got some
+handwriting these are very dim circuit
+
+800
+00:14:41,470 --> 00:14:41,480
+handwriting these are very dim circuit
+ 
+
+801
+00:14:41,480 --> 00:14:43,110
+handwriting these are very dim circuit
+diagrams and these are handwritten
+
+802
+00:14:43,110 --> 00:14:43,120
+diagrams and these are handwritten
+ 
+
+803
+00:14:43,120 --> 00:14:45,110
+diagrams and these are handwritten
+timelines for how to change fds
+
+804
+00:14:45,110 --> 00:14:45,120
+timelines for how to change fds
+ 
+
+805
+00:14:45,120 --> 00:14:48,310
+timelines for how to change fds
+processors so this was um we were lucky
+
+806
+00:14:48,310 --> 00:14:48,320
+processors so this was um we were lucky
+ 
+
+807
+00:14:48,320 --> 00:14:49,870
+processors so this was um we were lucky
+to find these some things we couldn't
+
+808
+00:14:49,870 --> 00:14:49,880
+to find these some things we couldn't
+ 
+
+809
+00:14:49,880 --> 00:14:51,590
+to find these some things we couldn't
+find a lot of it was like this that had
+
+810
+00:14:51,590 --> 00:14:51,600
+find a lot of it was like this that had
+ 
+
+811
+00:14:51,600 --> 00:14:53,710
+find a lot of it was like this that had
+been scanned and frequently these
+
+812
+00:14:53,710 --> 00:14:53,720
+been scanned and frequently these
+ 
+
+813
+00:14:53,720 --> 00:14:56,629
+been scanned and frequently these
+sources were contradictory ambiguous why
+
+814
+00:14:56,629 --> 00:14:56,639
+sources were contradictory ambiguous why
+ 
+
+815
+00:14:56,639 --> 00:14:57,910
+sources were contradictory ambiguous why
+because we changed the way the
+
+816
+00:14:57,910 --> 00:14:57,920
+because we changed the way the
+ 
+
+817
+00:14:57,920 --> 00:14:59,710
+because we changed the way the
+spacecraft worked with every planetary
+
+818
+00:14:59,710 --> 00:14:59,720
+spacecraft worked with every planetary
+ 
+
+819
+00:14:59,720 --> 00:15:02,350
+spacecraft worked with every planetary
+encounter and entering the vim and when
+
+820
+00:15:02,350 --> 00:15:02,360
+encounter and entering the vim and when
+ 
+
+821
+00:15:02,360 --> 00:15:04,110
+encounter and entering the vim and when
+things broke so there was a lot of
+
+822
+00:15:04,110 --> 00:15:04,120
+things broke so there was a lot of
+ 
+
+823
+00:15:04,120 --> 00:15:06,110
+things broke so there was a lot of
+opportunity for ambiguity to arise in
+
+824
+00:15:06,110 --> 00:15:06,120
+opportunity for ambiguity to arise in
+ 
+
+825
+00:15:06,120 --> 00:15:08,949
+opportunity for ambiguity to arise in
+the documents over the course of 50
+
+826
+00:15:08,949 --> 00:15:08,959
+the documents over the course of 50
+ 
+
+827
+00:15:08,959 --> 00:15:12,269
+the documents over the course of 50
+years this is my favorite example so
+
+828
+00:15:12,269 --> 00:15:12,279
+years this is my favorite example so
+ 
+
+829
+00:15:12,279 --> 00:15:14,389
+years this is my favorite example so
+this is a page out of an important fds
+
+830
+00:15:14,389 --> 00:15:14,399
+this is a page out of an important fds
+ 
+
+831
+00:15:14,399 --> 00:15:16,629
+this is a page out of an important fds
+document the change bar on the far side
+
+832
+00:15:16,629 --> 00:15:16,639
+document the change bar on the far side
+ 
+
+833
+00:15:16,639 --> 00:15:18,749
+document the change bar on the far side
+indicates it's a change but somebody
+
+834
+00:15:18,749 --> 00:15:18,759
+indicates it's a change but somebody
+ 
+
+835
+00:15:18,759 --> 00:15:21,629
+indicates it's a change but somebody
+went in and made the very cryptic Circle
+
+836
+00:15:21,629 --> 00:15:21,639
+went in and made the very cryptic Circle
+ 
+
+837
+00:15:21,639 --> 00:15:23,550
+went in and made the very cryptic Circle
+the sentence and cross it out and I have
+
+838
+00:15:23,550 --> 00:15:23,560
+the sentence and cross it out and I have
+ 
+
+839
+00:15:23,560 --> 00:15:26,710
+the sentence and cross it out and I have
+no idea to this day what it means I have
+
+840
+00:15:26,710 --> 00:15:26,720
+no idea to this day what it means I have
+ 
+
+841
+00:15:26,720 --> 00:15:29,590
+no idea to this day what it means I have
+no idea um maybe it was important maybe
+
+842
+00:15:29,590 --> 00:15:29,600
+no idea um maybe it was important maybe
+ 
+
+843
+00:15:29,600 --> 00:15:30,910
+no idea um maybe it was important maybe
+they crossed it out because they thought
+
+844
+00:15:30,910 --> 00:15:30,920
+they crossed it out because they thought
+ 
+
+845
+00:15:30,920 --> 00:15:33,430
+they crossed it out because they thought
+Crossing out was important I'm not sure
+
+846
+00:15:33,430 --> 00:15:33,440
+Crossing out was important I'm not sure
+ 
+
+847
+00:15:33,440 --> 00:15:36,550
+Crossing out was important I'm not sure
+so there was other cases like this so we
+
+848
+00:15:36,550 --> 00:15:36,560
+so there was other cases like this so we
+ 
+
+849
+00:15:36,560 --> 00:15:38,550
+so there was other cases like this so we
+were even so confused in some cases we
+
+850
+00:15:38,550 --> 00:15:38,560
+were even so confused in some cases we
+ 
+
+851
+00:15:38,560 --> 00:15:39,990
+were even so confused in some cases we
+weren't sure if we were sending data to
+
+852
+00:15:39,990 --> 00:15:40,000
+weren't sure if we were sending data to
+ 
+
+853
+00:15:40,000 --> 00:15:41,590
+weren't sure if we were sending data to
+the fds should it be least significant
+
+854
+00:15:41,590 --> 00:15:41,600
+the fds should it be least significant
+ 
+
+855
+00:15:41,600 --> 00:15:43,470
+the fds should it be least significant
+bit first or most significant bit first
+
+856
+00:15:43,470 --> 00:15:43,480
+bit first or most significant bit first
+ 
+
+857
+00:15:43,480 --> 00:15:45,870
+bit first or most significant bit first
+we had that level of uncertainty so the
+
+858
+00:15:45,870 --> 00:15:45,880
+we had that level of uncertainty so the
+ 
+
+859
+00:15:45,880 --> 00:15:47,389
+we had that level of uncertainty so the
+only thing we could do is dig in and
+
+860
+00:15:47,389 --> 00:15:47,399
+only thing we could do is dig in and
+ 
+
+861
+00:15:47,399 --> 00:15:50,069
+only thing we could do is dig in and
+research more and debate so we had a lot
+
+862
+00:15:50,069 --> 00:15:50,079
+research more and debate so we had a lot
+ 
+
+863
+00:15:50,079 --> 00:15:51,670
+research more and debate so we had a lot
+of debates between our flight team and
+
+864
+00:15:51,670 --> 00:15:51,680
+of debates between our flight team and
+ 
+
+865
+00:15:51,680 --> 00:15:53,749
+of debates between our flight team and
+the Tigra team trying to figure out what
+
+866
+00:15:53,749 --> 00:15:53,759
+the Tigra team trying to figure out what
+ 
+
+867
+00:15:53,759 --> 00:15:55,710
+the Tigra team trying to figure out what
+the best thing to do but ultimately we
+
+868
+00:15:55,710 --> 00:15:55,720
+the best thing to do but ultimately we
+ 
+
+869
+00:15:55,720 --> 00:15:57,949
+the best thing to do but ultimately we
+just had to kind of suck it up and guess
+
+870
+00:15:57,949 --> 00:15:57,959
+just had to kind of suck it up and guess
+ 
+
+871
+00:15:57,959 --> 00:15:59,870
+just had to kind of suck it up and guess
+at some point and we made the right
+
+872
+00:15:59,870 --> 00:15:59,880
+at some point and we made the right
+ 
+
+873
+00:15:59,880 --> 00:16:02,670
+at some point and we made the right
+guesses which is good so let me go a
+
+874
+00:16:02,670 --> 00:16:02,680
+guesses which is good so let me go a
+ 
+
+875
+00:16:02,680 --> 00:16:04,749
+guesses which is good so let me go a
+little deeper into the FTS so you can
+
+876
+00:16:04,749 --> 00:16:04,759
+little deeper into the FTS so you can
+ 
+
+877
+00:16:04,759 --> 00:16:07,230
+little deeper into the FTS so you can
+understand what we were dealing with um
+
+878
+00:16:07,230 --> 00:16:07,240
+understand what we were dealing with um
+ 
+
+879
+00:16:07,240 --> 00:16:08,550
+understand what we were dealing with um
+at the
+
+880
+00:16:08,550 --> 00:16:08,560
+at the
+ 
+
+881
+00:16:08,560 --> 00:16:11,509
+at the
+top I'm just going to take this out at
+
+882
+00:16:11,509 --> 00:16:11,519
+top I'm just going to take this out at
+ 
+
+883
+00:16:11,519 --> 00:16:14,749
+top I'm just going to take this out at
+the top we have memory a memory B failed
+
+884
+00:16:14,749 --> 00:16:14,759
+the top we have memory a memory B failed
+ 
+
+885
+00:16:14,759 --> 00:16:17,749
+the top we have memory a memory B failed
+back in 1981 this is the processor the
+
+886
+00:16:17,749 --> 00:16:17,759
+back in 1981 this is the processor the
+ 
+
+887
+00:16:17,759 --> 00:16:19,230
+back in 1981 this is the processor the
+processor runs the flight software
+
+888
+00:16:19,230 --> 00:16:19,240
+processor runs the flight software
+ 
+
+889
+00:16:19,240 --> 00:16:22,350
+processor runs the flight software
+that's embedded on memory this is I
+
+890
+00:16:22,350 --> 00:16:22,360
+that's embedded on memory this is I
+ 
+
+891
+00:16:22,360 --> 00:16:24,710
+that's embedded on memory this is I
+can't read this this is how you command
+
+892
+00:16:24,710 --> 00:16:24,720
+can't read this this is how you command
+ 
+
+893
+00:16:24,720 --> 00:16:27,350
+can't read this this is how you command
+the fds this is the state vector control
+
+894
+00:16:27,350 --> 00:16:27,360
+the fds this is the state vector control
+ 
+
+895
+00:16:27,360 --> 00:16:29,189
+the fds this is the state vector control
+unit which basically manages the
+
+896
+00:16:29,189 --> 00:16:29,199
+unit which basically manages the
+ 
+
+897
+00:16:29,199 --> 00:16:31,189
+unit which basically manages the
+Redundant units you see here so if you
+
+898
+00:16:31,189 --> 00:16:31,199
+Redundant units you see here so if you
+ 
+
+899
+00:16:31,199 --> 00:16:33,269
+Redundant units you see here so if you
+want to change redundancy you use this
+
+900
+00:16:33,269 --> 00:16:33,279
+want to change redundancy you use this
+ 
+
+901
+00:16:33,279 --> 00:16:35,509
+want to change redundancy you use this
+box this is our oscillator and timing
+
+902
+00:16:35,509 --> 00:16:35,519
+box this is our oscillator and timing
+ 
+
+903
+00:16:35,519 --> 00:16:39,269
+box this is our oscillator and timing
+change this is engineering IO science IO
+
+904
+00:16:39,269 --> 00:16:39,279
+change this is engineering IO science IO
+ 
+
+905
+00:16:39,279 --> 00:16:42,550
+change this is engineering IO science IO
+tape recorder IO uh modulation IO and
+
+906
+00:16:42,550 --> 00:16:42,560
+tape recorder IO uh modulation IO and
+ 
+
+907
+00:16:42,560 --> 00:16:44,629
+tape recorder IO uh modulation IO and
+then our encoders and then we have
+
+908
+00:16:44,629 --> 00:16:44,639
+then our encoders and then we have
+ 
+
+909
+00:16:44,639 --> 00:16:46,629
+then our encoders and then we have
+triply redundant power supplies because
+
+910
+00:16:46,629 --> 00:16:46,639
+triply redundant power supplies because
+ 
+
+911
+00:16:46,639 --> 00:16:49,710
+triply redundant power supplies because
+this is volatile memory
+
+912
+00:16:49,710 --> 00:16:49,720
+this is volatile memory
+ 
+
+913
+00:16:49,720 --> 00:16:52,350
+this is volatile memory
+so um a lot of things to look at there
+
+914
+00:16:52,350 --> 00:16:52,360
+so um a lot of things to look at there
+ 
+
+915
+00:16:52,360 --> 00:16:53,990
+so um a lot of things to look at there
+so what we had to do is pick what was
+
+916
+00:16:53,990 --> 00:16:54,000
+so what we had to do is pick what was
+ 
+
+917
+00:16:54,000 --> 00:16:55,590
+so what we had to do is pick what was
+most likely to be causing the problem we
+
+918
+00:16:55,590 --> 00:16:55,600
+most likely to be causing the problem we
+ 
+
+919
+00:16:55,600 --> 00:16:58,150
+most likely to be causing the problem we
+were seeing and balance that against
+
+920
+00:16:58,150 --> 00:16:58,160
+were seeing and balance that against
+ 
+
+921
+00:16:58,160 --> 00:16:59,829
+were seeing and balance that against
+what was the most risky thing we could
+
+922
+00:16:59,829 --> 00:16:59,839
+what was the most risky thing we could
+ 
+
+923
+00:16:59,839 --> 00:17:01,670
+what was the most risky thing we could
+or the least risky thing we we could be
+
+924
+00:17:01,670 --> 00:17:01,680
+or the least risky thing we we could be
+ 
+
+925
+00:17:01,680 --> 00:17:03,069
+or the least risky thing we we could be
+doing some of these we didn't want to
+
+926
+00:17:03,069 --> 00:17:03,079
+doing some of these we didn't want to
+ 
+
+927
+00:17:03,079 --> 00:17:04,990
+doing some of these we didn't want to
+play with because we just did not want
+
+928
+00:17:04,990 --> 00:17:05,000
+play with because we just did not want
+ 
+
+929
+00:17:05,000 --> 00:17:06,549
+play with because we just did not want
+to switch those components because of
+
+930
+00:17:06,549 --> 00:17:06,559
+to switch those components because of
+ 
+
+931
+00:17:06,559 --> 00:17:08,470
+to switch those components because of
+the risk involved so it was always a
+
+932
+00:17:08,470 --> 00:17:08,480
+the risk involved so it was always a
+ 
+
+933
+00:17:08,480 --> 00:17:10,630
+the risk involved so it was always a
+balancing TR act the other thing that
+
+934
+00:17:10,630 --> 00:17:10,640
+balancing TR act the other thing that
+ 
+
+935
+00:17:10,640 --> 00:17:12,110
+balancing TR act the other thing that
+happened was this kind of fell into a
+
+936
+00:17:12,110 --> 00:17:12,120
+happened was this kind of fell into a
+ 
+
+937
+00:17:12,120 --> 00:17:13,669
+happened was this kind of fell into a
+weekly schedule because we had to wait
+
+938
+00:17:13,669 --> 00:17:13,679
+weekly schedule because we had to wait
+ 
+
+939
+00:17:13,679 --> 00:17:16,350
+weekly schedule because we had to wait
+two days for our downlinks so basically
+
+940
+00:17:16,350 --> 00:17:16,360
+two days for our downlinks so basically
+ 
+
+941
+00:17:16,360 --> 00:17:17,909
+two days for our downlinks so basically
+what we' do is what you see there we'd
+
+942
+00:17:17,909 --> 00:17:17,919
+what we' do is what you see there we'd
+ 
+
+943
+00:17:17,919 --> 00:17:20,189
+what we' do is what you see there we'd
+observe we' design our next test we'd
+
+944
+00:17:20,189 --> 00:17:20,199
+observe we' design our next test we'd
+ 
+
+945
+00:17:20,199 --> 00:17:22,390
+observe we' design our next test we'd
+build the commands radiate them wait two
+
+946
+00:17:22,390 --> 00:17:22,400
+build the commands radiate them wait two
+ 
+
+947
+00:17:22,400 --> 00:17:25,829
+build the commands radiate them wait two
+days and then observe the
+
+948
+00:17:25,829 --> 00:17:25,839
+
+ 
+
+949
+00:17:25,839 --> 00:17:29,310
+
+results so this really was playing 20
+
+950
+00:17:29,310 --> 00:17:29,320
+results so this really was playing 20
+ 
+
+951
+00:17:29,320 --> 00:17:30,549
+results so this really was playing 20
+questions with the
+
+952
+00:17:30,549 --> 00:17:30,559
+questions with the
+ 
+
+953
+00:17:30,559 --> 00:17:33,430
+questions with the
+spacecraft um what happened was we we
+
+954
+00:17:33,430 --> 00:17:33,440
+spacecraft um what happened was we we
+ 
+
+955
+00:17:33,440 --> 00:17:34,950
+spacecraft um what happened was we we
+came up with this set of things we were
+
+956
+00:17:34,950 --> 00:17:34,960
+came up with this set of things we were
+ 
+
+957
+00:17:34,960 --> 00:17:39,350
+came up with this set of things we were
+going to do and um each one represented
+
+958
+00:17:39,350 --> 00:17:39,360
+going to do and um each one represented
+ 
+
+959
+00:17:39,360 --> 00:17:41,230
+going to do and um each one represented
+a risk benefit trade if any of these had
+
+960
+00:17:41,230 --> 00:17:41,240
+a risk benefit trade if any of these had
+ 
+
+961
+00:17:41,240 --> 00:17:42,590
+a risk benefit trade if any of these had
+come out positively we would have
+
+962
+00:17:42,590 --> 00:17:42,600
+come out positively we would have
+ 
+
+963
+00:17:42,600 --> 00:17:44,310
+come out positively we would have
+stopped right because we would have had
+
+964
+00:17:44,310 --> 00:17:44,320
+stopped right because we would have had
+ 
+
+965
+00:17:44,320 --> 00:17:46,310
+stopped right because we would have had
+an answer for what it was this is like
+
+966
+00:17:46,310 --> 00:17:46,320
+an answer for what it was this is like
+ 
+
+967
+00:17:46,320 --> 00:17:48,070
+an answer for what it was this is like
+playing 20 questions and always getting
+
+968
+00:17:48,070 --> 00:17:48,080
+playing 20 questions and always getting
+ 
+
+969
+00:17:48,080 --> 00:17:50,029
+playing 20 questions and always getting
+no for your answer no matter what we
+
+970
+00:17:50,029 --> 00:17:50,039
+no for your answer no matter what we
+ 
+
+971
+00:17:50,039 --> 00:17:52,510
+no for your answer no matter what we
+tried the only good thing was is it let
+
+972
+00:17:52,510 --> 00:17:52,520
+tried the only good thing was is it let
+ 
+
+973
+00:17:52,520 --> 00:17:54,549
+tried the only good thing was is it let
+us knock out things that it would not be
+
+974
+00:17:54,549 --> 00:17:54,559
+us knock out things that it would not be
+ 
+
+975
+00:17:54,559 --> 00:17:56,350
+us knock out things that it would not be
+so if we swapped out the oscillator and
+
+976
+00:17:56,350 --> 00:17:56,360
+so if we swapped out the oscillator and
+ 
+
+977
+00:17:56,360 --> 00:17:58,230
+so if we swapped out the oscillator and
+timing chain we would say well it's not
+
+978
+00:17:58,230 --> 00:17:58,240
+timing chain we would say well it's not
+ 
+
+979
+00:17:58,240 --> 00:17:59,950
+timing chain we would say well it's not
+that obviously ly and hope that we
+
+980
+00:17:59,950 --> 00:17:59,960
+that obviously ly and hope that we
+ 
+
+981
+00:17:59,960 --> 00:18:02,510
+that obviously ly and hope that we
+unscrewed something else up on the
+
+982
+00:18:02,510 --> 00:18:02,520
+unscrewed something else up on the
+ 
+
+983
+00:18:02,520 --> 00:18:05,870
+unscrewed something else up on the
+instrument so this is a fishbone fa tree
+
+984
+00:18:05,870 --> 00:18:05,880
+instrument so this is a fishbone fa tree
+ 
+
+985
+00:18:05,880 --> 00:18:07,950
+instrument so this is a fishbone fa tree
+um you don't have to read it don't worry
+
+986
+00:18:07,950 --> 00:18:07,960
+um you don't have to read it don't worry
+ 
+
+987
+00:18:07,960 --> 00:18:09,789
+um you don't have to read it don't worry
+the important thing is is that there are
+
+988
+00:18:09,789 --> 00:18:09,799
+the important thing is is that there are
+ 
+
+989
+00:18:09,799 --> 00:18:11,110
+the important thing is is that there are
+the brown things are things that we
+
+990
+00:18:11,110 --> 00:18:11,120
+the brown things are things that we
+ 
+
+991
+00:18:11,120 --> 00:18:12,909
+the brown things are things that we
+ruled out and across the top we have
+
+992
+00:18:12,909 --> 00:18:12,919
+ruled out and across the top we have
+ 
+
+993
+00:18:12,919 --> 00:18:15,510
+ruled out and across the top we have
+Mission operations issues um basically
+
+994
+00:18:15,510 --> 00:18:15,520
+Mission operations issues um basically
+ 
+
+995
+00:18:15,520 --> 00:18:17,950
+Mission operations issues um basically
+ground stuff we have safing algorithms
+
+996
+00:18:17,950 --> 00:18:17,960
+ground stuff we have safing algorithms
+ 
+
+997
+00:18:17,960 --> 00:18:19,710
+ground stuff we have safing algorithms
+on the spacecraft that might have might
+
+998
+00:18:19,710 --> 00:18:19,720
+on the spacecraft that might have might
+ 
+
+999
+00:18:19,720 --> 00:18:22,230
+on the spacecraft that might have might
+have uh tried to change a configuration
+
+1000
+00:18:22,230 --> 00:18:22,240
+have uh tried to change a configuration
+ 
+
+1001
+00:18:22,240 --> 00:18:24,149
+have uh tried to change a configuration
+we have a lot of Telecom stuff and then
+
+1002
+00:18:24,149 --> 00:18:24,159
+we have a lot of Telecom stuff and then
+ 
+
+1003
+00:18:24,159 --> 00:18:26,350
+we have a lot of Telecom stuff and then
+at the bottom we have all the fds pieces
+
+1004
+00:18:26,350 --> 00:18:26,360
+at the bottom we have all the fds pieces
+ 
+
+1005
+00:18:26,360 --> 00:18:27,870
+at the bottom we have all the fds pieces
+we knocked all these out without any
+
+1006
+00:18:27,870 --> 00:18:27,880
+we knocked all these out without any
+ 
+
+1007
+00:18:27,880 --> 00:18:30,430
+we knocked all these out without any
+telemetry
+
+1008
+00:18:30,430 --> 00:18:30,440
+telemetry
+ 
+
+1009
+00:18:30,440 --> 00:18:32,549
+telemetry
+by by debate or by trying something like
+
+1010
+00:18:32,549 --> 00:18:32,559
+by by debate or by trying something like
+ 
+
+1011
+00:18:32,559 --> 00:18:34,950
+by by debate or by trying something like
+that this is the fds in the same type of
+
+1012
+00:18:34,950 --> 00:18:34,960
+that this is the fds in the same type of
+ 
+
+1013
+00:18:34,960 --> 00:18:37,070
+that this is the fds in the same type of
+a diagram so again everything Brown has
+
+1014
+00:18:37,070 --> 00:18:37,080
+a diagram so again everything Brown has
+ 
+
+1015
+00:18:37,080 --> 00:18:38,710
+a diagram so again everything Brown has
+been eliminated and you can see at the
+
+1016
+00:18:38,710 --> 00:18:38,720
+been eliminated and you can see at the
+ 
+
+1017
+00:18:38,720 --> 00:18:42,310
+been eliminated and you can see at the
+top we took out the MDS we took out the
+
+1018
+00:18:42,310 --> 00:18:42,320
+top we took out the MDS we took out the
+ 
+
+1019
+00:18:42,320 --> 00:18:44,630
+top we took out the MDS we took out the
+uh State vector control and some of the
+
+1020
+00:18:44,630 --> 00:18:44,640
+uh State vector control and some of the
+ 
+
+1021
+00:18:44,640 --> 00:18:46,909
+uh State vector control and some of the
+other iOS there on the side at the
+
+1022
+00:18:46,909 --> 00:18:46,919
+other iOS there on the side at the
+ 
+
+1023
+00:18:46,919 --> 00:18:48,789
+other iOS there on the side at the
+bottom we took out State vector control
+
+1024
+00:18:48,789 --> 00:18:48,799
+bottom we took out State vector control
+ 
+
+1025
+00:18:48,799 --> 00:18:51,350
+bottom we took out State vector control
+and timing um we took out commanding and
+
+1026
+00:18:51,350 --> 00:18:51,360
+and timing um we took out commanding and
+ 
+
+1027
+00:18:51,360 --> 00:18:53,950
+and timing um we took out commanding and
+the power um in the next to last and
+
+1028
+00:18:53,950 --> 00:18:53,960
+the power um in the next to last and
+ 
+
+1029
+00:18:53,960 --> 00:18:55,350
+the power um in the next to last and
+over in The Far Side we took out the
+
+1030
+00:18:55,350 --> 00:18:55,360
+over in The Far Side we took out the
+ 
+
+1031
+00:18:55,360 --> 00:18:57,710
+over in The Far Side we took out the
+radio stuff again this was either debate
+
+1032
+00:18:57,710 --> 00:18:57,720
+radio stuff again this was either debate
+ 
+
+1033
+00:18:57,720 --> 00:19:00,310
+radio stuff again this was either debate
+on the ground trying to Swatch swap a
+
+1034
+00:19:00,310 --> 00:19:00,320
+on the ground trying to Swatch swap a
+ 
+
+1035
+00:19:00,320 --> 00:19:02,029
+on the ground trying to Swatch swap a
+component and seeing if we fixed the
+
+1036
+00:19:02,029 --> 00:19:02,039
+component and seeing if we fixed the
+ 
+
+1037
+00:19:02,039 --> 00:19:04,549
+component and seeing if we fixed the
+problem or not so without Telemetry this
+
+1038
+00:19:04,549 --> 00:19:04,559
+problem or not so without Telemetry this
+ 
+
+1039
+00:19:04,559 --> 00:19:06,789
+problem or not so without Telemetry this
+is pretty darn good and you can see we
+
+1040
+00:19:06,789 --> 00:19:06,799
+is pretty darn good and you can see we
+ 
+
+1041
+00:19:06,799 --> 00:19:09,669
+is pretty darn good and you can see we
+were left with basically just the fds
+
+1042
+00:19:09,669 --> 00:19:09,679
+were left with basically just the fds
+ 
+
+1043
+00:19:09,679 --> 00:19:12,710
+were left with basically just the fds
+memory or the flight software and
+
+1044
+00:19:12,710 --> 00:19:12,720
+memory or the flight software and
+ 
+
+1045
+00:19:12,720 --> 00:19:14,270
+memory or the flight software and
+processor potentially was there but we
+
+1046
+00:19:14,270 --> 00:19:14,280
+processor potentially was there but we
+ 
+
+1047
+00:19:14,280 --> 00:19:16,470
+processor potentially was there but we
+were too scared to touch the processor
+
+1048
+00:19:16,470 --> 00:19:16,480
+were too scared to touch the processor
+ 
+
+1049
+00:19:16,480 --> 00:19:17,909
+were too scared to touch the processor
+so we just kind of said you know it's
+
+1050
+00:19:17,909 --> 00:19:17,919
+so we just kind of said you know it's
+ 
+
+1051
+00:19:17,919 --> 00:19:19,029
+so we just kind of said you know it's
+probably working because we're getting
+
+1052
+00:19:19,029 --> 00:19:19,039
+probably working because we're getting
+ 
+
+1053
+00:19:19,039 --> 00:19:23,029
+probably working because we're getting
+timing signals
+
+1054
+00:19:23,029 --> 00:19:23,039
+
+ 
+
+1055
+00:19:23,039 --> 00:19:26,789
+
+out very good so that took us three
+
+1056
+00:19:26,789 --> 00:19:26,799
+out very good so that took us three
+ 
+
+1057
+00:19:26,799 --> 00:19:29,070
+out very good so that took us three
+months and then we arrived at this the
+
+1058
+00:19:29,070 --> 00:19:29,080
+months and then we arrived at this the
+ 
+
+1059
+00:19:29,080 --> 00:19:32,390
+months and then we arrived at this the
+fds is broken so we had narrowed it down
+
+1060
+00:19:32,390 --> 00:19:32,400
+fds is broken so we had narrowed it down
+ 
+
+1061
+00:19:32,400 --> 00:19:34,230
+fds is broken so we had narrowed it down
+to that and we finally figured out why
+
+1062
+00:19:34,230 --> 00:19:34,240
+to that and we finally figured out why
+ 
+
+1063
+00:19:34,240 --> 00:19:36,029
+to that and we finally figured out why
+our Telecom commands weren't working
+
+1064
+00:19:36,029 --> 00:19:36,039
+our Telecom commands weren't working
+ 
+
+1065
+00:19:36,039 --> 00:19:37,950
+our Telecom commands weren't working
+some of the time it turns out that the
+
+1066
+00:19:37,950 --> 00:19:37,960
+some of the time it turns out that the
+ 
+
+1067
+00:19:37,960 --> 00:19:39,190
+some of the time it turns out that the
+team had built some of those as
+
+1068
+00:19:39,190 --> 00:19:39,200
+team had built some of those as
+ 
+
+1069
+00:19:39,200 --> 00:19:40,830
+team had built some of those as
+contingency commands using something
+
+1070
+00:19:40,830 --> 00:19:40,840
+contingency commands using something
+ 
+
+1071
+00:19:40,840 --> 00:19:42,710
+contingency commands using something
+called seconds mode which uses the clock
+
+1072
+00:19:42,710 --> 00:19:42,720
+called seconds mode which uses the clock
+ 
+
+1073
+00:19:42,720 --> 00:19:44,669
+called seconds mode which uses the clock
+to trigger the commands most of the time
+
+1074
+00:19:44,669 --> 00:19:44,679
+to trigger the commands most of the time
+ 
+
+1075
+00:19:44,679 --> 00:19:46,909
+to trigger the commands most of the time
+we use frame mode so it turns out that
+
+1076
+00:19:46,909 --> 00:19:46,919
+we use frame mode so it turns out that
+ 
+
+1077
+00:19:46,919 --> 00:19:48,710
+we use frame mode so it turns out that
+only the frame commands were the ones
+
+1078
+00:19:48,710 --> 00:19:48,720
+only the frame commands were the ones
+ 
+
+1079
+00:19:48,720 --> 00:19:50,549
+only the frame commands were the ones
+that weren't working so this told us
+
+1080
+00:19:50,549 --> 00:19:50,559
+that weren't working so this told us
+ 
+
+1081
+00:19:50,559 --> 00:19:52,230
+that weren't working so this told us
+even though we'd forgotten this fact we
+
+1082
+00:19:52,230 --> 00:19:52,240
+even though we'd forgotten this fact we
+ 
+
+1083
+00:19:52,240 --> 00:19:53,710
+even though we'd forgotten this fact we
+figured it out and it told us that the
+
+1084
+00:19:53,710 --> 00:19:53,720
+figured it out and it told us that the
+ 
+
+1085
+00:19:53,720 --> 00:19:55,789
+figured it out and it told us that the
+FTS wasn't giving us frames this really
+
+1086
+00:19:55,789 --> 00:19:55,799
+FTS wasn't giving us frames this really
+ 
+
+1087
+00:19:55,799 --> 00:19:57,190
+FTS wasn't giving us frames this really
+put the nail in the coffin that we
+
+1088
+00:19:57,190 --> 00:19:57,200
+put the nail in the coffin that we
+ 
+
+1089
+00:19:57,200 --> 00:20:01,029
+put the nail in the coffin that we
+understood what the issue was
+
+1090
+00:20:01,029 --> 00:20:01,039
+
+ 
+
+1091
+00:20:01,039 --> 00:20:02,549
+
+so I'm going to put a couple of names
+
+1092
+00:20:02,549 --> 00:20:02,559
+so I'm going to put a couple of names
+ 
+
+1093
+00:20:02,559 --> 00:20:05,350
+so I'm going to put a couple of names
+out here David Cummings at JPL was kind
+
+1094
+00:20:05,350 --> 00:20:05,360
+out here David Cummings at JPL was kind
+ 
+
+1095
+00:20:05,360 --> 00:20:07,630
+out here David Cummings at JPL was kind
+of one of the heroes Arman Arslanian was
+
+1096
+00:20:07,630 --> 00:20:07,640
+of one of the heroes Arman Arslanian was
+ 
+
+1097
+00:20:07,640 --> 00:20:10,750
+of one of the heroes Arman Arslanian was
+the other um David figured out how the
+
+1098
+00:20:10,750 --> 00:20:10,760
+the other um David figured out how the
+ 
+
+1099
+00:20:10,760 --> 00:20:12,669
+the other um David figured out how the
+FTS code work because nobody knew how to
+
+1100
+00:20:12,669 --> 00:20:12,679
+FTS code work because nobody knew how to
+ 
+
+1101
+00:20:12,679 --> 00:20:15,110
+FTS code work because nobody knew how to
+do it we have data mode so data mode is
+
+1102
+00:20:15,110 --> 00:20:15,120
+do it we have data mode so data mode is
+ 
+
+1103
+00:20:15,120 --> 00:20:17,070
+do it we have data mode so data mode is
+just a different speed of data return
+
+1104
+00:20:17,070 --> 00:20:17,080
+just a different speed of data return
+ 
+
+1105
+00:20:17,080 --> 00:20:18,830
+just a different speed of data return
+it's like a different modem setting
+
+1106
+00:20:18,830 --> 00:20:18,840
+it's like a different modem setting
+ 
+
+1107
+00:20:18,840 --> 00:20:21,029
+it's like a different modem setting
+essentially so we had 10 different modes
+
+1108
+00:20:21,029 --> 00:20:21,039
+essentially so we had 10 different modes
+ 
+
+1109
+00:20:21,039 --> 00:20:23,029
+essentially so we had 10 different modes
+only four of those used today and the
+
+1110
+00:20:23,029 --> 00:20:23,039
+only four of those used today and the
+ 
+
+1111
+00:20:23,039 --> 00:20:24,830
+only four of those used today and the
+idea behind them is they each collect
+
+1112
+00:20:24,830 --> 00:20:24,840
+idea behind them is they each collect
+ 
+
+1113
+00:20:24,840 --> 00:20:26,830
+idea behind them is they each collect
+package and Route data from the fds to
+
+1114
+00:20:26,830 --> 00:20:26,840
+package and Route data from the fds to
+ 
+
+1115
+00:20:26,840 --> 00:20:29,230
+package and Route data from the fds to
+the teamu and then the aana and that's
+
+1116
+00:20:29,230 --> 00:20:29,240
+the teamu and then the aana and that's
+ 
+
+1117
+00:20:29,240 --> 00:20:31,149
+the teamu and then the aana and that's
+that's the way you work if you have to
+
+1118
+00:20:31,149 --> 00:20:31,159
+that's the way you work if you have to
+ 
+
+1119
+00:20:31,159 --> 00:20:32,669
+that's the way you work if you have to
+you want a different mode to playback
+
+1120
+00:20:32,669 --> 00:20:32,679
+you want a different mode to playback
+ 
+
+1121
+00:20:32,679 --> 00:20:34,430
+you want a different mode to playback
+data from the tape recorder versus
+
+1122
+00:20:34,430 --> 00:20:34,440
+data from the tape recorder versus
+ 
+
+1123
+00:20:34,440 --> 00:20:36,149
+data from the tape recorder versus
+sending the real-time data versus just
+
+1124
+00:20:36,149 --> 00:20:36,159
+sending the real-time data versus just
+ 
+
+1125
+00:20:36,159 --> 00:20:38,510
+sending the real-time data versus just
+sending engineering data so each of
+
+1126
+00:20:38,510 --> 00:20:38,520
+sending engineering data so each of
+ 
+
+1127
+00:20:38,520 --> 00:20:39,990
+sending engineering data so each of
+those modes can be thought of as a
+
+1128
+00:20:39,990 --> 00:20:40,000
+those modes can be thought of as a
+ 
+
+1129
+00:20:40,000 --> 00:20:41,549
+those modes can be thought of as a
+program or at least that's how David
+
+1130
+00:20:41,549 --> 00:20:41,559
+program or at least that's how David
+ 
+
+1131
+00:20:41,559 --> 00:20:43,350
+program or at least that's how David
+thought of them and the problem was we
+
+1132
+00:20:43,350 --> 00:20:43,360
+thought of them and the problem was we
+ 
+
+1133
+00:20:43,360 --> 00:20:45,870
+thought of them and the problem was we
+couldn't start or change these programs
+
+1134
+00:20:45,870 --> 00:20:45,880
+couldn't start or change these programs
+ 
+
+1135
+00:20:45,880 --> 00:20:47,789
+couldn't start or change these programs
+now underneath those data mode programs
+
+1136
+00:20:47,789 --> 00:20:47,799
+now underneath those data mode programs
+ 
+
+1137
+00:20:47,799 --> 00:20:49,630
+now underneath those data mode programs
+there's the P tables and these are code
+
+1138
+00:20:49,630 --> 00:20:49,640
+there's the P tables and these are code
+ 
+
+1139
+00:20:49,640 --> 00:20:51,110
+there's the P tables and these are code
+groupings of sub routines that are
+
+1140
+00:20:51,110 --> 00:20:51,120
+groupings of sub routines that are
+ 
+
+1141
+00:20:51,120 --> 00:20:53,029
+groupings of sub routines that are
+useful they're collected they tend to
+
+1142
+00:20:53,029 --> 00:20:53,039
+useful they're collected they tend to
+ 
+
+1143
+00:20:53,039 --> 00:20:55,510
+useful they're collected they tend to
+have the same uh fun same similar
+
+1144
+00:20:55,510 --> 00:20:55,520
+have the same uh fun same similar
+ 
+
+1145
+00:20:55,520 --> 00:20:56,870
+have the same uh fun same similar
+functions but they're slightly different
+
+1146
+00:20:56,870 --> 00:20:56,880
+functions but they're slightly different
+ 
+
+1147
+00:20:56,880 --> 00:20:58,990
+functions but they're slightly different
+algorithms and then under the p P tables
+
+1148
+00:20:58,990 --> 00:20:59,000
+algorithms and then under the p P tables
+ 
+
+1149
+00:20:59,000 --> 00:21:01,669
+algorithms and then under the p P tables
+there's yet another layer of code so a
+
+1150
+00:21:01,669 --> 00:21:01,679
+there's yet another layer of code so a
+ 
+
+1151
+00:21:01,679 --> 00:21:03,549
+there's yet another layer of code so a
+given data mode might use code from
+
+1152
+00:21:03,549 --> 00:21:03,559
+given data mode might use code from
+ 
+
+1153
+00:21:03,559 --> 00:21:05,990
+given data mode might use code from
+different PES and what we really had to
+
+1154
+00:21:05,990 --> 00:21:06,000
+different PES and what we really had to
+ 
+
+1155
+00:21:06,000 --> 00:21:08,390
+different PES and what we really had to
+do is get our for data mode uh
+
+1156
+00:21:08,390 --> 00:21:08,400
+do is get our for data mode uh
+ 
+
+1157
+00:21:08,400 --> 00:21:10,590
+do is get our for data mode uh
+reestablished so David asked the key
+
+1158
+00:21:10,590 --> 00:21:10,600
+reestablished so David asked the key
+ 
+
+1159
+00:21:10,600 --> 00:21:12,789
+reestablished so David asked the key
+question if code execution was somehow
+
+1160
+00:21:12,789 --> 00:21:12,799
+question if code execution was somehow
+ 
+
+1161
+00:21:12,799 --> 00:21:15,190
+question if code execution was somehow
+stuck on a p table how could we unstick
+
+1162
+00:21:15,190 --> 00:21:15,200
+stuck on a p table how could we unstick
+ 
+
+1163
+00:21:15,200 --> 00:21:16,789
+stuck on a p table how could we unstick
+it and we thought that was the most
+
+1164
+00:21:16,789 --> 00:21:16,799
+it and we thought that was the most
+ 
+
+1165
+00:21:16,799 --> 00:21:18,390
+it and we thought that was the most
+likely case because commands just
+
+1166
+00:21:18,390 --> 00:21:18,400
+likely case because commands just
+ 
+
+1167
+00:21:18,400 --> 00:21:20,590
+likely case because commands just
+weren't having an impact so it turns out
+
+1168
+00:21:20,590 --> 00:21:20,600
+weren't having an impact so it turns out
+ 
+
+1169
+00:21:20,600 --> 00:21:23,350
+weren't having an impact so it turns out
+there's two variables mode which is uh
+
+1170
+00:21:23,350 --> 00:21:23,360
+there's two variables mode which is uh
+ 
+
+1171
+00:21:23,360 --> 00:21:24,950
+there's two variables mode which is uh
+what you command from the ground and C
+
+1172
+00:21:24,950 --> 00:21:24,960
+what you command from the ground and C
+ 
+
+1173
+00:21:24,960 --> 00:21:27,110
+what you command from the ground and C
+mode which the software sets and these
+
+1174
+00:21:27,110 --> 00:21:27,120
+mode which the software sets and these
+ 
+
+1175
+00:21:27,120 --> 00:21:29,750
+mode which the software sets and these
+determine what a data mode you're in and
+
+1176
+00:21:29,750 --> 00:21:29,760
+determine what a data mode you're in and
+ 
+
+1177
+00:21:29,760 --> 00:21:31,190
+determine what a data mode you're in and
+these just flat weren't working we
+
+1178
+00:21:31,190 --> 00:21:31,200
+these just flat weren't working we
+ 
+
+1179
+00:21:31,200 --> 00:21:33,269
+these just flat weren't working we
+thought so we decided to use Hardware
+
+1180
+00:21:33,269 --> 00:21:33,279
+thought so we decided to use Hardware
+ 
+
+1181
+00:21:33,279 --> 00:21:35,909
+thought so we decided to use Hardware
+pokes instead of using a a nice safe
+
+1182
+00:21:35,909 --> 00:21:35,919
+pokes instead of using a a nice safe
+ 
+
+1183
+00:21:35,919 --> 00:21:37,750
+pokes instead of using a a nice safe
+method where you tell the processor
+
+1184
+00:21:37,750 --> 00:21:37,760
+method where you tell the processor
+ 
+
+1185
+00:21:37,760 --> 00:21:39,549
+method where you tell the processor
+please write this data to this location
+
+1186
+00:21:39,549 --> 00:21:39,559
+please write this data to this location
+ 
+
+1187
+00:21:39,559 --> 00:21:41,430
+please write this data to this location
+we're just saying here's some data put
+
+1188
+00:21:41,430 --> 00:21:41,440
+we're just saying here's some data put
+ 
+
+1189
+00:21:41,440 --> 00:21:43,149
+we're just saying here's some data put
+it in that address and these are
+
+1190
+00:21:43,149 --> 00:21:43,159
+it in that address and these are
+ 
+
+1191
+00:21:43,159 --> 00:21:45,310
+it in that address and these are
+dangerous we've lost uh we lost Viking
+
+1192
+00:21:45,310 --> 00:21:45,320
+dangerous we've lost uh we lost Viking
+ 
+
+1193
+00:21:45,320 --> 00:21:47,430
+dangerous we've lost uh we lost Viking
+one we lost Mars Global surveyor to
+
+1194
+00:21:47,430 --> 00:21:47,440
+one we lost Mars Global surveyor to
+ 
+
+1195
+00:21:47,440 --> 00:21:49,269
+one we lost Mars Global surveyor to
+Hardware pokes so we don't like to use
+
+1196
+00:21:49,269 --> 00:21:49,279
+Hardware pokes so we don't like to use
+ 
+
+1197
+00:21:49,279 --> 00:21:51,909
+Hardware pokes so we don't like to use
+them we' never used them in Voyager but
+
+1198
+00:21:51,909 --> 00:21:51,919
+them we' never used them in Voyager but
+ 
+
+1199
+00:21:51,919 --> 00:21:53,789
+them we' never used them in Voyager but
+in this case we deemed it the safest way
+
+1200
+00:21:53,789 --> 00:21:53,799
+in this case we deemed it the safest way
+ 
+
+1201
+00:21:53,799 --> 00:21:56,230
+in this case we deemed it the safest way
+to proceed so we built 20 pokes so both
+
+1202
+00:21:56,230 --> 00:21:56,240
+to proceed so we built 20 pokes so both
+ 
+
+1203
+00:21:56,240 --> 00:21:58,230
+to proceed so we built 20 pokes so both
+variables for each of the 10 modes and
+
+1204
+00:21:58,230 --> 00:21:58,240
+variables for each of the 10 modes and
+ 
+
+1205
+00:21:58,240 --> 00:22:00,149
+variables for each of the 10 modes and
+we link that on March 1st and it didn't
+
+1206
+00:22:00,149 --> 00:22:00,159
+we link that on March 1st and it didn't
+ 
+
+1207
+00:22:00,159 --> 00:22:01,230
+we link that on March 1st and it didn't
+look very
+
+1208
+00:22:01,230 --> 00:22:01,240
+look very
+ 
+
+1209
+00:22:01,240 --> 00:22:05,710
+look very
+promising but the DSN was uh was using
+
+1210
+00:22:05,710 --> 00:22:05,720
+promising but the DSN was uh was using
+ 
+
+1211
+00:22:05,720 --> 00:22:07,990
+promising but the DSN was uh was using
+the olr and what this is what they saw
+
+1212
+00:22:07,990 --> 00:22:08,000
+the olr and what this is what they saw
+ 
+
+1213
+00:22:08,000 --> 00:22:10,310
+the olr and what this is what they saw
+this is residual subcarrier plot on the
+
+1214
+00:22:10,310 --> 00:22:10,320
+this is residual subcarrier plot on the
+ 
+
+1215
+00:22:10,320 --> 00:22:12,590
+this is residual subcarrier plot on the
+bottom on the far side there and where
+
+1216
+00:22:12,590 --> 00:22:12,600
+bottom on the far side there and where
+ 
+
+1217
+00:22:12,600 --> 00:22:14,350
+bottom on the far side there and where
+the two lines are very fixed that's our
+
+1218
+00:22:14,350 --> 00:22:14,360
+the two lines are very fixed that's our
+ 
+
+1219
+00:22:14,360 --> 00:22:16,110
+the two lines are very fixed that's our
+dial tone right that's the zeros and
+
+1220
+00:22:16,110 --> 00:22:16,120
+dial tone right that's the zeros and
+ 
+
+1221
+00:22:16,120 --> 00:22:18,029
+dial tone right that's the zeros and
+ones as it looks in this this type of
+
+1222
+00:22:18,029 --> 00:22:18,039
+ones as it looks in this this type of
+ 
+
+1223
+00:22:18,039 --> 00:22:20,230
+ones as it looks in this this type of
+plot you can see that when we sent the
+
+1224
+00:22:20,230 --> 00:22:20,240
+plot you can see that when we sent the
+ 
+
+1225
+00:22:20,240 --> 00:22:22,870
+plot you can see that when we sent the
+other uh some set some of the variables
+
+1226
+00:22:22,870 --> 00:22:22,880
+other uh some set some of the variables
+ 
+
+1227
+00:22:22,880 --> 00:22:24,430
+other uh some set some of the variables
+we got a response which was the first
+
+1228
+00:22:24,430 --> 00:22:24,440
+we got a response which was the first
+ 
+
+1229
+00:22:24,440 --> 00:22:26,590
+we got a response which was the first
+time we'd seen the FTS do anything in 4
+
+1230
+00:22:26,590 --> 00:22:26,600
+time we'd seen the FTS do anything in 4
+ 
+
+1231
+00:22:26,600 --> 00:22:29,269
+time we'd seen the FTS do anything in 4
+months so this was pretty exciting
+
+1232
+00:22:29,269 --> 00:22:29,279
+months so this was pretty exciting
+ 
+
+1233
+00:22:29,279 --> 00:22:30,990
+months so this was pretty exciting
+um we left it in that one you can see
+
+1234
+00:22:30,990 --> 00:22:31,000
+um we left it in that one you can see
+ 
+
+1235
+00:22:31,000 --> 00:22:32,470
+um we left it in that one you can see
+there at the end where it was sending
+
+1236
+00:22:32,470 --> 00:22:32,480
+there at the end where it was sending
+ 
+
+1237
+00:22:32,480 --> 00:22:34,830
+there at the end where it was sending
+something down um and this told us the
+
+1238
+00:22:34,830 --> 00:22:34,840
+something down um and this told us the
+ 
+
+1239
+00:22:34,840 --> 00:22:36,710
+something down um and this told us the
+processor responded number one it told
+
+1240
+00:22:36,710 --> 00:22:36,720
+processor responded number one it told
+ 
+
+1241
+00:22:36,720 --> 00:22:38,909
+processor responded number one it told
+us memory was sound and it told us that
+
+1242
+00:22:38,909 --> 00:22:38,919
+us memory was sound and it told us that
+ 
+
+1243
+00:22:38,919 --> 00:22:41,870
+us memory was sound and it told us that
+this was likely a memory corruption um
+
+1244
+00:22:41,870 --> 00:22:41,880
+this was likely a memory corruption um
+ 
+
+1245
+00:22:41,880 --> 00:22:43,789
+this was likely a memory corruption um
+now since we weren't producing Telemetry
+
+1246
+00:22:43,789 --> 00:22:43,799
+now since we weren't producing Telemetry
+ 
+
+1247
+00:22:43,799 --> 00:22:45,110
+now since we weren't producing Telemetry
+markers we couldn't read this as
+
+1248
+00:22:45,110 --> 00:22:45,120
+markers we couldn't read this as
+ 
+
+1249
+00:22:45,120 --> 00:22:48,070
+markers we couldn't read this as
+Telemetry this is just stuff coming down
+
+1250
+00:22:48,070 --> 00:22:48,080
+Telemetry this is just stuff coming down
+ 
+
+1251
+00:22:48,080 --> 00:22:50,789
+Telemetry this is just stuff coming down
+so the DSN it's worth a paper in itself
+
+1252
+00:22:50,789 --> 00:22:50,799
+so the DSN it's worth a paper in itself
+ 
+
+1253
+00:22:50,799 --> 00:22:53,149
+so the DSN it's worth a paper in itself
+the DSN figured out this amazing way to
+
+1254
+00:22:53,149 --> 00:22:53,159
+the DSN figured out this amazing way to
+ 
+
+1255
+00:22:53,159 --> 00:22:55,190
+the DSN figured out this amazing way to
+decode this data and give us what the
+
+1256
+00:22:55,190 --> 00:22:55,200
+decode this data and give us what the
+ 
+
+1257
+00:22:55,200 --> 00:22:56,430
+decode this data and give us what the
+data
+
+1258
+00:22:56,430 --> 00:22:56,440
+data
+ 
+
+1259
+00:22:56,440 --> 00:22:58,590
+data
+represented and it turns out it
+
+1260
+00:22:58,590 --> 00:22:58,600
+represented and it turns out it
+ 
+
+1261
+00:22:58,600 --> 00:23:00,870
+represented and it turns out it
+represented something really cool um
+
+1262
+00:23:00,870 --> 00:23:00,880
+represented something really cool um
+ 
+
+1263
+00:23:00,880 --> 00:23:03,789
+represented something really cool um
+this was an accidental memory duve
+
+1264
+00:23:03,789 --> 00:23:03,799
+this was an accidental memory duve
+ 
+
+1265
+00:23:03,799 --> 00:23:06,350
+this was an accidental memory duve
+unbelievably so the processor we left it
+
+1266
+00:23:06,350 --> 00:23:06,360
+unbelievably so the processor we left it
+ 
+
+1267
+00:23:06,360 --> 00:23:09,029
+unbelievably so the processor we left it
+in that mode somehow it's a direct
+
+1268
+00:23:09,029 --> 00:23:09,039
+in that mode somehow it's a direct
+ 
+
+1269
+00:23:09,039 --> 00:23:10,870
+in that mode somehow it's a direct
+memory access machine somehow it just
+
+1270
+00:23:10,870 --> 00:23:10,880
+memory access machine somehow it just
+ 
+
+1271
+00:23:10,880 --> 00:23:13,110
+memory access machine somehow it just
+said I'm going to read memory and it was
+
+1272
+00:23:13,110 --> 00:23:13,120
+said I'm going to read memory and it was
+ 
+
+1273
+00:23:13,120 --> 00:23:16,190
+said I'm going to read memory and it was
+sending us memory dunk completely free
+
+1274
+00:23:16,190 --> 00:23:16,200
+sending us memory dunk completely free
+ 
+
+1275
+00:23:16,200 --> 00:23:18,789
+sending us memory dunk completely free
+um so it was we basically could say the
+
+1276
+00:23:18,789 --> 00:23:18,799
+um so it was we basically could say the
+ 
+
+1277
+00:23:18,799 --> 00:23:20,630
+um so it was we basically could say the
+whole memory and we noticed immediately
+
+1278
+00:23:20,630 --> 00:23:20,640
+whole memory and we noticed immediately
+ 
+
+1279
+00:23:20,640 --> 00:23:23,190
+whole memory and we noticed immediately
+that there were 256 contiguous words
+
+1280
+00:23:23,190 --> 00:23:23,200
+that there were 256 contiguous words
+ 
+
+1281
+00:23:23,200 --> 00:23:26,669
+that there were 256 contiguous words
+1400 to 14 FF that were corrupted or had
+
+1282
+00:23:26,669 --> 00:23:26,679
+1400 to 14 FF that were corrupted or had
+ 
+
+1283
+00:23:26,679 --> 00:23:28,590
+1400 to 14 FF that were corrupted or had
+the potentially be corrupted and these
+
+1284
+00:23:28,590 --> 00:23:28,600
+the potentially be corrupted and these
+ 
+
+1285
+00:23:28,600 --> 00:23:30,430
+the potentially be corrupted and these
+were all unfortunately in that layer of
+
+1286
+00:23:30,430 --> 00:23:30,440
+were all unfortunately in that layer of
+ 
+
+1287
+00:23:30,440 --> 00:23:32,149
+were all unfortunately in that layer of
+code under the P tables so these are
+
+1288
+00:23:32,149 --> 00:23:32,159
+code under the P tables so these are
+ 
+
+1289
+00:23:32,159 --> 00:23:34,310
+code under the P tables so these are
+routines that are used by every every
+
+1290
+00:23:34,310 --> 00:23:34,320
+routines that are used by every every
+ 
+
+1291
+00:23:34,320 --> 00:23:37,070
+routines that are used by every every
+piece of the fds basically um and then
+
+1292
+00:23:37,070 --> 00:23:37,080
+piece of the fds basically um and then
+ 
+
+1293
+00:23:37,080 --> 00:23:38,390
+piece of the fds basically um and then
+additionally one of our Engineers
+
+1294
+00:23:38,390 --> 00:23:38,400
+additionally one of our Engineers
+ 
+
+1295
+00:23:38,400 --> 00:23:39,990
+additionally one of our Engineers
+determined the next day that this was a
+
+1296
+00:23:39,990 --> 00:23:40,000
+determined the next day that this was a
+ 
+
+1297
+00:23:40,000 --> 00:23:42,430
+determined the next day that this was a
+single Ram chip in the FTS that is
+
+1298
+00:23:42,430 --> 00:23:42,440
+single Ram chip in the FTS that is
+ 
+
+1299
+00:23:42,440 --> 00:23:44,110
+single Ram chip in the FTS that is
+responsible for the fifth bit in each
+
+1300
+00:23:44,110 --> 00:23:44,120
+responsible for the fifth bit in each
+ 
+
+1301
+00:23:44,120 --> 00:23:47,029
+responsible for the fifth bit in each
+address location so we understood what
+
+1302
+00:23:47,029 --> 00:23:47,039
+address location so we understood what
+ 
+
+1303
+00:23:47,039 --> 00:23:49,669
+address location so we understood what
+was going on so this is kind of
+
+1304
+00:23:49,669 --> 00:23:49,679
+was going on so this is kind of
+ 
+
+1305
+00:23:49,679 --> 00:23:51,990
+was going on so this is kind of
+cool I got permission to actually show
+
+1306
+00:23:51,990 --> 00:23:52,000
+cool I got permission to actually show
+ 
+
+1307
+00:23:52,000 --> 00:23:55,230
+cool I got permission to actually show
+you assembly this is the address then
+
+1308
+00:23:55,230 --> 00:23:55,240
+you assembly this is the address then
+ 
+
+1309
+00:23:55,240 --> 00:23:56,909
+you assembly this is the address then
+this is the actual code that's supposed
+
+1310
+00:23:56,909 --> 00:23:56,919
+this is the actual code that's supposed
+ 
+
+1311
+00:23:56,919 --> 00:23:59,350
+this is the actual code that's supposed
+to be there if the the word doesn't have
+
+1312
+00:23:59,350 --> 00:23:59,360
+to be there if the the word doesn't have
+ 
+
+1313
+00:23:59,360 --> 00:24:01,029
+to be there if the the word doesn't have
+yellow then it should have one in the
+
+1314
+00:24:01,029 --> 00:24:01,039
+yellow then it should have one in the
+ 
+
+1315
+00:24:01,039 --> 00:24:03,029
+yellow then it should have one in the
+fifth bit but if it's supposed to be
+
+1316
+00:24:03,029 --> 00:24:03,039
+fifth bit but if it's supposed to be
+ 
+
+1317
+00:24:03,039 --> 00:24:05,149
+fifth bit but if it's supposed to be
+zero you can see everything's off by a
+
+1318
+00:24:05,149 --> 00:24:05,159
+zero you can see everything's off by a
+ 
+
+1319
+00:24:05,159 --> 00:24:08,149
+zero you can see everything's off by a
+bit these are the labels in the assembly
+
+1320
+00:24:08,149 --> 00:24:08,159
+bit these are the labels in the assembly
+ 
+
+1321
+00:24:08,159 --> 00:24:09,950
+bit these are the labels in the assembly
+this is the actual op codes it looks
+
+1322
+00:24:09,950 --> 00:24:09,960
+this is the actual op codes it looks
+ 
+
+1323
+00:24:09,960 --> 00:24:12,789
+this is the actual op codes it looks
+kind of like 885 processor and then this
+
+1324
+00:24:12,789 --> 00:24:12,799
+kind of like 885 processor and then this
+ 
+
+1325
+00:24:12,799 --> 00:24:14,750
+kind of like 885 processor and then this
+is uh the data associated with it and
+
+1326
+00:24:14,750 --> 00:24:14,760
+is uh the data associated with it and
+ 
+
+1327
+00:24:14,760 --> 00:24:17,029
+is uh the data associated with it and
+then the comments so that's what
+
+1328
+00:24:17,029 --> 00:24:17,039
+then the comments so that's what
+ 
+
+1329
+00:24:17,039 --> 00:24:18,510
+then the comments so that's what
+assembly looks
+
+1330
+00:24:18,510 --> 00:24:18,520
+assembly looks
+ 
+
+1331
+00:24:18,520 --> 00:24:21,110
+assembly looks
+like for the fds and Voyager and each
+
+1332
+00:24:21,110 --> 00:24:21,120
+like for the fds and Voyager and each
+ 
+
+1333
+00:24:21,120 --> 00:24:22,669
+like for the fds and Voyager and each
+computer has a different Assembly
+
+1334
+00:24:22,669 --> 00:24:22,679
+computer has a different Assembly
+ 
+
+1335
+00:24:22,679 --> 00:24:25,269
+computer has a different Assembly
+Language so now the hard part how do you
+
+1336
+00:24:25,269 --> 00:24:25,279
+Language so now the hard part how do you
+ 
+
+1337
+00:24:25,279 --> 00:24:27,269
+Language so now the hard part how do you
+fix that took us three months to figure
+
+1338
+00:24:27,269 --> 00:24:27,279
+fix that took us three months to figure
+ 
+
+1339
+00:24:27,279 --> 00:24:29,230
+fix that took us three months to figure
+out what was wrong
+
+1340
+00:24:29,230 --> 00:24:29,240
+out what was wrong
+ 
+
+1341
+00:24:29,240 --> 00:24:30,950
+out what was wrong
+so we had three priorities because we
+
+1342
+00:24:30,950 --> 00:24:30,960
+so we had three priorities because we
+ 
+
+1343
+00:24:30,960 --> 00:24:32,549
+so we had three priorities because we
+didn't have toet we didn't have any
+
+1344
+00:24:32,549 --> 00:24:32,559
+didn't have toet we didn't have any
+ 
+
+1345
+00:24:32,559 --> 00:24:34,470
+didn't have toet we didn't have any
+memory one was demonstrate we could
+
+1346
+00:24:34,470 --> 00:24:34,480
+memory one was demonstrate we could
+ 
+
+1347
+00:24:34,480 --> 00:24:36,710
+memory one was demonstrate we could
+control the processor again two is get
+
+1348
+00:24:36,710 --> 00:24:36,720
+control the processor again two is get
+ 
+
+1349
+00:24:36,720 --> 00:24:38,310
+control the processor again two is get
+engineering back because that would tell
+
+1350
+00:24:38,310 --> 00:24:38,320
+engineering back because that would tell
+ 
+
+1351
+00:24:38,320 --> 00:24:39,909
+engineering back because that would tell
+us our spacecraft was healthy and
+
+1352
+00:24:39,909 --> 00:24:39,919
+us our spacecraft was healthy and
+ 
+
+1353
+00:24:39,919 --> 00:24:41,269
+us our spacecraft was healthy and
+finally we don't have a mission if we
+
+1354
+00:24:41,269 --> 00:24:41,279
+finally we don't have a mission if we
+ 
+
+1355
+00:24:41,279 --> 00:24:44,350
+finally we don't have a mission if we
+can't get science back so the real issue
+
+1356
+00:24:44,350 --> 00:24:44,360
+can't get science back so the real issue
+ 
+
+1357
+00:24:44,360 --> 00:24:46,430
+can't get science back so the real issue
+here was the 1990s memory constraint
+
+1358
+00:24:46,430 --> 00:24:46,440
+here was the 1990s memory constraint
+ 
+
+1359
+00:24:46,440 --> 00:24:48,669
+here was the 1990s memory constraint
+they loaded up this special version it
+
+1360
+00:24:48,669 --> 00:24:48,679
+they loaded up this special version it
+ 
+
+1361
+00:24:48,679 --> 00:24:50,350
+they loaded up this special version it
+was code that just went everywhere
+
+1362
+00:24:50,350 --> 00:24:50,360
+was code that just went everywhere
+ 
+
+1363
+00:24:50,360 --> 00:24:51,750
+was code that just went everywhere
+because you have those layers of code
+
+1364
+00:24:51,750 --> 00:24:51,760
+because you have those layers of code
+ 
+
+1365
+00:24:51,760 --> 00:24:53,710
+because you have those layers of code
+and they wanted to reuse everything with
+
+1366
+00:24:53,710 --> 00:24:53,720
+and they wanted to reuse everything with
+ 
+
+1367
+00:24:53,720 --> 00:24:56,710
+and they wanted to reuse everything with
+only 8,000 words you reuse every snippet
+
+1368
+00:24:56,710 --> 00:24:56,720
+only 8,000 words you reuse every snippet
+ 
+
+1369
+00:24:56,720 --> 00:24:58,870
+only 8,000 words you reuse every snippet
+of code you can so the code just jumped
+
+1370
+00:24:58,870 --> 00:24:58,880
+of code you can so the code just jumped
+ 
+
+1371
+00:24:58,880 --> 00:25:01,510
+of code you can so the code just jumped
+constantly all over the place um
+
+1372
+00:25:01,510 --> 00:25:01,520
+constantly all over the place um
+ 
+
+1373
+00:25:01,520 --> 00:25:03,350
+constantly all over the place um
+additionally our flight team had never
+
+1374
+00:25:03,350 --> 00:25:03,360
+additionally our flight team had never
+ 
+
+1375
+00:25:03,360 --> 00:25:05,630
+additionally our flight team had never
+buil a load this big and this was a new
+
+1376
+00:25:05,630 --> 00:25:05,640
+buil a load this big and this was a new
+ 
+
+1377
+00:25:05,640 --> 00:25:07,510
+buil a load this big and this was a new
+process using these Hardware pokes so
+
+1378
+00:25:07,510 --> 00:25:07,520
+process using these Hardware pokes so
+ 
+
+1379
+00:25:07,520 --> 00:25:09,190
+process using these Hardware pokes so
+our flight team had to do a lot of extra
+
+1380
+00:25:09,190 --> 00:25:09,200
+our flight team had to do a lot of extra
+ 
+
+1381
+00:25:09,200 --> 00:25:10,669
+our flight team had to do a lot of extra
+work
+
+1382
+00:25:10,669 --> 00:25:10,679
+work
+ 
+
+1383
+00:25:10,679 --> 00:25:13,190
+work
+too so earlier when all that
+
+1384
+00:25:13,190 --> 00:25:13,200
+too so earlier when all that
+ 
+
+1385
+00:25:13,200 --> 00:25:14,870
+too so earlier when all that
+investigative work was going on we found
+
+1386
+00:25:14,870 --> 00:25:14,880
+investigative work was going on we found
+ 
+
+1387
+00:25:14,880 --> 00:25:17,190
+investigative work was going on we found
+some object code and it turned out this
+
+1388
+00:25:17,190 --> 00:25:17,200
+some object code and it turned out this
+ 
+
+1389
+00:25:17,200 --> 00:25:19,190
+some object code and it turned out this
+was a program called minum rot that had
+
+1390
+00:25:19,190 --> 00:25:19,200
+was a program called minum rot that had
+ 
+
+1391
+00:25:19,200 --> 00:25:23,190
+was a program called minum rot that had
+not been used in 35 years and uh it it
+
+1392
+00:25:23,190 --> 00:25:23,200
+not been used in 35 years and uh it it
+ 
+
+1393
+00:25:23,200 --> 00:25:24,710
+not been used in 35 years and uh it it
+actually does this small amount of
+
+1394
+00:25:24,710 --> 00:25:24,720
+actually does this small amount of
+ 
+
+1395
+00:25:24,720 --> 00:25:26,590
+actually does this small amount of
+framed clock Terry sending it back to
+
+1396
+00:25:26,590 --> 00:25:26,600
+framed clock Terry sending it back to
+ 
+
+1397
+00:25:26,600 --> 00:25:28,310
+framed clock Terry sending it back to
+the ground and it's framed which was
+
+1398
+00:25:28,310 --> 00:25:28,320
+the ground and it's framed which was
+ 
+
+1399
+00:25:28,320 --> 00:25:30,630
+the ground and it's framed which was
+exciting for us and um we thought that
+
+1400
+00:25:30,630 --> 00:25:30,640
+exciting for us and um we thought that
+ 
+
+1401
+00:25:30,640 --> 00:25:32,830
+exciting for us and um we thought that
+would be our good hell World program and
+
+1402
+00:25:32,830 --> 00:25:32,840
+would be our good hell World program and
+ 
+
+1403
+00:25:32,840 --> 00:25:34,990
+would be our good hell World program and
+additionally they took M minm rot and
+
+1404
+00:25:34,990 --> 00:25:35,000
+additionally they took M minm rot and
+ 
+
+1405
+00:25:35,000 --> 00:25:36,870
+additionally they took M minm rot and
+they morphed it this is where Arman
+
+1406
+00:25:36,870 --> 00:25:36,880
+they morphed it this is where Arman
+ 
+
+1407
+00:25:36,880 --> 00:25:38,590
+they morphed it this is where Arman
+began to help out they morphed it into a
+
+1408
+00:25:38,590 --> 00:25:38,600
+began to help out they morphed it into a
+ 
+
+1409
+00:25:38,600 --> 00:25:40,110
+began to help out they morphed it into a
+program that would use that same framing
+
+1410
+00:25:40,110 --> 00:25:40,120
+program that would use that same framing
+ 
+
+1411
+00:25:40,120 --> 00:25:43,510
+program that would use that same framing
+but give us an mro so in prep we told
+
+1412
+00:25:43,510 --> 00:25:43,520
+but give us an mro so in prep we told
+ 
+
+1413
+00:25:43,520 --> 00:25:45,549
+but give us an mro so in prep we told
+the fds to not generate frames because
+
+1414
+00:25:45,549 --> 00:25:45,559
+the fds to not generate frames because
+ 
+
+1415
+00:25:45,559 --> 00:25:47,070
+the fds to not generate frames because
+we didn't want the processor to wake up
+
+1416
+00:25:47,070 --> 00:25:47,080
+we didn't want the processor to wake up
+ 
+
+1417
+00:25:47,080 --> 00:25:48,830
+we didn't want the processor to wake up
+and begin issuing commanding that was on
+
+1418
+00:25:48,830 --> 00:25:48,840
+and begin issuing commanding that was on
+ 
+
+1419
+00:25:48,840 --> 00:25:50,950
+and begin issuing commanding that was on
+board and loaded on our spacecraft so we
+
+1420
+00:25:50,950 --> 00:25:50,960
+board and loaded on our spacecraft so we
+ 
+
+1421
+00:25:50,960 --> 00:25:53,149
+board and loaded on our spacecraft so we
+turned off frames we upin and linked
+
+1422
+00:25:53,149 --> 00:25:53,159
+turned off frames we upin and linked
+ 
+
+1423
+00:25:53,159 --> 00:25:56,029
+turned off frames we upin and linked
+minum Rod that means we set uh we loaded
+
+1424
+00:25:56,029 --> 00:25:56,039
+minum Rod that means we set uh we loaded
+ 
+
+1425
+00:25:56,039 --> 00:25:57,789
+minum Rod that means we set uh we loaded
+the program and we put the pointer at
+
+1426
+00:25:57,789 --> 00:25:57,799
+the program and we put the pointer at
+ 
+
+1427
+00:25:57,799 --> 00:26:00,029
+the program and we put the pointer at
+zero where minum rot loads that's how we
+
+1428
+00:26:00,029 --> 00:26:00,039
+zero where minum rot loads that's how we
+ 
+
+1429
+00:26:00,039 --> 00:26:03,269
+zero where minum rot loads that's how we
+link and it actually worked um we got
+
+1430
+00:26:03,269 --> 00:26:03,279
+link and it actually worked um we got
+ 
+
+1431
+00:26:03,279 --> 00:26:05,630
+link and it actually worked um we got
+Telemetry using this uh we had a custom
+
+1432
+00:26:05,630 --> 00:26:05,640
+Telemetry using this uh we had a custom
+ 
+
+1433
+00:26:05,640 --> 00:26:07,789
+Telemetry using this uh we had a custom
+tool that they developed for us again
+
+1434
+00:26:07,789 --> 00:26:07,799
+tool that they developed for us again
+ 
+
+1435
+00:26:07,799 --> 00:26:09,630
+tool that they developed for us again
+and then we sent meno the next week and
+
+1436
+00:26:09,630 --> 00:26:09,640
+and then we sent meno the next week and
+ 
+
+1437
+00:26:09,640 --> 00:26:11,789
+and then we sent meno the next week and
+that worked as well so so far so good we
+
+1438
+00:26:11,789 --> 00:26:11,799
+that worked as well so so far so good we
+ 
+
+1439
+00:26:11,799 --> 00:26:13,590
+that worked as well so so far so good we
+had the processor under
+
+1440
+00:26:13,590 --> 00:26:13,600
+had the processor under
+ 
+
+1441
+00:26:13,600 --> 00:26:16,830
+had the processor under
+control next we had to repair the codes
+
+1442
+00:26:16,830 --> 00:26:16,840
+control next we had to repair the codes
+ 
+
+1443
+00:26:16,840 --> 00:26:19,350
+control next we had to repair the codes
+this is 256 instructions that had to be
+
+1444
+00:26:19,350 --> 00:26:19,360
+this is 256 instructions that had to be
+ 
+
+1445
+00:26:19,360 --> 00:26:21,230
+this is 256 instructions that had to be
+relocated we had to preserve the
+
+1446
+00:26:21,230 --> 00:26:21,240
+relocated we had to preserve the
+ 
+
+1447
+00:26:21,240 --> 00:26:23,310
+relocated we had to preserve the
+behavior of course to get our data back
+
+1448
+00:26:23,310 --> 00:26:23,320
+behavior of course to get our data back
+ 
+
+1449
+00:26:23,320 --> 00:26:25,549
+behavior of course to get our data back
+but tying was key because anytime we
+
+1450
+00:26:25,549 --> 00:26:25,559
+but tying was key because anytime we
+ 
+
+1451
+00:26:25,559 --> 00:26:27,549
+but tying was key because anytime we
+added a step to do these extra jumps it
+
+1452
+00:26:27,549 --> 00:26:27,559
+added a step to do these extra jumps it
+ 
+
+1453
+00:26:27,559 --> 00:26:28,750
+added a step to do these extra jumps it
+would play with the timing of the
+
+1454
+00:26:28,750 --> 00:26:28,760
+would play with the timing of the
+ 
+
+1455
+00:26:28,760 --> 00:26:30,830
+would play with the timing of the
+program which could kill us so we
+
+1456
+00:26:30,830 --> 00:26:30,840
+program which could kill us so we
+ 
+
+1457
+00:26:30,840 --> 00:26:32,549
+program which could kill us so we
+understood we had to be super careful
+
+1458
+00:26:32,549 --> 00:26:32,559
+understood we had to be super careful
+ 
+
+1459
+00:26:32,559 --> 00:26:35,350
+understood we had to be super careful
+with the timing so the last the only
+
+1460
+00:26:35,350 --> 00:26:35,360
+with the timing so the last the only
+ 
+
+1461
+00:26:35,360 --> 00:26:36,950
+with the timing so the last the only
+benefit we had was that we were
+
+1462
+00:26:36,950 --> 00:26:36,960
+benefit we had was that we were
+ 
+
+1463
+00:26:36,960 --> 00:26:38,750
+benefit we had was that we were
+cannibalizing one of these obsolete data
+
+1464
+00:26:38,750 --> 00:26:38,760
+cannibalizing one of these obsolete data
+ 
+
+1465
+00:26:38,760 --> 00:26:41,750
+cannibalizing one of these obsolete data
+modes we had now the challenges these
+
+1466
+00:26:41,750 --> 00:26:41,760
+modes we had now the challenges these
+ 
+
+1467
+00:26:41,760 --> 00:26:44,430
+modes we had now the challenges these
+guys faced were incredible we didn't
+
+1468
+00:26:44,430 --> 00:26:44,440
+guys faced were incredible we didn't
+ 
+
+1469
+00:26:44,440 --> 00:26:45,789
+guys faced were incredible we didn't
+know that we had the right instruction
+
+1470
+00:26:45,789 --> 00:26:45,799
+know that we had the right instruction
+ 
+
+1471
+00:26:45,799 --> 00:26:47,389
+know that we had the right instruction
+set I showed you in the instruction set
+
+1472
+00:26:47,389 --> 00:26:47,399
+set I showed you in the instruction set
+ 
+
+1473
+00:26:47,399 --> 00:26:48,669
+set I showed you in the instruction set
+there we didn't know that was the one
+
+1474
+00:26:48,669 --> 00:26:48,679
+there we didn't know that was the one
+ 
+
+1475
+00:26:48,679 --> 00:26:50,430
+there we didn't know that was the one
+that was used to build the software back
+
+1476
+00:26:50,430 --> 00:26:50,440
+that was used to build the software back
+ 
+
+1477
+00:26:50,440 --> 00:26:52,430
+that was used to build the software back
+when there was an assembler we didn't
+
+1478
+00:26:52,430 --> 00:26:52,440
+when there was an assembler we didn't
+ 
+
+1479
+00:26:52,440 --> 00:26:54,029
+when there was an assembler we didn't
+know that the source code version was
+
+1480
+00:26:54,029 --> 00:26:54,039
+know that the source code version was
+ 
+
+1481
+00:26:54,039 --> 00:26:55,630
+know that the source code version was
+the same as what was running on board to
+
+1482
+00:26:55,630 --> 00:26:55,640
+the same as what was running on board to
+ 
+
+1483
+00:26:55,640 --> 00:26:58,070
+the same as what was running on board to
+spacecraft we had a listing of the code
+
+1484
+00:26:58,070 --> 00:26:58,080
+spacecraft we had a listing of the code
+ 
+
+1485
+00:26:58,080 --> 00:26:59,789
+spacecraft we had a listing of the code
+but but it was a Microsoft Word document
+
+1486
+00:26:59,789 --> 00:26:59,799
+but but it was a Microsoft Word document
+ 
+
+1487
+00:26:59,799 --> 00:27:01,789
+but but it was a Microsoft Word document
+it was optical character recognition
+
+1488
+00:27:01,789 --> 00:27:01,799
+it was optical character recognition
+ 
+
+1489
+00:27:01,799 --> 00:27:03,669
+it was optical character recognition
+scan so we didn't know if there were
+
+1490
+00:27:03,669 --> 00:27:03,679
+scan so we didn't know if there were
+ 
+
+1491
+00:27:03,679 --> 00:27:06,909
+scan so we didn't know if there were
+errors in it um we have no assembler so
+
+1492
+00:27:06,909 --> 00:27:06,919
+errors in it um we have no assembler so
+ 
+
+1493
+00:27:06,919 --> 00:27:08,909
+errors in it um we have no assembler so
+they're they're just playing with bits
+
+1494
+00:27:08,909 --> 00:27:08,919
+they're they're just playing with bits
+ 
+
+1495
+00:27:08,919 --> 00:27:10,950
+they're they're just playing with bits
+there's no simulator and there's no test
+
+1496
+00:27:10,950 --> 00:27:10,960
+there's no simulator and there's no test
+ 
+
+1497
+00:27:10,960 --> 00:27:15,510
+there's no simulator and there's no test
+bed so there were a few challenges I so
+
+1498
+00:27:15,510 --> 00:27:15,520
+bed so there were a few challenges I so
+ 
+
+1499
+00:27:15,520 --> 00:27:17,549
+bed so there were a few challenges I so
+basically this was bar bar knuckle
+
+1500
+00:27:17,549 --> 00:27:17,559
+basically this was bar bar knuckle
+ 
+
+1501
+00:27:17,559 --> 00:27:18,990
+basically this was bar bar knuckle
+binary
+
+1502
+00:27:18,990 --> 00:27:19,000
+binary
+ 
+
+1503
+00:27:19,000 --> 00:27:21,430
+binary
+manipulation and they had to think of
+
+1504
+00:27:21,430 --> 00:27:21,440
+manipulation and they had to think of
+ 
+
+1505
+00:27:21,440 --> 00:27:22,950
+manipulation and they had to think of
+all the problems I'm sure you guys are
+
+1506
+00:27:22,950 --> 00:27:22,960
+all the problems I'm sure you guys are
+ 
+
+1507
+00:27:22,960 --> 00:27:24,590
+all the problems I'm sure you guys are
+far better than I am at thinking the
+
+1508
+00:27:24,590 --> 00:27:24,600
+far better than I am at thinking the
+ 
+
+1509
+00:27:24,600 --> 00:27:26,230
+far better than I am at thinking the
+problems associated with with playing
+
+1510
+00:27:26,230 --> 00:27:26,240
+problems associated with with playing
+ 
+
+1511
+00:27:26,240 --> 00:27:28,389
+problems associated with with playing
+with memory like this you could override
+
+1512
+00:27:28,389 --> 00:27:28,399
+with memory like this you could override
+ 
+
+1513
+00:27:28,399 --> 00:27:29,909
+with memory like this you could override
+something you can fail to recognize
+
+1514
+00:27:29,909 --> 00:27:29,919
+something you can fail to recognize
+ 
+
+1515
+00:27:29,919 --> 00:27:32,590
+something you can fail to recognize
+jumps you how do you debug it and fly on
+
+1516
+00:27:32,590 --> 00:27:32,600
+jumps you how do you debug it and fly on
+ 
+
+1517
+00:27:32,600 --> 00:27:34,909
+jumps you how do you debug it and fly on
+a flying spacecraft and how do you know
+
+1518
+00:27:34,909 --> 00:27:34,919
+a flying spacecraft and how do you know
+ 
+
+1519
+00:27:34,919 --> 00:27:36,350
+a flying spacecraft and how do you know
+you're not missing something in those
+
+1520
+00:27:36,350 --> 00:27:36,360
+you're not missing something in those
+ 
+
+1521
+00:27:36,360 --> 00:27:38,029
+you're not missing something in those
+instruction sets and codes and the list
+
+1522
+00:27:38,029 --> 00:27:38,039
+instruction sets and codes and the list
+ 
+
+1523
+00:27:38,039 --> 00:27:40,149
+instruction sets and codes and the list
+goes on and on so what they did is they
+
+1524
+00:27:40,149 --> 00:27:40,159
+goes on and on so what they did is they
+ 
+
+1525
+00:27:40,159 --> 00:27:41,990
+goes on and on so what they did is they
+took every possible thing that could go
+
+1526
+00:27:41,990 --> 00:27:42,000
+took every possible thing that could go
+ 
+
+1527
+00:27:42,000 --> 00:27:43,950
+took every possible thing that could go
+wrong they made a list and then they
+
+1528
+00:27:43,950 --> 00:27:43,960
+wrong they made a list and then they
+ 
+
+1529
+00:27:43,960 --> 00:27:45,590
+wrong they made a list and then they
+iterated their code adjustments with
+
+1530
+00:27:45,590 --> 00:27:45,600
+iterated their code adjustments with
+ 
+
+1531
+00:27:45,600 --> 00:27:47,750
+iterated their code adjustments with
+that list with multiple people and that
+
+1532
+00:27:47,750 --> 00:27:47,760
+that list with multiple people and that
+ 
+
+1533
+00:27:47,760 --> 00:27:49,630
+that list with multiple people and that
+was essentially how they came with these
+
+1534
+00:27:49,630 --> 00:27:49,640
+was essentially how they came with these
+ 
+
+1535
+00:27:49,640 --> 00:27:52,190
+was essentially how they came with these
+patches um and we said that was okay
+
+1536
+00:27:52,190 --> 00:27:52,200
+patches um and we said that was okay
+ 
+
+1537
+00:27:52,200 --> 00:27:53,310
+patches um and we said that was okay
+because we
+
+1538
+00:27:53,310 --> 00:27:53,320
+because we
+ 
+
+1539
+00:27:53,320 --> 00:27:55,950
+because we
+were we said that was okay because we're
+
+1540
+00:27:55,950 --> 00:27:55,960
+were we said that was okay because we're
+ 
+
+1541
+00:27:55,960 --> 00:27:58,350
+were we said that was okay because we're
+effectively no Telemetry without that
+
+1542
+00:27:58,350 --> 00:27:58,360
+effectively no Telemetry without that
+ 
+
+1543
+00:27:58,360 --> 00:28:00,430
+effectively no Telemetry without that
+and frankly how bad could things get
+
+1544
+00:28:00,430 --> 00:28:00,440
+and frankly how bad could things get
+ 
+
+1545
+00:28:00,440 --> 00:28:02,950
+and frankly how bad could things get
+worse than they were so we uploaded this
+
+1546
+00:28:02,950 --> 00:28:02,960
+worse than they were so we uploaded this
+ 
+
+1547
+00:28:02,960 --> 00:28:05,909
+worse than they were so we uploaded this
+and linked it on April 20th and this was
+
+1548
+00:28:05,909 --> 00:28:05,919
+and linked it on April 20th and this was
+ 
+
+1549
+00:28:05,919 --> 00:28:08,509
+and linked it on April 20th and this was
+a big day we got Telemetry coming down
+
+1550
+00:28:08,509 --> 00:28:08,519
+a big day we got Telemetry coming down
+ 
+
+1551
+00:28:08,519 --> 00:28:11,230
+a big day we got Telemetry coming down
+for the first time this is uh Armen in
+
+1552
+00:28:11,230 --> 00:28:11,240
+for the first time this is uh Armen in
+ 
+
+1553
+00:28:11,240 --> 00:28:14,190
+for the first time this is uh Armen in
+the blue and David in the green and then
+
+1554
+00:28:14,190 --> 00:28:14,200
+the blue and David in the green and then
+ 
+
+1555
+00:28:14,200 --> 00:28:16,029
+the blue and David in the green and then
+this is our flight team our tiny little
+
+1556
+00:28:16,029 --> 00:28:16,039
+this is our flight team our tiny little
+ 
+
+1557
+00:28:16,039 --> 00:28:18,710
+this is our flight team our tiny little
+Flight Team celebrating so that was a
+
+1558
+00:28:18,710 --> 00:28:18,720
+Flight Team celebrating so that was a
+ 
+
+1559
+00:28:18,720 --> 00:28:22,630
+Flight Team celebrating so that was a
+good
+
+1560
+00:28:22,630 --> 00:28:22,640
+
+ 
+
+1561
+00:28:22,640 --> 00:28:26,230
+
+day but we weren't done yet so now we
+
+1562
+00:28:26,230 --> 00:28:26,240
+day but we weren't done yet so now we
+ 
+
+1563
+00:28:26,240 --> 00:28:27,789
+day but we weren't done yet so now we
+have to get the science back and we were
+
+1564
+00:28:27,789 --> 00:28:27,799
+have to get the science back and we were
+ 
+
+1565
+00:28:27,799 --> 00:28:29,630
+have to get the science back and we were
+worried because it took a lot of code to
+
+1566
+00:28:29,630 --> 00:28:29,640
+worried because it took a lot of code to
+ 
+
+1567
+00:28:29,640 --> 00:28:31,909
+worried because it took a lot of code to
+get one mode back now we have three it
+
+1568
+00:28:31,909 --> 00:28:31,919
+get one mode back now we have three it
+ 
+
+1569
+00:28:31,919 --> 00:28:33,750
+get one mode back now we have three it
+turns out it wasn't that bad the code
+
+1570
+00:28:33,750 --> 00:28:33,760
+turns out it wasn't that bad the code
+ 
+
+1571
+00:28:33,760 --> 00:28:36,149
+turns out it wasn't that bad the code
+reuse was was pretty amable to what they
+
+1572
+00:28:36,149 --> 00:28:36,159
+reuse was was pretty amable to what they
+ 
+
+1573
+00:28:36,159 --> 00:28:38,750
+reuse was was pretty amable to what they
+done but we did have some other problems
+
+1574
+00:28:38,750 --> 00:28:38,760
+done but we did have some other problems
+ 
+
+1575
+00:28:38,760 --> 00:28:40,789
+done but we did have some other problems
+um again we were out of space we used it
+
+1576
+00:28:40,789 --> 00:28:40,799
+um again we were out of space we used it
+ 
+
+1577
+00:28:40,799 --> 00:28:43,029
+um again we were out of space we used it
+all up the engineering high rate memory
+
+1578
+00:28:43,029 --> 00:28:43,039
+all up the engineering high rate memory
+ 
+
+1579
+00:28:43,039 --> 00:28:44,990
+all up the engineering high rate memory
+that we were cannibalizing it was gone
+
+1580
+00:28:44,990 --> 00:28:45,000
+that we were cannibalizing it was gone
+ 
+
+1581
+00:28:45,000 --> 00:28:47,509
+that we were cannibalizing it was gone
+so we found an old Memo from the 1980s
+
+1582
+00:28:47,509 --> 00:28:47,519
+so we found an old Memo from the 1980s
+ 
+
+1583
+00:28:47,519 --> 00:28:49,590
+so we found an old Memo from the 1980s
+that mentioned free memory we looked at
+
+1584
+00:28:49,590 --> 00:28:49,600
+that mentioned free memory we looked at
+ 
+
+1585
+00:28:49,600 --> 00:28:51,149
+that mentioned free memory we looked at
+the memory readouts and it looked like
+
+1586
+00:28:51,149 --> 00:28:51,159
+the memory readouts and it looked like
+ 
+
+1587
+00:28:51,159 --> 00:28:53,990
+the memory readouts and it looked like
+it was just not being used so we assumed
+
+1588
+00:28:53,990 --> 00:28:54,000
+it was just not being used so we assumed
+ 
+
+1589
+00:28:54,000 --> 00:28:56,430
+it was just not being used so we assumed
+it was free and went with that um this
+
+1590
+00:28:56,430 --> 00:28:56,440
+it was free and went with that um this
+ 
+
+1591
+00:28:56,440 --> 00:28:57,830
+it was free and went with that um this
+was an upper memory and it wasn't in
+
+1592
+00:28:57,830 --> 00:28:57,840
+was an upper memory and it wasn't in
+ 
+
+1593
+00:28:57,840 --> 00:28:59,509
+was an upper memory and it wasn't in
+right protected region of memory which
+
+1594
+00:28:59,509 --> 00:28:59,519
+right protected region of memory which
+ 
+
+1595
+00:28:59,519 --> 00:29:01,549
+right protected region of memory which
+is a concern because we'd like it to be
+
+1596
+00:29:01,549 --> 00:29:01,559
+is a concern because we'd like it to be
+ 
+
+1597
+00:29:01,559 --> 00:29:03,190
+is a concern because we'd like it to be
+right protected but if we went to lower
+
+1598
+00:29:03,190 --> 00:29:03,200
+right protected but if we went to lower
+ 
+
+1599
+00:29:03,200 --> 00:29:05,310
+right protected but if we went to lower
+memory it takes an extra step to go
+
+1600
+00:29:05,310 --> 00:29:05,320
+memory it takes an extra step to go
+ 
+
+1601
+00:29:05,320 --> 00:29:06,950
+memory it takes an extra step to go
+between high and low memory so we were
+
+1602
+00:29:06,950 --> 00:29:06,960
+between high and low memory so we were
+ 
+
+1603
+00:29:06,960 --> 00:29:08,710
+between high and low memory so we were
+worried about the timing applications
+
+1604
+00:29:08,710 --> 00:29:08,720
+worried about the timing applications
+ 
+
+1605
+00:29:08,720 --> 00:29:10,630
+worried about the timing applications
+again so we ate the risk that we were
+
+1606
+00:29:10,630 --> 00:29:10,640
+again so we ate the risk that we were
+ 
+
+1607
+00:29:10,640 --> 00:29:13,110
+again so we ate the risk that we were
+writing to unwrite protected memory and
+
+1608
+00:29:13,110 --> 00:29:13,120
+writing to unwrite protected memory and
+ 
+
+1609
+00:29:13,120 --> 00:29:15,470
+writing to unwrite protected memory and
+we patched it on May 18th and it worked
+
+1610
+00:29:15,470 --> 00:29:15,480
+we patched it on May 18th and it worked
+ 
+
+1611
+00:29:15,480 --> 00:29:17,509
+we patched it on May 18th and it worked
+as well so I want to kind of highlight
+
+1612
+00:29:17,509 --> 00:29:17,519
+as well so I want to kind of highlight
+ 
+
+1613
+00:29:17,519 --> 00:29:18,830
+as well so I want to kind of highlight
+that one because I keep saying this
+
+1614
+00:29:18,830 --> 00:29:18,840
+that one because I keep saying this
+ 
+
+1615
+00:29:18,840 --> 00:29:20,509
+that one because I keep saying this
+little statement like it's really easy
+
+1616
+00:29:20,509 --> 00:29:20,519
+little statement like it's really easy
+ 
+
+1617
+00:29:20,519 --> 00:29:22,310
+little statement like it's really easy
+these guys did four patches we uplinked
+
+1618
+00:29:22,310 --> 00:29:22,320
+these guys did four patches we uplinked
+ 
+
+1619
+00:29:22,320 --> 00:29:23,950
+these guys did four patches we uplinked
+them but I want to show you just how
+
+1620
+00:29:23,950 --> 00:29:23,960
+them but I want to show you just how
+ 
+
+1621
+00:29:23,960 --> 00:29:25,870
+them but I want to show you just how
+hard it was what they
+
+1622
+00:29:25,870 --> 00:29:25,880
+hard it was what they
+ 
+
+1623
+00:29:25,880 --> 00:29:28,950
+hard it was what they
+did so this is a map along the bottom
+
+1624
+00:29:28,950 --> 00:29:28,960
+did so this is a map along the bottom
+ 
+
+1625
+00:29:28,960 --> 00:29:32,750
+did so this is a map along the bottom
+it's zero to 255 words trust me and then
+
+1626
+00:29:32,750 --> 00:29:32,760
+it's zero to 255 words trust me and then
+ 
+
+1627
+00:29:32,760 --> 00:29:34,669
+it's zero to 255 words trust me and then
+the next row up that's kind of slanted
+
+1628
+00:29:34,669 --> 00:29:34,679
+the next row up that's kind of slanted
+ 
+
+1629
+00:29:34,679 --> 00:29:36,430
+the next row up that's kind of slanted
+you'll just keep counting up right these
+
+1630
+00:29:36,430 --> 00:29:36,440
+you'll just keep counting up right these
+ 
+
+1631
+00:29:36,440 --> 00:29:38,710
+you'll just keep counting up right these
+are addresses incrementing along there
+
+1632
+00:29:38,710 --> 00:29:38,720
+are addresses incrementing along there
+ 
+
+1633
+00:29:38,720 --> 00:29:42,149
+are addresses incrementing along there
+this is upper memory 4,000 to 8,000 so
+
+1634
+00:29:42,149 --> 00:29:42,159
+this is upper memory 4,000 to 8,000 so
+ 
+
+1635
+00:29:42,159 --> 00:29:43,830
+this is upper memory 4,000 to 8,000 so
+this is essentially a memory map an
+
+1636
+00:29:43,830 --> 00:29:43,840
+this is essentially a memory map an
+ 
+
+1637
+00:29:43,840 --> 00:29:46,830
+this is essentially a memory map an
+Excel this blue line going across this
+
+1638
+00:29:46,830 --> 00:29:46,840
+Excel this blue line going across this
+ 
+
+1639
+00:29:46,840 --> 00:29:49,029
+Excel this blue line going across this
+is the the failed chip so all these
+
+1640
+00:29:49,029 --> 00:29:49,039
+is the the failed chip so all these
+ 
+
+1641
+00:29:49,039 --> 00:29:51,230
+is the the failed chip so all these
+locations were trashed we didn't need
+
+1642
+00:29:51,230 --> 00:29:51,240
+locations were trashed we didn't need
+ 
+
+1643
+00:29:51,240 --> 00:29:52,710
+locations were trashed we didn't need
+the little piece that's called copy in
+
+1644
+00:29:52,710 --> 00:29:52,720
+the little piece that's called copy in
+ 
+
+1645
+00:29:52,720 --> 00:29:53,909
+the little piece that's called copy in
+the middle there but all the rest of
+
+1646
+00:29:53,909 --> 00:29:53,919
+the middle there but all the rest of
+ 
+
+1647
+00:29:53,919 --> 00:29:56,909
+the middle there but all the rest of
+this had to be relocated you can see
+
+1648
+00:29:56,909 --> 00:29:56,919
+this had to be relocated you can see
+ 
+
+1649
+00:29:56,919 --> 00:29:59,029
+this had to be relocated you can see
+that they took some of the sub routines
+
+1650
+00:29:59,029 --> 00:29:59,039
+that they took some of the sub routines
+ 
+
+1651
+00:29:59,039 --> 00:30:00,950
+that they took some of the sub routines
+and they broke them into pieces they
+
+1652
+00:30:00,950 --> 00:30:00,960
+and they broke them into pieces they
+ 
+
+1653
+00:30:00,960 --> 00:30:02,950
+and they broke them into pieces they
+stuffed them anywhere they could find in
+
+1654
+00:30:02,950 --> 00:30:02,960
+stuffed them anywhere they could find in
+ 
+
+1655
+00:30:02,960 --> 00:30:05,149
+stuffed them anywhere they could find in
+space all over the memory this is all
+
+1656
+00:30:05,149 --> 00:30:05,159
+space all over the memory this is all
+ 
+
+1657
+00:30:05,159 --> 00:30:08,950
+space all over the memory this is all
+upper memory they put in 14 14 different
+
+1658
+00:30:08,950 --> 00:30:08,960
+upper memory they put in 14 14 different
+ 
+
+1659
+00:30:08,960 --> 00:30:11,590
+upper memory they put in 14 14 different
+specific uh relocations of code in this
+
+1660
+00:30:11,590 --> 00:30:11,600
+specific uh relocations of code in this
+ 
+
+1661
+00:30:11,600 --> 00:30:14,070
+specific uh relocations of code in this
+case to recover the functionality that
+
+1662
+00:30:14,070 --> 00:30:14,080
+case to recover the functionality that
+ 
+
+1663
+00:30:14,080 --> 00:30:17,710
+case to recover the functionality that
+was lost in the blue line additionally
+
+1664
+00:30:17,710 --> 00:30:17,720
+was lost in the blue line additionally
+ 
+
+1665
+00:30:17,720 --> 00:30:21,029
+was lost in the blue line additionally
+this is now from 0 to 8,000 addresses
+
+1666
+00:30:21,029 --> 00:30:21,039
+this is now from 0 to 8,000 addresses
+ 
+
+1667
+00:30:21,039 --> 00:30:24,029
+this is now from 0 to 8,000 addresses
+and 100 addresses across these are all
+
+1668
+00:30:24,029 --> 00:30:24,039
+and 100 addresses across these are all
+ 
+
+1669
+00:30:24,039 --> 00:30:25,909
+and 100 addresses across these are all
+of the new and modified instructions
+
+1670
+00:30:25,909 --> 00:30:25,919
+of the new and modified instructions
+ 
+
+1671
+00:30:25,919 --> 00:30:27,789
+of the new and modified instructions
+that they had to do they had the change
+
+1672
+00:30:27,789 --> 00:30:27,799
+that they had to do they had the change
+ 
+
+1673
+00:30:27,799 --> 00:30:30,190
+that they had to do they had the change
+to to reference this relocated code
+
+1674
+00:30:30,190 --> 00:30:30,200
+to to reference this relocated code
+ 
+
+1675
+00:30:30,200 --> 00:30:32,269
+to to reference this relocated code
+again no assembler no test bed no
+
+1676
+00:30:32,269 --> 00:30:32,279
+again no assembler no test bed no
+ 
+
+1677
+00:30:32,279 --> 00:30:35,470
+again no assembler no test bed no
+simulator these guys were
+
+1678
+00:30:35,470 --> 00:30:35,480
+
+ 
+
+1679
+00:30:35,480 --> 00:30:38,269
+
+awesome then finally we had to restore
+
+1680
+00:30:38,269 --> 00:30:38,279
+awesome then finally we had to restore
+ 
+
+1681
+00:30:38,279 --> 00:30:40,990
+awesome then finally we had to restore
+our spacecraft and instruments so um we
+
+1682
+00:30:40,990 --> 00:30:41,000
+our spacecraft and instruments so um we
+ 
+
+1683
+00:30:41,000 --> 00:30:42,710
+our spacecraft and instruments so um we
+got our frames turned back on we had to
+
+1684
+00:30:42,710 --> 00:30:42,720
+got our frames turned back on we had to
+ 
+
+1685
+00:30:42,720 --> 00:30:45,230
+got our frames turned back on we had to
+resync our cxs we got the autonomous
+
+1686
+00:30:45,230 --> 00:30:45,240
+resync our cxs we got the autonomous
+ 
+
+1687
+00:30:45,240 --> 00:30:46,789
+resync our cxs we got the autonomous
+sequencing roughly going we're still
+
+1688
+00:30:46,789 --> 00:30:46,799
+sequencing roughly going we're still
+ 
+
+1689
+00:30:46,799 --> 00:30:48,110
+sequencing roughly going we're still
+playing with that because things got
+
+1690
+00:30:48,110 --> 00:30:48,120
+playing with that because things got
+ 
+
+1691
+00:30:48,120 --> 00:30:50,310
+playing with that because things got
+pretty screwed up and three of the four
+
+1692
+00:30:50,310 --> 00:30:50,320
+pretty screwed up and three of the four
+ 
+
+1693
+00:30:50,320 --> 00:30:51,509
+pretty screwed up and three of the four
+instruments that stopped working
+
+1694
+00:30:51,509 --> 00:30:51,519
+instruments that stopped working
+ 
+
+1695
+00:30:51,519 --> 00:30:53,149
+instruments that stopped working
+properly because the fds is kind of
+
+1696
+00:30:53,149 --> 00:30:53,159
+properly because the fds is kind of
+ 
+
+1697
+00:30:53,159 --> 00:30:55,509
+properly because the fds is kind of
+their caretaker and one of them has this
+
+1698
+00:30:55,509 --> 00:30:55,519
+their caretaker and one of them has this
+ 
+
+1699
+00:30:55,519 --> 00:30:57,590
+their caretaker and one of them has this
+little motor the the upper half of this
+
+1700
+00:30:57,590 --> 00:30:57,600
+little motor the the upper half of this
+ 
+
+1701
+00:30:57,600 --> 00:31:00,669
+little motor the the upper half of this
+instrument rotates 180° in 8 discreet
+
+1702
+00:31:00,669 --> 00:31:00,679
+instrument rotates 180° in 8 discreet
+ 
+
+1703
+00:31:00,679 --> 00:31:03,710
+instrument rotates 180° in 8 discreet
+steps every uh 2 minutes or so it's
+
+1704
+00:31:03,710 --> 00:31:03,720
+steps every uh 2 minutes or so it's
+ 
+
+1705
+00:31:03,720 --> 00:31:06,149
+steps every uh 2 minutes or so it's
+stepped over 8 million times in Flight
+
+1706
+00:31:06,149 --> 00:31:06,159
+stepped over 8 million times in Flight
+ 
+
+1707
+00:31:06,159 --> 00:31:09,110
+stepped over 8 million times in Flight
+it got stuck during this downtime so we
+
+1708
+00:31:09,110 --> 00:31:09,120
+it got stuck during this downtime so we
+ 
+
+1709
+00:31:09,120 --> 00:31:11,190
+it got stuck during this downtime so we
+we reinitialized the instrument and it
+
+1710
+00:31:11,190 --> 00:31:11,200
+we reinitialized the instrument and it
+ 
+
+1711
+00:31:11,200 --> 00:31:12,629
+we reinitialized the instrument and it
+looked pretty bad for a while and then
+
+1712
+00:31:12,629 --> 00:31:12,639
+looked pretty bad for a while and then
+ 
+
+1713
+00:31:12,639 --> 00:31:14,310
+looked pretty bad for a while and then
+little by little it broke itself free
+
+1714
+00:31:14,310 --> 00:31:14,320
+little by little it broke itself free
+ 
+
+1715
+00:31:14,320 --> 00:31:15,830
+little by little it broke itself free
+and began to work again which was really
+
+1716
+00:31:15,830 --> 00:31:15,840
+and began to work again which was really
+ 
+
+1717
+00:31:15,840 --> 00:31:17,990
+and began to work again which was really
+good news for us so basically at the end
+
+1718
+00:31:17,990 --> 00:31:18,000
+good news for us so basically at the end
+ 
+
+1719
+00:31:18,000 --> 00:31:19,789
+good news for us so basically at the end
+of May we were back to nominal
+
+1720
+00:31:19,789 --> 00:31:19,799
+of May we were back to nominal
+ 
+
+1721
+00:31:19,799 --> 00:31:22,430
+of May we were back to nominal
+operations and then we had uh two data
+
+1722
+00:31:22,430 --> 00:31:22,440
+operations and then we had uh two data
+ 
+
+1723
+00:31:22,440 --> 00:31:24,470
+operations and then we had uh two data
+modes for the PWS to play back and
+
+1724
+00:31:24,470 --> 00:31:24,480
+modes for the PWS to play back and
+ 
+
+1725
+00:31:24,480 --> 00:31:29,269
+modes for the PWS to play back and
+record and those were confirmed in July
+
+1726
+00:31:29,269 --> 00:31:29,279
+record and those were confirmed in July
+ 
+
+1727
+00:31:29,279 --> 00:31:31,230
+record and those were confirmed in July
+and that's how you fix your 47y old
+
+1728
+00:31:31,230 --> 00:31:31,240
+and that's how you fix your 47y old
+ 
+
+1729
+00:31:31,240 --> 00:31:34,350
+and that's how you fix your 47y old
+computer from 15 billion miles
+
+1730
+00:31:34,350 --> 00:31:34,360
+computer from 15 billion miles
+ 
+
+1731
+00:31:34,360 --> 00:31:39,909
+computer from 15 billion miles
+away that was pretty
+
+1732
+00:31:39,909 --> 00:31:39,919
+
+ 
+
+1733
+00:31:39,919 --> 00:31:42,230
+
+cool and just you know I didn't do that
+
+1734
+00:31:42,230 --> 00:31:42,240
+cool and just you know I didn't do that
+ 
+
+1735
+00:31:42,240 --> 00:31:43,990
+cool and just you know I didn't do that
+that was the that was David and Arman
+
+1736
+00:31:43,990 --> 00:31:44,000
+that was the that was David and Arman
+ 
+
+1737
+00:31:44,000 --> 00:31:46,629
+that was the that was David and Arman
+they were amazing so um I'm not going to
+
+1738
+00:31:46,629 --> 00:31:46,639
+they were amazing so um I'm not going to
+ 
+
+1739
+00:31:46,639 --> 00:31:48,029
+they were amazing so um I'm not going to
+go over this whole slide because some of
+
+1740
+00:31:48,029 --> 00:31:48,039
+go over this whole slide because some of
+ 
+
+1741
+00:31:48,039 --> 00:31:50,549
+go over this whole slide because some of
+this is internal but um I just gave this
+
+1742
+00:31:50,549 --> 00:31:50,559
+this is internal but um I just gave this
+ 
+
+1743
+00:31:50,559 --> 00:31:52,029
+this is internal but um I just gave this
+talk Thursday for the first time so you
+
+1744
+00:31:52,029 --> 00:31:52,039
+talk Thursday for the first time so you
+ 
+
+1745
+00:31:52,039 --> 00:31:53,710
+talk Thursday for the first time so you
+guys are the first people outside of JPL
+
+1746
+00:31:53,710 --> 00:31:53,720
+guys are the first people outside of JPL
+ 
+
+1747
+00:31:53,720 --> 00:31:56,230
+guys are the first people outside of JPL
+to hear it um I think the voyagers give
+
+1748
+00:31:56,230 --> 00:31:56,240
+to hear it um I think the voyagers give
+ 
+
+1749
+00:31:56,240 --> 00:31:57,909
+to hear it um I think the voyagers give
+this beautiful balance in their software
+
+1750
+00:31:57,909 --> 00:31:57,919
+this beautiful balance in their software
+ 
+
+1751
+00:31:57,919 --> 00:32:00,509
+this beautiful balance in their software
+between operational flexibility balanced
+
+1752
+00:32:00,509 --> 00:32:00,519
+between operational flexibility balanced
+ 
+
+1753
+00:32:00,519 --> 00:32:02,470
+between operational flexibility balanced
+against understandability and intrinsic
+
+1754
+00:32:02,470 --> 00:32:02,480
+against understandability and intrinsic
+ 
+
+1755
+00:32:02,480 --> 00:32:04,590
+against understandability and intrinsic
+robustness in other words Voyer software
+
+1756
+00:32:04,590 --> 00:32:04,600
+robustness in other words Voyer software
+ 
+
+1757
+00:32:04,600 --> 00:32:06,710
+robustness in other words Voyer software
+is understandable it can recover from
+
+1758
+00:32:06,710 --> 00:32:06,720
+is understandable it can recover from
+ 
+
+1759
+00:32:06,720 --> 00:32:08,710
+is understandable it can recover from
+almost anything but it's also flexible
+
+1760
+00:32:08,710 --> 00:32:08,720
+almost anything but it's also flexible
+ 
+
+1761
+00:32:08,720 --> 00:32:10,070
+almost anything but it's also flexible
+and that's a hard balance I think
+
+1762
+00:32:10,070 --> 00:32:10,080
+and that's a hard balance I think
+ 
+
+1763
+00:32:10,080 --> 00:32:11,830
+and that's a hard balance I think
+nowadays most of the spacecraft I work
+
+1764
+00:32:11,830 --> 00:32:11,840
+nowadays most of the spacecraft I work
+ 
+
+1765
+00:32:11,840 --> 00:32:13,990
+nowadays most of the spacecraft I work
+on you can't tell what the software is
+
+1766
+00:32:13,990 --> 00:32:14,000
+on you can't tell what the software is
+ 
+
+1767
+00:32:14,000 --> 00:32:15,669
+on you can't tell what the software is
+going to do because you have competing
+
+1768
+00:32:15,669 --> 00:32:15,679
+going to do because you have competing
+ 
+
+1769
+00:32:15,679 --> 00:32:18,190
+going to do because you have competing
+algorithms you have so many so many
+
+1770
+00:32:18,190 --> 00:32:18,200
+algorithms you have so many so many
+ 
+
+1771
+00:32:18,200 --> 00:32:20,269
+algorithms you have so many so many
+possible triggers for called actions
+
+1772
+00:32:20,269 --> 00:32:20,279
+possible triggers for called actions
+ 
+
+1773
+00:32:20,279 --> 00:32:21,629
+possible triggers for called actions
+that you can't anticipate them in
+
+1774
+00:32:21,629 --> 00:32:21,639
+that you can't anticipate them in
+ 
+
+1775
+00:32:21,639 --> 00:32:23,950
+that you can't anticipate them in
+simulators so I've seen cases where we
+
+1776
+00:32:23,950 --> 00:32:23,960
+simulators so I've seen cases where we
+ 
+
+1777
+00:32:23,960 --> 00:32:25,710
+simulators so I've seen cases where we
+get algorithms fighting it out over
+
+1778
+00:32:25,710 --> 00:32:25,720
+get algorithms fighting it out over
+ 
+
+1779
+00:32:25,720 --> 00:32:27,909
+get algorithms fighting it out over
+battery control or something like that
+
+1780
+00:32:27,909 --> 00:32:27,919
+battery control or something like that
+ 
+
+1781
+00:32:27,919 --> 00:32:29,549
+battery control or something like that
+and you just can't figure out even the
+
+1782
+00:32:29,549 --> 00:32:29,559
+and you just can't figure out even the
+ 
+
+1783
+00:32:29,559 --> 00:32:30,830
+and you just can't figure out even the
+experts can't figure out what they're
+
+1784
+00:32:30,830 --> 00:32:30,840
+experts can't figure out what they're
+ 
+
+1785
+00:32:30,840 --> 00:32:32,669
+experts can't figure out what they're
+doing we could figure out with what
+
+1786
+00:32:32,669 --> 00:32:32,679
+doing we could figure out with what
+ 
+
+1787
+00:32:32,679 --> 00:32:35,470
+doing we could figure out with what
+Voyer was doing even without Telemetry
+
+1788
+00:32:35,470 --> 00:32:35,480
+Voyer was doing even without Telemetry
+ 
+
+1789
+00:32:35,480 --> 00:32:37,269
+Voyer was doing even without Telemetry
+um I think the negative that really hurt
+
+1790
+00:32:37,269 --> 00:32:37,279
+um I think the negative that really hurt
+ 
+
+1791
+00:32:37,279 --> 00:32:39,070
+um I think the negative that really hurt
+us was our spacecraft have been healthy
+
+1792
+00:32:39,070 --> 00:32:39,080
+us was our spacecraft have been healthy
+ 
+
+1793
+00:32:39,080 --> 00:32:41,549
+us was our spacecraft have been healthy
+for decades and that uh that certainly
+
+1794
+00:32:41,549 --> 00:32:41,559
+for decades and that uh that certainly
+ 
+
+1795
+00:32:41,559 --> 00:32:44,310
+for decades and that uh that certainly
+contributes to loss of knowledge um and
+
+1796
+00:32:44,310 --> 00:32:44,320
+contributes to loss of knowledge um and
+ 
+
+1797
+00:32:44,320 --> 00:32:46,629
+contributes to loss of knowledge um and
+then I think um we talked a little bit
+
+1798
+00:32:46,629 --> 00:32:46,639
+then I think um we talked a little bit
+ 
+
+1799
+00:32:46,639 --> 00:32:50,669
+then I think um we talked a little bit
+about um Fabric and maintaining data you
+
+1800
+00:32:50,669 --> 00:32:50,679
+about um Fabric and maintaining data you
+ 
+
+1801
+00:32:50,679 --> 00:32:52,350
+about um Fabric and maintaining data you
+guys thought lost in accessible
+
+1802
+00:32:52,350 --> 00:32:52,360
+guys thought lost in accessible
+ 
+
+1803
+00:32:52,360 --> 00:32:53,950
+guys thought lost in accessible
+documentation voyager's been through so
+
+1804
+00:32:53,950 --> 00:32:53,960
+documentation voyager's been through so
+ 
+
+1805
+00:32:53,960 --> 00:32:56,669
+documentation voyager's been through so
+many media transitions right paper
+
+1806
+00:32:56,669 --> 00:32:56,679
+many media transitions right paper
+ 
+
+1807
+00:32:56,679 --> 00:32:58,549
+many media transitions right paper
+through scanning through CD discs
+
+1808
+00:32:58,549 --> 00:32:58,559
+through scanning through CD discs
+ 
+
+1809
+00:32:58,559 --> 00:33:00,509
+through scanning through CD discs
+through tape drives through we used
+
+1810
+00:33:00,509 --> 00:33:00,519
+through tape drives through we used
+ 
+
+1811
+00:33:00,519 --> 00:33:03,470
+through tape drives through we used
+paper tape um and cards at the beginning
+
+1812
+00:33:03,470 --> 00:33:03,480
+paper tape um and cards at the beginning
+ 
+
+1813
+00:33:03,480 --> 00:33:05,590
+paper tape um and cards at the beginning
+our some of our ground software was was
+
+1814
+00:33:05,590 --> 00:33:05,600
+our some of our ground software was was
+ 
+
+1815
+00:33:05,600 --> 00:33:07,430
+our some of our ground software was was
+basically on a Unix system but it's
+
+1816
+00:33:07,430 --> 00:33:07,440
+basically on a Unix system but it's
+ 
+
+1817
+00:33:07,440 --> 00:33:09,990
+basically on a Unix system but it's
+emulating a water cooled univac from the
+
+1818
+00:33:09,990 --> 00:33:10,000
+emulating a water cooled univac from the
+ 
+
+1819
+00:33:10,000 --> 00:33:13,549
+emulating a water cooled univac from the
+1970s um all this stuff is is evolving
+
+1820
+00:33:13,549 --> 00:33:13,559
+1970s um all this stuff is is evolving
+ 
+
+1821
+00:33:13,559 --> 00:33:16,070
+1970s um all this stuff is is evolving
+constantly in over a 50-year mission we
+
+1822
+00:33:16,070 --> 00:33:16,080
+constantly in over a 50-year mission we
+ 
+
+1823
+00:33:16,080 --> 00:33:17,789
+constantly in over a 50-year mission we
+didn't have the money to maintain it so
+
+1824
+00:33:17,789 --> 00:33:17,799
+didn't have the money to maintain it so
+ 
+
+1825
+00:33:17,799 --> 00:33:19,710
+didn't have the money to maintain it so
+we got got into the situation where the
+
+1826
+00:33:19,710 --> 00:33:19,720
+we got got into the situation where the
+ 
+
+1827
+00:33:19,720 --> 00:33:22,110
+we got got into the situation where the
+documentation was bad so I agree that's
+
+1828
+00:33:22,110 --> 00:33:22,120
+documentation was bad so I agree that's
+ 
+
+1829
+00:33:22,120 --> 00:33:23,789
+documentation was bad so I agree that's
+a really difficult problem and we need
+
+1830
+00:33:23,789 --> 00:33:23,799
+a really difficult problem and we need
+ 
+
+1831
+00:33:23,799 --> 00:33:27,070
+a really difficult problem and we need
+to do a little better with that um but
+
+1832
+00:33:27,070 --> 00:33:27,080
+to do a little better with that um but
+ 
+
+1833
+00:33:27,080 --> 00:33:29,430
+to do a little better with that um but
+we do have some final Bulls we're we're
+
+1834
+00:33:29,430 --> 00:33:29,440
+we do have some final Bulls we're we're
+ 
+
+1835
+00:33:29,440 --> 00:33:31,470
+we do have some final Bulls we're we're
+dealing with some of these um issues we
+
+1836
+00:33:31,470 --> 00:33:31,480
+dealing with some of these um issues we
+ 
+
+1837
+00:33:31,480 --> 00:33:35,110
+dealing with some of these um issues we
+had because we want to get out to around
+
+1838
+00:33:35,110 --> 00:33:35,120
+had because we want to get out to around
+ 
+
+1839
+00:33:35,120 --> 00:33:39,190
+had because we want to get out to around
+200 Au which would be in uh let's see
+
+1840
+00:33:39,190 --> 00:33:39,200
+200 Au which would be in uh let's see
+ 
+
+1841
+00:33:39,200 --> 00:33:42,190
+200 Au which would be in uh let's see
+2035 I don't know if we will get there
+
+1842
+00:33:42,190 --> 00:33:42,200
+2035 I don't know if we will get there
+ 
+
+1843
+00:33:42,200 --> 00:33:45,230
+2035 I don't know if we will get there
+um so the gray boxes are are years the
+
+1844
+00:33:45,230 --> 00:33:45,240
+um so the gray boxes are are years the
+ 
+
+1845
+00:33:45,240 --> 00:33:46,789
+um so the gray boxes are are years the
+gold numbers underneath them are the
+
+1846
+00:33:46,789 --> 00:33:46,799
+gold numbers underneath them are the
+ 
+
+1847
+00:33:46,799 --> 00:33:49,149
+gold numbers underneath them are the
+actual Aus were away these bars with
+
+1848
+00:33:49,149 --> 00:33:49,159
+actual Aus were away these bars with
+ 
+
+1849
+00:33:49,159 --> 00:33:51,789
+actual Aus were away these bars with
+lecp CRS Megan PWS that's when the
+
+1850
+00:33:51,789 --> 00:33:51,799
+lecp CRS Megan PWS that's when the
+ 
+
+1851
+00:33:51,799 --> 00:33:53,350
+lecp CRS Megan PWS that's when the
+instruments get turned off they've
+
+1852
+00:33:53,350 --> 00:33:53,360
+instruments get turned off they've
+ 
+
+1853
+00:33:53,360 --> 00:33:54,990
+instruments get turned off they've
+already been on about six years longer
+
+1854
+00:33:54,990 --> 00:33:55,000
+already been on about six years longer
+ 
+
+1855
+00:33:55,000 --> 00:33:56,629
+already been on about six years longer
+than we thought we need we would have to
+
+1856
+00:33:56,629 --> 00:33:56,639
+than we thought we need we would have to
+ 
+
+1857
+00:33:56,639 --> 00:33:58,269
+than we thought we need we would have to
+turn them off because of the changes
+
+1858
+00:33:58,269 --> 00:33:58,279
+turn them off because of the changes
+ 
+
+1859
+00:33:58,279 --> 00:34:01,310
+turn them off because of the changes
+we've made um these little covered boxes
+
+1860
+00:34:01,310 --> 00:34:01,320
+we've made um these little covered boxes
+ 
+
+1861
+00:34:01,320 --> 00:34:02,710
+we've made um these little covered boxes
+if I take one of those away this
+
+1862
+00:34:02,710 --> 00:34:02,720
+if I take one of those away this
+ 
+
+1863
+00:34:02,720 --> 00:34:04,269
+if I take one of those away this
+timeline shrinks by that amount these
+
+1864
+00:34:04,269 --> 00:34:04,279
+timeline shrinks by that amount these
+ 
+
+1865
+00:34:04,279 --> 00:34:05,950
+timeline shrinks by that amount these
+are all steps that we take to increase
+
+1866
+00:34:05,950 --> 00:34:05,960
+are all steps that we take to increase
+ 
+
+1867
+00:34:05,960 --> 00:34:08,310
+are all steps that we take to increase
+the timeline so our goal is to keep them
+
+1868
+00:34:08,310 --> 00:34:08,320
+the timeline so our goal is to keep them
+ 
+
+1869
+00:34:08,320 --> 00:34:12,829
+the timeline so our goal is to keep them
+alive until 20 2030s something like that
+
+1870
+00:34:12,829 --> 00:34:12,839
+alive until 20 2030s something like that
+ 
+
+1871
+00:34:12,839 --> 00:34:14,030
+alive until 20 2030s something like that
+but you can see that I've got an
+
+1872
+00:34:14,030 --> 00:34:14,040
+but you can see that I've got an
+ 
+
+1873
+00:34:14,040 --> 00:34:15,869
+but you can see that I've got an
+estimated survival probability there in
+
+1874
+00:34:15,869 --> 00:34:15,879
+estimated survival probability there in
+ 
+
+1875
+00:34:15,879 --> 00:34:18,270
+estimated survival probability there in
+the light pink um the probability of us
+
+1876
+00:34:18,270 --> 00:34:18,280
+the light pink um the probability of us
+ 
+
+1877
+00:34:18,280 --> 00:34:20,790
+the light pink um the probability of us
+making Beyond 2028 begins to drop pretty
+
+1878
+00:34:20,790 --> 00:34:20,800
+making Beyond 2028 begins to drop pretty
+ 
+
+1879
+00:34:20,800 --> 00:34:23,990
+making Beyond 2028 begins to drop pretty
+quickly so we've got at least four or
+
+1880
+00:34:23,990 --> 00:34:24,000
+quickly so we've got at least four or
+ 
+
+1881
+00:34:24,000 --> 00:34:25,510
+quickly so we've got at least four or
+five more years in them I think we're
+
+1882
+00:34:25,510 --> 00:34:25,520
+five more years in them I think we're
+ 
+
+1883
+00:34:25,520 --> 00:34:27,149
+five more years in them I think we're
+also having some Thruster issues that
+
+1884
+00:34:27,149 --> 00:34:27,159
+also having some Thruster issues that
+ 
+
+1885
+00:34:27,159 --> 00:34:28,550
+also having some Thruster issues that
+may be the end we're going to do a
+
+1886
+00:34:28,550 --> 00:34:28,560
+may be the end we're going to do a
+ 
+
+1887
+00:34:28,560 --> 00:34:30,109
+may be the end we're going to do a
+Thruster Branch swap in the next two
+
+1888
+00:34:30,109 --> 00:34:30,119
+Thruster Branch swap in the next two
+ 
+
+1889
+00:34:30,119 --> 00:34:31,710
+Thruster Branch swap in the next two
+weeks so keep your fingers
+
+1890
+00:34:31,710 --> 00:34:31,720
+weeks so keep your fingers
+ 
+
+1891
+00:34:31,720 --> 00:34:34,310
+weeks so keep your fingers
+crossed and then last we are an
+
+1892
+00:34:34,310 --> 00:34:34,320
+crossed and then last we are an
+ 
+
+1893
+00:34:34,320 --> 00:34:36,510
+crossed and then last we are an
+inspiration Mission this uh this really
+
+1894
+00:34:36,510 --> 00:34:36,520
+inspiration Mission this uh this really
+ 
+
+1895
+00:34:36,520 --> 00:34:38,790
+inspiration Mission this uh this really
+taught us that we matter to and inspire
+
+1896
+00:34:38,790 --> 00:34:38,800
+taught us that we matter to and inspire
+ 
+
+1897
+00:34:38,800 --> 00:34:40,750
+taught us that we matter to and inspire
+people around the world our project
+
+1898
+00:34:40,750 --> 00:34:40,760
+people around the world our project
+ 
+
+1899
+00:34:40,760 --> 00:34:42,790
+people around the world our project
+manager Susie DOD calls these Humanity
+
+1900
+00:34:42,790 --> 00:34:42,800
+manager Susie DOD calls these Humanity
+ 
+
+1901
+00:34:42,800 --> 00:34:44,990
+manager Susie DOD calls these Humanity
+spacecraft because people do care about
+
+1902
+00:34:44,990 --> 00:34:45,000
+spacecraft because people do care about
+ 
+
+1903
+00:34:45,000 --> 00:34:47,510
+spacecraft because people do care about
+them we had universally positive and
+
+1904
+00:34:47,510 --> 00:34:47,520
+them we had universally positive and
+ 
+
+1905
+00:34:47,520 --> 00:34:49,349
+them we had universally positive and
+supportive media coverage during the an
+
+1906
+00:34:49,349 --> 00:34:49,359
+supportive media coverage during the an
+ 
+
+1907
+00:34:49,359 --> 00:34:51,389
+supportive media coverage during the an
+aloy which is pretty rare these days for
+
+1908
+00:34:51,389 --> 00:34:51,399
+aloy which is pretty rare these days for
+ 
+
+1909
+00:34:51,399 --> 00:34:54,589
+aloy which is pretty rare these days for
+any event we had 90 significant media
+
+1910
+00:34:54,589 --> 00:34:54,599
+any event we had 90 significant media
+ 
+
+1911
+00:34:54,599 --> 00:34:57,190
+any event we had 90 significant media
+hits hundreds of Internet stories on our
+
+1912
+00:34:57,190 --> 00:34:57,200
+hits hundreds of Internet stories on our
+ 
+
+1913
+00:34:57,200 --> 00:34:58,990
+hits hundreds of Internet stories on our
+website was the big story of the year
+
+1914
+00:34:58,990 --> 00:34:59,000
+website was the big story of the year
+ 
+
+1915
+00:34:59,000 --> 00:35:02,310
+website was the big story of the year
+and we had social media um mentions and
+
+1916
+00:35:02,310 --> 00:35:02,320
+and we had social media um mentions and
+ 
+
+1917
+00:35:02,320 --> 00:35:04,750
+and we had social media um mentions and
+and benchmarks way above average but
+
+1918
+00:35:04,750 --> 00:35:04,760
+and benchmarks way above average but
+ 
+
+1919
+00:35:04,760 --> 00:35:07,069
+and benchmarks way above average but
+best of all we get really cool fan mail
+
+1920
+00:35:07,069 --> 00:35:07,079
+best of all we get really cool fan mail
+ 
+
+1921
+00:35:07,079 --> 00:35:09,580
+best of all we get really cool fan mail
+so Dana
+
+1922
+00:35:09,580 --> 00:35:09,590
+so Dana
+ 
+
+1923
+00:35:09,590 --> 00:35:16,229
+so Dana
+[Applause]
+

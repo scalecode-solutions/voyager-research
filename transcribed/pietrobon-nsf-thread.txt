@@ -1,0 +1,522 @@
+ 
+
+ NASA - Voyager 1 and 2 updates 
+
+ Forums 
+ L2 Sign Up 
+ SLS/Orion 
+ SpaceX 
+ Commercial 
+ ISS 
+ International 
+ Other 
+ Shop 
+
+ Home 
+
+ Help 
+
+ Calendar 
+
+ Login 
+
+ Register 
+
+ Forums &#187;
+
+ Robotic Spacecraft (Astronomy, Planetary, Earth, Solar/Heliophysics) &#187;
+
+ Space Science Coverage &#187;
+
+ NASA - Voyager 1 and 2 updates 
+
+ 878 Likes 
+
+ Print 
+
+ Pages: 1 ... 21 22 [ 23 ] 24 25 ... 30 Next Go Down 
+
+ Author 
+ Topic: NASA - Voyager 1 and 2 updates (Read 545607 times)
+
+ Targeteer 
+
+ Senior Member 
+
+ Posts: 8011 
+ near hangar 18 
+
+ Liked: 5500 
+ Likes Given: 1777 
+
+ Re: NASA - Voyager 1 and 2 updates 
+
+ &#171; Reply #440 on: 11/08/2024 03:50 am &#187; 
+
+ Canberra receiving X band from Voyager 1 at 40 bit/s! 
+
+ Screenshot 2024-11-07 at 23-48-27 DSN Now.png 
+ (67.89 kB, 1613x168 - viewed 185 times.) 
+
+ &#171; Last Edit: 11/08/2024 06:50 pm by Targeteer &#187;
+
+ Logged
+
+ robertross , catdlr , MickQ 
+ and 4 others like this 
+
+ Best quote heard during an inspection, "I was unaware that I was the only one who was aware." 
+
+ MickQ 
+
+ Full Member 
+
+ Posts: 1106 
+ Atherton, Australia. 
+
+ Liked: 320 
+ Likes Given: 855 
+
+ Re: NASA - Voyager 1 and 2 updates 
+
+ &#171; Reply #441 on: 11/08/2024 04:49 am &#187; 
+
+ Should we be relieved now ? 
+
+ Logged
+
+ Targeteer 
+
+ Senior Member 
+
+ Posts: 8011 
+ near hangar 18 
+
+ Liked: 5500 
+ Likes Given: 1777 
+
+ Re: NASA - Voyager 1 and 2 updates 
+
+ &#171; Reply #442 on: 11/08/2024 06:50 pm &#187; 
+
+ Quote from: Targeteer on 11/08/2024 03:50 am Canberra receiving X band from Voyager 1 at 40 bit/s! Madrid now receiving at the same rate. 
+
+ Logged
+
+ deadman1204 
+ likes this 
+
+ Best quote heard during an inspection, "I was unaware that I was the only one who was aware." 
+
+ Hobbes-22 
+
+ Full Member 
+
+ Posts: 1024 
+ Acme Engineering 
+
+ Liked: 717 
+ Likes Given: 606 
+
+ Re: NASA - Voyager 1 and 2 updates 
+
+ &#171; Reply #443 on: 11/08/2024 08:09 pm &#187; 
+
+ Quote from: MickQ on 11/08/2024 04:49 am Should we be relieved now ? If they're receiving X band, clearly the X band transmitter still works. 
+
+ Logged
+
+ Lee Jay 
+
+ Elite Veteran 
+ Senior Member 
+
+ Posts: 9166 
+
+ Liked: 4302 
+ Likes Given: 418 
+
+ Re: NASA - Voyager 1 and 2 updates 
+
+ &#171; Reply #444 on: 11/08/2024 08:14 pm &#187; 
+
+ Quote from: Hobbes-22 on 11/08/2024 08:09 pm Quote from: MickQ on 11/08/2024 04:49 am Should we be relieved now ? If they're receiving X band, clearly the X band transmitter still works. I'll be relieved when they know what caused the issue (the heater shouldn't have but perhaps did - why?), have a way to prevent it in the future, and confirm the system is actually collecting and returning science data. 
+
+ Logged
+
+ Targeteer , JonAl and MickQ 
+ like this 
+
+ zeke01 
+
+ Member 
+
+ Posts: 79 
+
+ Liked: 14 
+ Likes Given: 50 
+
+ Re: NASA - Voyager 1 and 2 updates 
+
+ &#171; Reply #445 on: 11/10/2024 12:54 pm &#187; 
+
+ Madrid in communication with Voyager 1 again this morning on X band frequency at 40 bps. 
+
+ VGR1-1 .png 
+ (53.44 kB, 408x401 - viewed 160 times.) 
+ VGR1-2.png 
+ (17.15 kB, 181x315 - viewed 637 times.) 
+
+ &#171; Last Edit: 11/10/2024 12:55 pm by zeke01 &#187;
+
+ Logged
+
+ nicp 
+ likes this 
+
+ Nomadd 
+
+ Senior Member 
+
+ Posts: 9112 
+ Virginia 
+
+ Liked: 61625 
+ Likes Given: 1415 
+
+ Re: NASA - Voyager 1 and 2 updates 
+
+ &#171; Reply #446 on: 11/10/2024 04:31 pm &#187; 
+
+ Does the old girl have the smarts to switch everything back to the last good configuration if it loses comms for a period? 
+
+ Logged
+
+ Those who danced were thought to be quite insane by those who couldn't hear the music. 
+
+ ccdengr 
+
+ Full Member 
+
+ Posts: 855 
+
+ Liked: 634 
+ Likes Given: 87 
+
+ Re: NASA - Voyager 1 and 2 updates 
+
+ &#171; Reply #447 on: 11/10/2024 05:45 pm &#187; 
+
+ Quote from: Nomadd on 11/10/2024 04:31 pm Does the old girl have the smarts to switch everything back to the last good configuration if it loses comms for a period? I don't think it remembers what the last good configuration is, but it switches between available subsystems and would eventually work its way back to it, assuming there's no fatal loop in the behavior caused by hardware problems. In this case I don't know if it autonomously went back to X band or if they commanded it back. Not a lot of detail but see https://dataverse.jpl.nasa.gov/file.xhtml?fileId=53751&version=2.0 "Voyager Interstellar Mission: Challenges of Flying a Very Old Spacecraft on a Very Long Mission" Quote Power Recovery (PWRCHK) routine configures itself to a safe, low-power operating mode following a power subsystem undervoltage condition, a main to standby inverter switch, or a CCS tolerance detector trip. Reviewing and modifying the routine is ongoing to reflect the changing environment such as incorporating the power reduction measures. For example, the S-band carrier only mode (radio signal without any telemetry) has been added as the last resort. The spacecraft will be placed in a mode that needs least power and telecom margin, and waits for the ground intervention. For V2, the routine has been modified to mitigate the risk from the faulty power decoder relay matrix. Radio Frequency Power Loss (RFLOSS) routine provides the spacecraft a means of automatically recovering from a failure of an S-band or X-band exciter or transmitter. It was modified in response to spacecraft anomalies (USO failure on V1 and power decoder relay matrix anomaly on V2) and to incorporate the FT response time in the VIM environment. The S-band carrier only mode has been added as the last resort as well 
+
+ Logged
+
+ zubenelgenubi and Nomadd 
+ like this 
+
+ Targeteer 
+
+ Senior Member 
+
+ Posts: 8011 
+ near hangar 18 
+
+ Liked: 5500 
+ Likes Given: 1777 
+
+ Re: NASA - Voyager 1 and 2 updates 
+
+ &#171; Reply #448 on: 11/11/2024 11:07 am &#187; 
+
+ Quote from: zeke01 on 11/10/2024 12:54 pm Madrid in communication with Voyager 1 again this morning on X band frequency at 40 bps. Madrid currently receiving at 160 bits/sec 
+
+ Logged
+
+ zubenelgenubi , deadman1204 , Kaputnik 
+ and 2 others like this 
+
+ Best quote heard during an inspection, "I was unaware that I was the only one who was aware." 
+
+ DaveS 
+
+ Shuttle program observer 
+ Senior Member 
+
+ Posts: 8754 
+ Sweden 
+
+ Liked: 1493 
+ Likes Given: 80 
+
+ Re: NASA - Voyager 1 and 2 updates 
+
+ &#171; Reply #449 on: 11/11/2024 11:34 am &#187; 
+
+ Quote from: Targeteer on 11/11/2024 11:07 am Quote from: zeke01 on 11/10/2024 12:54 pm Madrid in communication with Voyager 1 again this morning on X band frequency at 40 bps. Madrid currently receiving at 160 bits/sec So back to a nominal comm config at high bit rate through the X-band transmitter. 
+
+ Logged
+
+ zubenelgenubi , Kiwi53 and Targeteer 
+ like this 
+
+ "For Sardines, space is no problem!" -1996 Astronaut class slogan "We&#39;re rolling in the wrong direction but for the right reasons" -USA engineer about the rollback of Discovery prior to the STS-114 Return To Flight mission 
+
+ Steven Pietrobon 
+
+ Member 
+ Senior Member 
+
+ Posts: 40512 
+ Adelaide, Australia 
+
+ Liked: 34681 
+ Likes Given: 12817 
+
+ Re: NASA - Voyager 1 and 2 updates 
+
+ &#171; Reply #450 on: 11/12/2024 05:34 am &#187; 
+
+ From the CMOS Processor paper here are the list of instructions for the FDS computer. Cycle time is 2.48 s (403.2 kHz). I was able to obtain some of the opcodes from YouTube video dF_9YcehCZo. I believe the JMP and JMS opcodes are the same, the different names being used to distinguish a normal jump and when jumping to a subroutine. The JMP instruction first saves the 12-bit program counter plus 1 to hardware register B and then directly jumps to the 12-bit operand address. For a subroutine, the SRB instruction saves B to the 12-bit operand address. To return, jump to where the return address is stored. As the 4-bit opcode for a JMP is 0, this causes a jump to the return location. This is a classic example of self modifying code! The FDS has two banks of 4Kx16 memory. Two additional 1-bit registers are used to select between the banks, changed using an OUT instruction. One bit is used for programs and one bit for data. I suspect the operation is similar to the DEC PDP-8. The instruction bit is only selected after a JMP or JMS, to prevent wild program execution. The other bit could be used for selecting data for MRD and MLD instructions. The MRD and MLD transfer data between main memory and one of the 128 registers, located from address 3968 to 4095 in decimal (0F80 to 0FFF in hexdecimal). I suspect five bits of the operand select one of the 31 memory pointers, which contains the address to main memory. The other seven bits could be for one of the 128 registers. I'm not exactly sure how the AMR and AML instructions work, as only the feasibility design were given more description and these instructions weren't included. I suspect though that they increment the memory pointer after the instruction has been performed. The 74 counter registers are probably used by the ISP, DSP, ISZ and DSZ instructions. The ABS instruction is a bit a head scratcher. The paper says it stores the given 12 bit number, but to where? For the seven shift and five arithmetic instructions, the opcode could be ?XYZ, where ? is the unknown code, X indicates which of the instructions is chosen and Y and Z are the address for the 16 general registers located in memory. For SUB, the operation could be R(X) := R(X)-R(Y), where R(x) is the general register given by address x. The other arithmetic instructions are probably similar. The shift instructions could be R(X) := shift(R(Y)). I believe the three hardware registers (A, B and C) are used to temporarily store R(X), R(Y) and the result. I don't know how many bits get shifted for a short or long shift, but the feasibility design had a choice of 2, 4, 8 or 16 bits. The seven index registers (again in memory) is only used by the OUT instruction. Three bits of the operand would select the index register. If the selected index register is zero, then data is output according to the remaining nine bits of the operand. This simplifies the timing for sending out data. Only one instruction directly modifies an index register, MCX. The operand could be three bits for the index register and seven bits for one of the 128 registers in memory, which stores the initial value. The feasibility design had other instructions to increment, decrement or set an index register. An 2.5 ms interrupt was added that goes to address zero. This is used to check the various counters to ensure the software is not accidentally running data. The CPU itself only uses 1/3 W of power! Total number of chips (excluding memory) is 326. 16 General Registers 31 Memory Pointers 7 Indexing Registers 74 Counters Mnemonic Cycles Function -------------------------- 1. Input/Output FXXX OUT 3 Initialise Output Pulse 7XXX PWD 4 Parallel Word Transfer SWO 11 Serial Word Out SWI 11 Serial Word In 2. Memory Reference AMR 6 Auto Indexed Memory Read AML 6 Auto Indexed Memory Load 5XXX MRD 4 Direct Memory Read MLD 4 Direct Memory Load 1XXX SRB 3 Store Return Address 3. Branching 0XXX JMP 2 Jump 0XXX JMS 2? Jump And Save SLC 3 or 6 Skip If LC Is Not Value SKP 3 Skip On Positive ISP 4 Increment And Skip On Positive DSP 4 Decrenebt And Skip On Positive SKZ 3 Skip On Zero ISZ 4 Increment And Skip On Zero DSZ 4 Decrement And Skip On Zero SKO 3 Skip on Overflow SKE 3 Skip If Index Equals Value EXC 2 Execute SKC 3 Skip On Carry 4. Shifting LRS 9 Long Right Shift (Arithmetic) LLS 9 Long Left Shift LRR 9 Long Right Rotate SRS 6 Short Right Shift SLS 6 Short Left Shift SRR 6 Short Right Rotate ARS 6 Short Right Shift (Arithmetic) 5. Arithmentic And Logic ADD 6 Add SUB 6 Subtract AND 6 Logical AND LOR 6 Logical OR LXR 6 Logical Exclusive OR 6. Constants ABS 3 Load Value (Absolute Data Entry From Program) 7. Timing WAT 2-4097 Wait (Pause) 8. Index Modification MCX 4 Conditionally Modify Index (Set Index If Zero) 
+
+ Logged
+
+ calex , theinternetftw , lrk 
+ and 1 other like this 
+
+ Akin's Laws of Spacecraft Design #1: Engineering is done with numbers. Analysis without numbers is only an opinion. 
+
+ Lee Jay 
+
+ Elite Veteran 
+ Senior Member 
+
+ Posts: 9166 
+
+ Liked: 4302 
+ Likes Given: 418 
+
+ Re: NASA - Voyager 1 and 2 updates 
+
+ &#171; Reply #451 on: 11/12/2024 01:44 pm &#187; 
+
+ Quote from: Steven Pietrobon on 11/12/2024 05:34 am The ABS instruction is a bit a head scratcher. The paper says it stores the given 12 bit number, but to where? My guess would be a register or the stack. Given the era, probably a register but I don't know. 
+
+ Logged
+
+ calex 
+
+ Member 
+
+ Posts: 29 
+ Maryland, USA 
+
+ Liked: 59 
+ Likes Given: 57 
+
+ Re: NASA - Voyager 1 and 2 updates 
+
+ &#171; Reply #452 on: 11/12/2024 09:38 pm &#187; 
+
+ Quote from: Steven Pietrobon on 11/12/2024 05:34 am From the CMOS Processor paper ... Great job reaching out to WSU for the CMOS processor design paper -- thank you for this treasure trove of information! I think this is the most detailed information available online about the FDS CPU since the advent of the internet! (I apologize if some of the questions below sound pointed. I don't mean them that way--I'm simply thinking out loud trying to understand the CPU instruction architecture and I don't think some of them can even be answered except by someone at JPL.) From your earlier post, " Unfortunately, there is little information on how the memory was implemented or which chips were used. " I don't know if you're specifically referring to the CMOS design paper or not, but in a post of yours last April, you quoted a "Hard Preprocessor Study" describing the actual implementation: 128 CD4061 dies and 12 driver dies assembled in a 3x3-inch module. So 4 of these 2K-word modules make up the 8K-word FDS memory. I'm confused by the JMP and JMS instructions. If the opcode is the upper 4 bits, which (i) makes sense, (ii) is 0 for both JMP and JMS in the YouTube video code, and (iii) both save the return address to register B -- why/how is there a distinction between the two? And there is no return-from-subroutine instruction that jumps to the address in register B? So the only way to return from a subroutine is by JMPing to a memory location containing a JMP instruction modified with the return address in B? And thus the standard structure for subroutine XYZ would be (CON reserves a memory word): XYZ_RETURN: CON $X000 /Value doesn't matter; overwritten by SRB XYZ: SRB XYZ_RETURN /Save 12-bit return address in memory; /Upper 4 bits are 0, so automatically a JMP ... processing ... JMP XYZ_RETURN /JMP to return JMP instruction or with more efficient, self-modifying code: XYZ: SRB XYZ_RETURN /Save 12-bit return address at end; /Upper 4 bits are 0, so automatically a JMP ... processing ... XYZ_RETURN: JMP $X000 /JMP to return address saved by SRB Both forms could be problematic in the lower, write-protected memory bank. (The YouTube code is in the upper memory bank.) The last 8 words of the YouTube code ( see the listing at the end of this comment ) appear to be a jump table and the JMS/JMP pairs don't make sense with the interpretation above. If some routine ABC calls XGETEI, ABC's return address in B is immediately overwritten by the JMS to GETEID. Given the interpretation above, I would have expected this in the jump table: XGETEI: SRB UVECTR /Save caller's return address in UVECTR JMS GETEID JMP UVECTR (Alternatively: what does the EXC execute instruction do? Instead of doing a "JMS XGETEI" in routine ABC above, could ABC do an "EXC XGETEI" and let the execution of XGETEI's "JMS GETEID" save ABC's return address in register B?) (Note that the FDS CPU doesn't have a conventional call stack and that the methods above also must be used if you have nested subroutines.) Regarding " Two additional 1-bit registers are used to select between the banks ... The instruction bit is only selected after a JMP or JMS, to prevent wild program execution. " Is that what the design paper says? My understanding from Tomayko's Computers in Spaceflight (and the design paper was one of his sources) is that the extra bits are not limited to particular instructions and simply provide a 13th address bit in instruction and data accesses (p. 183). For example, the YouTube code is in the upper 4K of memory and the instruction bit must be asserted for all instructions in order to fetch/execute the code in that block. Regarding the 2.5 ms interrupt that goes to address zero: " This is used to check the various counters to ensure the software is not accidentally running data. " I wonder how it can detect that it's running data. In addition to that check, the interrupt is also a fundamental part of the FDS real-time executive; from Tomayko (p. 185): Quote Like the command computer, the data computer has a simple executive. Time is divided into twenty-four 2.5-millisecond intervals, called "P periods." Each 24 P periods represent one imaging system scan line. Eight hundred of those lines is a frame. At the beginning of each P period, the software automatically returns to memory location 0000, where it executes a routine that determines what functions to perform during that P period. Care is taken that the software completes all pending processes in the 2.5-millisecond period, a job made easier by the standardization of execution times once the direct memory access cycle was added. The code in the YouTube video (23 minutes in) is from the 0x1400-0x14FF memory block that failed in November 2023. Here's the code (minus the corrupted values due to the failed 5th bit that you see in the video): 13DE 1C00 GETEID: SRB UMRA /SAVE RETURN ADDRESS ... 1400 7829 PWD RMFC,R2 /CALCULATE ADDRESS AND GET IDS FOR 400 ... 1461 1C09 MOD15: SRB LMRAN /SAVE RETURN ADDRESS ... 146D F09F COPY: OUT 7,SETAD /SET ADDRESS DOWN ... 1494 F09F SAFECA: OUT 7,SETAD /SET ADDRESS DOWN ... 14B0 5F84 PLSCL: MRD AUTOCF /PLS AUTO CAL FLAG ... 14CA 1C08 PLSCHK: SRB LMRA /SAVE RETURN ... 14F0 37AF PLSTBL: CON $X37AF 14F1 ADFA CON $XADFA 14F2 FA7F CON $XFA7F 14F3 AFB0 PLTZ: CON $XAFB0 /'0' NOT USED ... 14F4 F09F ULINK: OUT 7,SETAD /SET ADDRESS DOWN ... 14F8 03DE XGETEI: JMS GETEID /GET ENG ID SUBROUTINE 14F9 050A JMP UVECTR /RETURN TO CALLER IN LOWER MEMORY 14FA 0231 XCMROT: JMS CMROT /CODED COMMAND PROCESSING 14FB 050A JMP UVECTR /RETURN TO CALLER IN LOWER MEMORY 14FC 02B6 XCHSUM: JMS CHSUM /CHECKSUM 14FD 050A JMP UVECTR /RETURN TO CALLER IN LOWER MEMORY 14FE 02EF XLTS: JMS LTS /LTS SUBROUTINE 14FF 050A JMP UVECTR /RETURN TO CALLER IN LOWER MEMORY (Edited 12/2/2024: I misunderstood the listing in the video. The struck-through values in the failed memory words are the correct value, not the incorrect value. Ouch! So I've fixed the listing here.) 
+
+ &#171; Last Edit: 12/03/2024 02:46 am by calex &#187;
+
+ Logged
+
+ Steven Pietrobon 
+ likes this 
+
+ Steven Pietrobon 
+
+ Member 
+ Senior Member 
+
+ Posts: 40512 
+ Adelaide, Australia 
+
+ Liked: 34681 
+ Likes Given: 12817 
+
+ Re: NASA - Voyager 1 and 2 updates 
+
+ &#171; Reply #453 on: 11/13/2024 05:39 am &#187; 
+
+ Quote from: Lee Jay on 11/12/2024 01:44 pm Quote from: Steven Pietrobon on 11/12/2024 05:34 am The ABS instruction is a bit a head scratcher. The paper says it stores the given 12 bit number, but to where? My guess would be a register or the stack. Given the era, probably a register but I don't know. The FDS doesn't have a stack. The Feasibility Design did have a four level stack, but that was deleted in the final design. Perhaps the 12 bit value was stored in one of the 16 general registers (located in memory). It doesn't make sense to store the value to one of the A, B or C registers, since they are used only for SRB and are overwritten by the arithmetic and shift instructions. Quote from: calex on 11/12/2024 09:38 pm From your earlier post, "Unfortunately, there is little information on how the memory was implemented or which chips were used." I don't know if you're specifically referring to the CMOS design paper or not... Sorry I wasn't clear, but I was referring to the CMOS Processor paper. Quote I'm confused by the JMP and JMS instructions. If the opcode is the upper 4 bits, which (i) makes sense, (ii) is 0 for both JMP and JMS in the YouTube video code, and (iii) both save the return address to register B -- why/how is there a distinction between the two? In terms of operation, I believe there is no distinction. Using JMP or JMS should give the same exact operation since they both use the same 0XXX opcode. However, the compiler might do a check for an SRB instruction for JMS, to make sure it is being used to jump to a subroutine. Quote And there is no return-from-subroutine instruction that jumps to the address in register B? That is correct. There is no information to indicate otherwise. Quote So the only way to return from a subroutine is by JMPing to a memory location containing a JMP instruction modified with the return address in B? Yes. A return address for example of 2FC (stored as 02FC) is the same as a JMP to address 2FC. Its a pretty neat solution. Quote Both forms could be problematic in the lower, write-protected memory bank. Yes, the return address would need to be stored in non-write protected memory. However, the upper 128 words of the lower bank are where the registers are stored, so the return address could be written to one of these locations. Quote If some routine ABC calls XGETEI, ABC's return address in B is immediately overwritten by the JMS to GETEID. I don't think that is the case since ABC would have stored its return address in another location, specific to that subroutine. That is, every subroutine has one separate location for its return address. In the code that is given, four subroutine calls are each followed by JMP to UVECTR. Presumably UVECTR is the return address of a larger subroutine, probably called from lower memory. The JMS/JMP instructions we see are part of that larger subroutine. Quote Alternatively: what does the EXC execute instruction do? I don't know, but its part of the branch instruction set. There is no equivalent instruction in the Feasibility Design, which has more information on the instruction set. My initial thought is that it might be a NOP (no operation), but that is covered by the WAT (wait) instruction. Quote Regarding "Two additional 1-bit registers are used to select between the banks ... The instruction bit is only selected after a JMP or JMS, to prevent wild program execution." Is that what the design paper says? The paper mentions "jump or data instructions" for the two bits, but does not say how the thirteenth address bit is updated. My guess is that it is similar to how the PDP-8 does the update. Quote I wonder how it can detect that it's running data. If the program counter (which would have been saved somewhere by the interrupt) is pointing at data, then you know the computer has lost its way. Quote The code in the YouTube video (23 minutes in) is from the 0x1400-0x14FF memory block that failed in November 2023. Here's the code (minus the corrupted values due to the failed 5th bit that you see in the video): Thanks for that! I forgot to mention that the instruments also use direct memory access to send their data directly to memory. This is done during cycles where the memory is not being accessed. 
+
+ &#171; Last Edit: 11/13/2024 11:14 am by Steven Pietrobon &#187;
+
+ Logged
+
+ Akin's Laws of Spacecraft Design #1: Engineering is done with numbers. Analysis without numbers is only an opinion. 
+
+ calex 
+
+ Member 
+
+ Posts: 29 
+ Maryland, USA 
+
+ Liked: 59 
+ Likes Given: 57 
+
+ Re: NASA - Voyager 1 and 2 updates 
+
+ &#171; Reply #454 on: 11/13/2024 01:37 pm &#187; 
+
+ Thanks for the answers! Quote from: Steven Pietrobon on 11/13/2024 05:39 am Quote If some routine ABC calls XGETEI, ABC's return address in B is immediately overwritten by the JMS to GETEID. I don't think that is the case since ABC would have stored its return address in another location, specific to that subroutine. That is, every subroutine has one separate location for its return address. My turn to apologize for not being clearer. I meant that ABC was some arbitrary, possibly top-level code and when it JMSed to XGETEI, the return address back into ABC would be saved to B, which XGETEI would have to SRB to UVECTR. (Or, as is likely as you suggest, an intermediate subroutine between ABC and XGETEI would have to SRB the return-to-ABC address to UVECTR.) Quote The paper mentions "jump or data instructions" for the two bits, but does not say how the thirteenth address bit is updated. I'm guessing the OUT instruction; see the " OUT 7,SETAD /SET ADDRESS DOWN " statements in the YouTube code. Quote If the program counter (which would have been saved somewhere by the interrupt) is pointing at data, then you know the computer has lost its way. That's possible, although when you have code mixed with data (PLSTBL) in the upper data bank as in the YouTube code, I think they would have to greatly reduce the strictness of the checks. Quote I forgot to mention that the instruments also use direct memory access to send their data directly to memory. And the Digital Tape Recorder (DTR)! Here's an interesting account of how they played back data from the DTR at half its minimum playback speed: Quote The Uranus-Neptune Cruise FDS Program will contain a capability which was initially designed into the FDS prior to launch, but which has not been supported by the Voyager Ground Data System and has not been exercised in flight. The FDS hardware was designed so that one bit in one of the State Vector Control words may be set to allow the DTR Direct Memory Access (DMA) channel to run at one half the DTR bit rate. The DMA provides sequential data words from selected buffers in FDS memory to the DTR input buffer at one half the bit rate of the DTR. This results in each bit of data being recorded as two sequential, identical bits. The DMA interrogates the DTR output buffer at one half the playback bit rate and loads the resultant data stream into sequential addresses in the FDS memory. The data to FDS memory is thus every other bit of the data from the DTR. This combination of recording and playback allows the minimum DTR record rate of 7.2 kb/s to be circumvented. A 3.6 kb/s data stream is doubly recorded to provide the DTR minimum of 7.2 kb/s, then on playback only every other bit of the DTR 7.2 kb/s readout is processed through the DMA channel; thus, recovering the original 3.6 kb/s data stream. From Howard P. Marderness, " Voyager Engineering Improvements for Uranus Encounter " (abstract), 1986. [Edit 6/04/2025 - forgot link to abstract] 
+
+ &#171; Last Edit: 06/04/2025 05:30 pm by calex &#187;
+
+ Logged
+
+ Steven Pietrobon 
+ likes this 
+
+ leovinus 
+
+ Full Member 
+
+ Posts: 1635 
+ Porto, Portugal 
+
+ Liked: 1249 
+ Likes Given: 2395 
+
+ Re: NASA - Voyager 1 and 2 updates 
+
+ &#171; Reply #455 on: 11/13/2024 01:43 pm &#187; 
+
+ Thanks for the FDS and CMOS details. The Voyager computers are fascinating. Quote from: calex on 11/12/2024 09:38 pm Quote from: Steven Pietrobon on 11/12/2024 05:34 am From the CMOS Processor paper ... I'm confused by the JMP and JMS instructions. If the opcode is the upper 4 bits, which (i) makes sense, (ii) is 0 for both JMP and JMS in the YouTube video code, and (iii) both save the return address to register B -- why/how is there a distinction between the two? The recent article "Voyager and Fortran 5" has a Section 6 "Why Assembly?" which discusses the FDS. I liked that the author makes a lot of cross references to Tomayko's book "Computers in Spaceflight: The NASA Experience (1988)". Some of you might know this article already but I thought was interesting. http://www.geonius.com/writing/other/voyager.html Quote from: LouScheffer on 04/24/2024 03:22 pm Quote from: Steven Pietrobon on 04/24/2024 06:52 am I know its a bit of a long shot, but does anybody know or can find out the part number of the chip that failed on Voyager 1? Here's the location of a document that might help: From Dr. James E. Tomayko Collection of NASA Documents Collection Summary , hosted at Wichita State: Quote Box 37 FF 22 Design of a CMOS Processor for use in the Flight Data Subsystem of a Deep Space Probe There are actually a dozen "FDS" mention in that archive. For example "FDS Programming", box 37, FF 16. In principle, it sounds like someone could request one or more of these documents, and answer questions posed earlier about the instruction set. Even better, without even posting such a document, someone could build a derived work such as an assembler/disassembler piece of code to document the FDS instructions for the future. Happy to help PS: A quick scan through NASM and NASA HQ archive show a few more materials on Tomayko but nothing pops out about the FDS. If there is significant interest in this then we should actually create a splinter thread. 
+
+ Logged
+
+ calex 
+ likes this 
+
+ Naito 
+
+ Full Member 
+
+ Posts: 217 
+ Toronto, Canada 
+
+ Liked: 83 
+ Likes Given: 67 
+
+ Re: NASA - Voyager 1 and 2 updates 
+
+ &#171; Reply #456 on: 11/13/2024 01:49 pm &#187; 
+
+ .....I love watching assembly nerds geek out =D 
+
+ Logged
+
+ kenny008 , robertross , deadman1204 
+ and 3 others like this 
+
+ Carl C. 
+
+ Steven Pietrobon 
+
+ Member 
+ Senior Member 
+
+ Posts: 40512 
+ Adelaide, Australia 
+
+ Liked: 34681 
+ Likes Given: 12817 
+
+ Re: NASA - Voyager 1 and 2 updates 
+
+ &#171; Reply #457 on: 11/15/2024 07:05 am &#187; 
+
+ Quote from: calex on 11/13/2024 01:37 pm I'm guessing the OUT instruction; see the " OUT 7,SETAD /SET ADDRESS DOWN " statements in the YouTube code. That is correct. The paper actually says that OUT instructions are used to set the two thirteenth address bits. 
+
+ Logged
+
+ calex 
+ likes this 
+
+ Akin's Laws of Spacecraft Design #1: Engineering is done with numbers. Analysis without numbers is only an opinion. 
+
+ calex 
+
+ Member 
+
+ Posts: 29 
+ Maryland, USA 
+
+ Liked: 59 
+ Likes Given: 57 
+
+ Re: NASA - Voyager 1 and 2 updates 
+
+ &#171; Reply #458 on: 11/15/2024 07:13 pm &#187; 
+
+ I hope the following helps those who might be confused by all the document references being thrown around: NASA Dr. James Tomayko was a professor at Wichita State University (WSU) at the time he wrote a report for NASA, Computers in Spaceflight (PDF), 1988. The archived HTML version of the Voyager chapter/section in the report: history.nasa.gov/computers/Ch6-2.html and the source footnotes for the Voyager chapter/section: history.nasa.gov/computers/Source6.html (It may not look it, but the HTML version of the report is a very accurate rendition of the report's text and includes all the illustrations from the report. I think I only noticed one typo in the Voyager chapter and I've studied the HTML and scanned PDF versions many times.) Wichita State University The WSU collection linked to by Steven (and from which he got the FDS design paper) presumably includes copies of all the items in the source footnotes above, many of which are internal JPL documents (JPL obviously has the originals): Dr. James E. Tomayko Collection of NASA Documents Incidentally, Dr. Tomayko was a historian of technology who passed away in 2006. He was very active in computer history and computer education circles. YouTube The YouTube video that Steven and I reference: Bruce Waggoner, Voyager Mission Assurance Manager, (August 2024) Waggoner mentions that he had to get permission to show the FDS code fragment in his presentation. Quote from: leovinus on 11/13/2024 01:43 pm Even better, without even posting such a document, someone could build a derived work such as an assembler/disassembler piece of code to document the FDS instructions for the future. Happy to help That actually might be of help to JPL! (Especially considering JPL has had to lay off an eighth of its workforce in 2024 per Ars Technica . ) Waggoner said in his presentation (and JPL has said elsewhere) that they don't have an assembler and that translation of the memory anomaly fixes to machine code was done by hand. If they don't have an assembler, I doubt they have a disassembler. And Waggoner also said that they didn't have an up-to-date listing of the code running on the FDS computer and worked from a listing in an old Microsoft Word document. Other sources say that full memory readouts from the Voyagers' computers are done on a regular basis, so a disassembler would have definitely helped. 
+
+ Logged
+
+ JonAl , Steven Pietrobon , robertross 
+ and 1 other like this 
+
+ Star One 
+
+ Senior Member 
+
+ Posts: 15308 
+ UK 
+
+ Liked: 4444 
+ Likes Given: 220 
+
+ Re: NASA - Voyager 1 and 2 updates 
+
+ &#171; Reply #459 on: 11/21/2024 08:07 pm &#187; 
+
+ Voyagers Mission to the Outer Solar System (1977 Vintage Video) 
+
+ Logged
+
+ Steven Pietrobon , catdlr and calex 
+ like this 
+
+ Print 
+
+ Pages: 1 ... 21 22 [ 23 ] 24 25 ... 30 Next Go Up 
+
+ Tags: 
+
+ Forums &#187;
+
+ Robotic Spacecraft (Astronomy, Planetary, Earth, Solar/Heliophysics) &#187;
+
+ Space Science Coverage &#187;
+
+ NASA - Voyager 1 and 2 updates 
+
+ Advertisement 
+
+ Tweets by NASASpaceflight 
+
+ Advertisement 
+
+ Advertisement 
+
+ Advertisement 
+
+ Advertisement 
+
+ Advertisement 
+
+ SMF 2.0.15 |
+ SMF &copy; 2017 , Simple Machines Simple Audio Video Embedder Privacy Policy 
+
+ All content &copy; 2005-2025 NASASpaceFlight.com 
+
+ RSS 
+ Mobile 
+
+ 1
+ 

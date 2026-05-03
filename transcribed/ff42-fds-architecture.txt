@@ -1,0 +1,271 @@
+ae"
+fl
+JET PROPULSION LABORATORY INTEROFFICE MEMO
+‘ MJS: 2.64A
+TO: MJS FDS Distribution 7 October 1974
+FROM: J. Woodde11 f
+SUBJECT: MJS FDS Processor Architecture and Instruction Set
+SUMMARY :
+The architecture and instruction set of the MJS FDS
+Processor are described in the following pages.
+I, PROCESSOR ARCHITECTURE (Figure 1)
+A. General
+
+The FDS processor is a general purpose type machine, but is
+
+functionally oriented toward FDS tasks. The major differences
+
+from other general purpose machines are:
+
+1. There is no indirect addressing or address indexing in
+the usual sense. The autoindexed memory reference instructions
+do provide a similar function.
+
+2. There are more special purpose registers (128) than one
+would expect in a small general purpose computer. The
+large number of registers allows the large number of
+relatively independent subroutines to be cycled with a
+minimal amount of moving data back and forth between
+registers and general memory.
+
+3. The shift and rotate instructions are more powerful than
+those normally found in small computers. This is because
+one of the most time consuming FDS functions is that of
+packing and formatting data.
+LOCATILOVs FEO To FFF
+FOR SPECIAL REGISTERS
+4k MEMORY a
+F S ALU = (= CLOCKS anh
+A ADDRESSES . eee, SK aa
+ee ee a DLZA
+WIA DATA REGUEST
+- oG REGISTER) \REGISTER TIMIN,
+PE te fff ty | es
+en
+Cee ees Bere TERING
+BLOCK LOAD DATs b
+L/o GATING aed CONTROL
+TO FDS I/O BOXES
+FIGURE 1]
+FDS PROCESSOR BLOCK BITAGRACT
+4. Arithmetic is slower than normal for processors of this
+cycle time. The FDS does not perform complex mathematical
+functions. The hardware for a fully parallel arithmetic
+and logic unit could not be justified based on the require-
+ments. Therefore, all arithmetic and logical operations
+are 4 bit byte serial. This increased execution time by
+several cycles (about a 50% increase) over what it would be
+with a parallel ALU.
+
+5. All arithmetic logic and shifting take place within the
+set of 16 general registers. There are no such operations
+directly involving locations in general memory. This is
+because most of the FDS arithmetic, logical, and shifting
+operations can be performed on data which has just been
+loaded into general registers either from input devices or
+
+; in preparation for output. Because of this, it was decided
+to save instruction capability for more critical functions.
+6. Only a primitive interrupt capability is provided in the
+FDS processor. This is because nearly all timing for control
+functions originates within the FDS program. This avoids
+the complex interaction Normally found between computers
+’ and I/O units which creates complex failure modes and
+am . hecessitates more sophisticated testing. However, the
+processor can efficiently pick up external data under
+program control, so the single interrupt plus external
+data provides the capability for "add on" interrupt
+Capability of any desired complexity. :
+7. Over half of the instruction capability is used for data
+moving instructions. This is because the major FDS
+activity is moving data in and out of I/O units and
+packing it into formats in the FDS memory .
+B. Detailed Architecture
+The FDS processor architecture is designed to run programs
+Stored in a 4K memory. However, several instructions can
+directly access up to 16K. These are the autoindexed memory
+reference instructions. This allows secondary memory to be
+used for data Storage or to be loaded with programs for sub-
+sequent execution. The DMA channels and the block load inputs
+can also access up to 16K.
+The processor consists of:
+
+1. A 16-bit instruction buffer register (IB).
+2. A 12-bit program address register (PR).
+
+3. Two 16-bit working registers (Ry and Rp) c
+
+4. Memory input data selection gating (16 bits wide).
+
+5. Memory address selection gating (14 bits wide).
+
+6. Provision for block loading memory from CCS. :
+
+7. Logic to perform arithmetic, logical and shifting operations.
+
+. 8. I/0: Provision is made for input and output from a 4 channel
+direct memory access module, 32 serial data inputs, 16 serial
+data outputs, 8 parallel data inputs, 10 parallel data outputs,
+and 16 discrete outputs to be associated with a 5-bit subcode
+for 512 possible discretes.
+
+9. Timing: An 806.4 kHz clock is used for all processor sequencing.
+403.2 kHz is the maximum memory access rate. All instruction i
+times are listed in cycles of 403.2 kHz (2.48 microseconds) .
+
+10. Interrupt: A provision is made for forcing the program register
+to an all zero state with an external Signal. This provides
+a means for periodic re-initialization of programs for error
+recovery and allows some relaxation of fine timing requirements
+for the programs.
+
+11. Special purpose registers: There are 16 general registers
+(GR1-GR16), 32 memory pointers (MP1-MP32), 8 index registers
+(IR1-IR8), and a line count register. GRl, MP1, and IR1_ ..
+refer to the same register. All others are distinct. An
+
+additional 73 registers are available for use as counters.
+These registers reside in the top 128 memory locations.
+: ae ee
+J Wooddel1
+JW: cj ‘
+—___— SSS = ;
+a i 1
+! PRESENT EXECUTION TIME REQUIREMENT SHOWING NEED FOR DMA :
+@ SIGNALS TO INSTRUMENTS G 48,000 INSTRUCTIONS PER SECOND
+AND DATA MANIPULATION WITH NO MARGIN ip Ss :
+AG
+@ DATA I/O THROUGH DMA G7 19,800 WORDS PER SECOND Gl /
+@ PRESENT EXECUTION RATE & 80,000 INSTRUCTIONS PER SECOND
+@ REQUIRED RATE IF EACH DATA :
+; I/O WORD TAKES Two
+INSTRUCTIONS 87,600 INSTRUCTIONS PER SECOND
+: JW
+: 11/19/74
+r] ‘
+8
+CMOS PROCESSOR #1 :
+(FIRST BREADBOARD) z
+TECHNOLOGY: CMOS LOGIC
+PLATED WIRE MEMORY (CCS?)
+INSTRUCTION SET: SAME AS FOR 54L’ MODEL
+EXECUTION TIME: ADD 5.78 eae
+(IN MICROSECONDS) sai ne
+LONG SHIFT 11.57
+ARCHITECTURE: SAME AS FOR 54L MODEL PLUS
+HARDWARE INTERRUPT
+J
+MAXIMUM CLOCK RATE << 1200 KHZ
+JW
+11-19-74
+af TAR OT ra
+ae SSS SS “~
+Spl |
+CMOS PROCESSOR #2 :
+TECHNOLOGY: CMOS LOGIC
+CMOS MEMORY ‘
+’
+INSTRUCTION SET: 36 INSTRUCTIONS = THE ORIGINAL
+SET PLUS BRANCHING CAPABILITY
+EXECUTION TIME: ADD 14.88 : ;
+(IN MICROSECONDS ) JUMP 4.96
+LONG SHIFT 22.32
+¢
+OW
+11-19-74
+)
+i
+MJS77-4-2006-1
+FDS STATE VECTOR
+MEMORY MEMORY
+A )
+fe) To
+FAST 70 Ei smircnes a [To] swans i FAT VO
+DMA cpu cpu
+A A B
+(
+TIMING TIMING
+TIMING ; TIMING | —
+SOURCE raves BLOCK SOURCE
+SELECT A ; SELECT
+A 8
+TIMING TIMING
+CHAIN A CHAIN A
+TIMING ccs ccs TIMING
+CHAIN B COMMAND COMMAND CHAIN B
+ENTRY A ENTRY B
+a
+TO PROCESSOR SELECT
+GATING IN 1/0 BOXES
+UNDER DIRECT PROGRAM
+CONTROL
+Figure 3. FDS Processor Functional Block Diagram
+a aes FIGURE 2
+FDS INSTRUCTION SET .
+caxs[ ars 16-14 12] [20] 9s [ 7[s T st) siz 13) FUNCTION
+2 | sp |oo00 Jump
+3 SRB }0001 ADDRESS Save RB Register
+2 | EXC }0010 Execute
+Oo ee IM ss I
+4 MLD | 010Q Load Memory
+4 | MRD |0101 Read Memory
+« [ao [om resmumion | ____ SSWCE_| Pavaliet Transfer
+6 ADD |1001 | 0 0] 0 mt] Agd
+6 LXR [1001 | 0 0; 0 Rg I Ry Exclusive OR
+6 AND |1001 | 0 | O} 1 a Aad
+6 LoR |1001} 0 | O} 1 q Igglugive OR
+6 | suBj1o0o1| 0 | 1] 0 0 «| Subtract. ~
+or se [sora [ot NAL = Sk Line Coune
+3 SkP |1001 | 1 1 {0 0] 0 ' Skip On Positive
+4 Isp }1001 | 14 1]0 ]1] 12 1 of 128 Msnory Inc. § Skip on Pos.
+4 DSP {1001 | 1 1] 0 Qj 1 locations. The high Dec. § Skip on Pos.
+3 SKZ }1001 | 1 1j)1 0} 0 order 64 axe the Skip On Zero
+4 ISZ }1001 | 1 by d Pid special rejisters. Inc. §& Skip on Zero
+4 DSZ {1001 | 1 1} 1 Oo} 1 i . Dec. §& Skip on Zero
+5 ofa} ala[2{o| [eo [als] als | 9.) sep m overtion
+5 vor [a Tate Labo lee ae] o Le | B| skp m cory
+6 SRS | 1001 1):0 1 Short Right Shift
+6 SLS | 1001 1{1 0 Ry Short Left Shift
+6 SRR | 1001 1} 1 1 Short Right Rotate
+SB
+9 LRS {1110 Cnt. Long Arith Rgt Shift
+y LLS 1101 COUNT Rg LSB Ry : Long Left Shift
+y LRR | 1100 : Long Right Rotate
+4 MCX |1011 | 0 IRDEX Cond. Mod. Index
+3 SKE |1011 | 1 Skip if Equal :
+3 | our [uu 5 LINES Discrete Output
+6 AA, |1010 | 0 SOURCE : MP Auto. Index Mem. Load
+6 AMR {1010 | 1 DEST. MP Auto. Index Mem. Read
+65
+o_o —~
+ah STIS a I TY
+ee
+®PRA Program (200) :
+LECP Program (150) ;
+*PLS Program (300) ;
+TS
+MAG Program (200)
+1024 -
+: *ISS Program (200)
+R a arg ee ee SRS een ee
+Write ee
+*UVP Program (150)
+Se oe ee Program (100)
+1536
+tected CCS Command Program (100) L__Tnaterrimt Program
+Interrupt Program (40. 7p wii olay Coder Control Prograns tent e} eramn
+Engineering Identifiers (130)
+: : *ISS Picture Parameters (200)
+2048
+Spare (500)
+2560
+Spare (176)
+ISS Data Buffer (300)
+¢
+3072
+PLS Temporary Storage for
+Peak Search, etc. (400)
+3584 PRA Snapshot Buffer (200)
+Sst General Sciencé Buffer (280)
+Special Registers (130
+oe pe 8 (130)

@@ -1,0 +1,1698 @@
+a ee
+_Cinsert in 618-205, MJS77 APPROVED: .
+| Functional Requirements Book) ee Ad eg
+| °
+Custodian: R. De Santis System: toe
+/ R. L. Stoller
+od
+ee 5 eee
+R. De Santis
+- L. Wolfe
+47 i
+7 T. C. Sorensen
+JET PROPULSION LABORATORY
+: No. MJS77-4-2006-1A
+20 March 1978
+i ; Supersedes
+7 July 1975 (
+FUNCTIONAL REQUIREMENT
+"( MARINER JUPITER/SATURN 1977 FLIGHT EQUIPMENT
+—— FLIGHT DATA SUBSYSTEM
+HARDWARE
+a ad
+1.0 SCOPE
+The functional requirements for the Mariner Jupiter/Saturn 1977
+(MJS77) flight data subsystem (FDS) are met by FDS hardware and
+FDS software. This document establishes the general FDS func-
+. tional requirements and those associated with the FDS hardware.
+The functional requirements for FDS software are established in
+MJS77-4-2006-2, Flight Data Subsystem Software.
+2.0 APPLICABLE DOCUMENTS
+The following documents form a part of this Functional Requirement.
+NOTE
+MJS77-3-100, Spacecraft Requirements and Con-
+straints, applies to this document. Requirements
+— of other MJS77 level three documents may also be
+applicable. It is the responsibility of the user
+to adequately acquaint himself with the organiza-
+tion and pertinent content of the level three
+documents, as well as with the material contained
+os herein.
+x ¢b
+js!
+tn 618-205, MJS77 NM
+-_
+MJS77-4-2006-1A
+-_
+REQUIREMENTS
+Jet Propulsion Laboratory
+MJS77-3-100 Functional Requirement, Mariner Jupiter/
+Saturn 1977 Spacecraft Requirements and
+Constraints
+3 MJS77-3-110 Functional Requirement, Mariner Jupiter/
+Saturn 1977 Functional Block Diagram and
+Interface Listings
+MJS77-3-180 Functional Requirements, Mariner Jupiter/
+Saturn 1977 Configuration
+MJS77-3-210 Functional Requirement, Mariner Jupiter/
+Saturn 1977 Design Criteria for Spacecraft
+Temperature Control
+MJS77-3-220 Functional Requirement, Mariner Jupiter/
+Saturn 1977 Electronic Equipment Design
+MJS77-3-230 Functional Requirement, Mariner Jupiter/
+Saturn 1977 Equipment List and Mass
+we ‘ Allocations
+\
+MJS77-3-240 Functional Requirement, Mariner Jupiter/
+aL Saturn 1977 Environmental Design
+Requirements
+MJS77-3-250 Functional Requirement, Mariner Jupiter/
+Saturn 1977 Power Profile and Allocation
+MJS77-3-260 Functional Requirement, Mariner Jupiter/
+Saturn 1977 Electrical Grounding and
+Interfacing
+as
+MJS77-3-270 Functional Requirement, Mariner Jupiter/
+Saturn 1977 Telemetry and Command
+t Handling
+MJS77-3-280 Functional Requirement, Mariner Jupiter/
+Saturn 1977 Telemetry Measurements and
+Data Formats
+>
+MJS77-3-290 Functional Requirement, Mariner Jupiter/
+Saturn 1977 Command Structure and
+Assignments
+¢ b (~~
+2
+n 618-205, MJS77 APPROVED:
+{rements Book)
+MJS77-—4-2006-1A
+\
+MJS77-3-1110 Functional Requirement, Mariner Jupiter/
+Saturn 1977 Support Equipment Functional
+. Block Diagrams and Interface Listings
+. DRAWINGS
+Jet Propulsion Laboratory
+10063288 Circuit Data Sheet Index and Guide
+10062408 FDS Interface Control Drawing
+OTHER DOCUMENT
+Jet Propulsion Laboratory
+618-232 Voyager, Spacecraft System
+Configuration Management Plan
+( 3.0 FUNCTIONAL REQUIREMENTS
+The MJS77 FDS shall:
+a) Collect engineering data from the mission and propulsion
+a ( ee modules. (
+
+b) Collect data from, and control the operation of, the science
+instruments.
+
+e) Perform 8-bit analog-to-digital conversion of engineering and ,
+science analog data having low sample rate requirements.
+
+d) Format engineering and science data for on-board storage by
+the data storage subsystem (DSS) and/or real-time transmission
+through the modulation demodulation subsystem (MDS).
+
+e. Accept commands from the computer command subsystem (CCS) and
+provide commands to the science instruments according to the
+bit patterns as specified in MJS77-3-290, Command Structure and
+Assignments.
+
+£) Provide the data modes, rates, formats, and conditioning as
+specified in MJS77-3-270, Telemetry and Command Handling, and
+MJS77-3-280, Telemetry Measurements and Data Formats.
+
+\ ‘
+hi
+3
+:
+n 618-205, MJS77 APPROVED:
+MJS77-4-2006-1A
+
+g) Provide frequency references to MDS, DSS, power subsystem
+(PWR), radio frequency subsystem (RFS), CCS, planetary radio
+astronomy subsystem (PRA), low energy charged particle sub-
+system (LECP), plasma subsystem (PLS), infrared interferometer
+spectrometer and radiometer subsystem (IRIS), photopolarimeter
+
+| subsystem (PPS), and magnetometer subsystem (MAG) .
+
+h) Be mechanized such that no single failure shall cause the loss
+of data from more than one science instrument or more than one-
+half of all engineering data.
+
+i) Retain its memory contents as long as the 50 V, 2.4 kHz power
+
+; is present, or the 30 V bus is greater than 15 V.
+
+i) Provide the capability to control the recording and playback of
+the DSS. The FDS shall be capable of synchronizing playback
+data from DSS in order to perform processing of that data if
+the telecom performance should become degraded.
+
+k) Provide the capability to update memory contents via the
+umbilical lines.
+
+1) Provide the capability for commandable telemetered readout of
+
+e ' each of its memories.
+
+‘ m) Provide the capability to encode the general science and
+engineering data using a Golay (24, 12) code with an inter-
+leaved depth of 36 and a Reed-Solomon (J=8, E=16) code with an
+interleaving depth of 4 for transmission to MDS on the high
+rate channel.
+
+n) Provide the capability of encoding the MDS high rate data using
+: a Viterbi (K=7, R=1/3) code for transmission to MDS on the low
+rate channel.
+4.0 FUNCTIONAL DESCRIPTION
+4.1 Functional Block Diagram
+A block diagram of the FDS is shown in Figure 1. The basic approach
+ig similar to standard computer applications having a computer (FDS
+processor) interfacing with several peripheral devices (FDS 1/0
+units). The processor uses 4 single interrupt for periodic synchro-
+nization which is not part of the interface with the I/Os. This
+synchronization allows automatic recovery from changes in unpro-
+% tected memory should they occur.
+Normal operation uses a single processor and both memories. The
+prime memory contains the executing program and scratch pad for data
+ea & puffering. Secondary memory usually contains a redundant program
+pss t put can be used for data puffering and parameter storage. A new
+program can be loaded into secondary memory without effecting the
+. 4
+n 618-205 MJS77 APPROVED:
+{rements Book)
+:
+id
+MJS77-4-2006-1A
+f
+(
+” x
+wich Oils
+2 = |99 n 5
+OZ 9 & Z
+é = 30 ; é
+. se |S 8 3
+: 2% && 3
+fe) a :
+= & ° :
+3 me < Q 8
+aS £6 é
+ZO ray 9
+Z)seha® ‘
+5B
+o
+| E
+oO
+i
+2 ne
+( :
+| 96 | osctijator Bd timias. zZ a
+< | 38 ; :
+a | =Z { 2g E
+(me % ; engineer : ; :
+- g | & 8
+= g z
+: Zz wV §
+= fe) gez 5 3 $3
+5 z Pe
+a O2ze 26
+; Bee os 9° ra
+€ 322 :
+is $22 E
+z u
+3 oO
+a
+wn
+fe
+an
+#2. 2 2 F
+OaBnOe ° 2 2 2 E
+ge00e Skee gees 5
+Zuo Zz
+£oZeQ 86g 302 2302 Z
+fa
+: é
+sis gc 2
+ge Ze Re
+Ze HS £5
+a3 33 =Z
+ns ze) tO
+| | avo av
+ZF
+gaz z .
+~e
+P +
+% -
+i
+5
+APPROVED:
+618-205, MJS77
+4{rements Book) . ge
+| 4
+MJS77-4-2006-1A
+{
+ad
+executing program in primary memory. Assignment of processor and
+memory in any combination shall be possible in the single processor
+mode.
+A dual processor mode shall also be possible. Each processor uses
+
+| a memory which will not be accessed by the other processor. One
+
+i processor is prime and controls the basic operations of the FDS.
+
+The secondary processor reads an external hardware register loaded
+by the primary processor synchronizing its program with the primary
+processor. In the dual processor mode, either memory can be assigned
+to either processor; however, the processor using Memory B is always
+prime. Dual processing is included to enable special processing of
+
+| imaging or playback data in the event of degraded telecom performance
+
+that could not be performed in a single processor without a substan-
+
+tial reduction of the normal processing.
+4.1.1 Redundancy
+aa FDS redundancy shall be as shown in Table 1. Redundant units shall
+aa é be selected independently with the exceptions of: a) POR circuits,
+4.8 kHz detector, and oscillator and timing chains selected as a
+group and, b) coded command entry logic which is selected with the
+power converter. Critical spacecraft measurements as specified in
+a MJS77-3-280 shall be routed to both halves of the engineering trees;
+( - however, engineering measurements, in general, shall not be
+= redundant.
+ee State Diagram
+A simplified state diagram showing the states of the FDS as deter-
+mined by commands to the PWR is shown in Figure 2.
+4.2 Major Functional Elements
+4.2.1 Power Converter
+The redundant power converters shall receive 2.4 kHz, 50 V rms power
+from the AC2 power bus and provide the five FDS voltages. All volt-
+ages shall be régulated and current limited. Voltages shall be
+selected via diode coupling from the energized unit and distributed
+to sections of the FDS through "dual isolated" fuses. The turn-on
+power transient shall be controlled by a magnetic switch in series
+with the transformer primary.
+
+F : An inverter shall generate a voltage from the +30 Vde 1 power bus
+through an isolation transformer to supply memory, POR, and state
+vector control power if the voltage on the AC2 bus drops. The
+inverter output voltage is diode coupled with the ac converter volt-
+age to form a "guaranteed power bus" that is present when FDS is
+
+/ “ receiving either ac or de power. During standby operation when main
+\ \ power is present, the inverter shall be synced to 4.8 kHz. When
+2.4 kHz power is off, it shall free-run at a lower frequency.
+. 6
+= ee A
+\
+618-2055 MJS77 APPROVED:
+Book
+MJS77-4-2006-1A
+(
+j Table 1. FDS Redundancy Table
+Nonredundant Units Redundant Units
+Memory standby inverter Power converter
+Reed-Solomon Encoder ;
+State vector control POR circuits
+Viterbi Encoder
+pss 1/0 Oscillator and timing chain
+ENG A 7 4.8 kHz detector
+ENG B cc entry logic
+Cr IRIS 1/0 Processor
+Iss NA 1/0 Memory
+we Iss WA 1/0 cRS 1/0
+PLS 1/0 LECP 1/0
+Pps 1/0 : MAG 1/0
+PRA 1/0 Golay coder
+pws 1/0 mps 1/0
+uvs 1/0
+The power converter shall supply a logic level 2.4 kHz sync signal
+that provides the basic timing for the CCS coded command interface.
+Voltages necessary to load commands can be supplied from the FDS SE.
+This method shall be used to load the FDS memories prior to main
+power turn-on during system level testing.
+Excitation power for 11 external pressure transducers shall be pro-
+a vided with the capability to remove power from 5 pressure transducers
+\ \ during periods of the mission when these measurements are not
+required.
+\
+7
+7 Sf
+y MJS77-4-2006-1A
+{
+|
+FDS
+OFF
+| 2), CS.
+Y Neo
+FDS ON SARP FDS ON
+USING USING
+POWER CONV POWER CONV
+AND CC ENTRY GAP AND CC ENTRY
+LOGICA LOGIC 8
+i : Figure 2. Simplified FDS State Diagram
+(
+The power converter shall have redundant POR circuits that initialize
+and inhibit operations during power turn-on or power outages. They
+are powered from the guaranteed bus and selected by the state vector
+control timing chain select signal. The circuit performance shall be
+as characterized in paragraph 6.3.
+4.2.2 Oscillator and Timing Chain
+The basic FDS timing shall be generated from a 4.8384 MHz
+(210.33.52+7) crystal controlled oscillator. The processor cycle
+time frequency of 403.2 kHz and other required frequencies shall be
+derived by dividing down from the master oscillator frequency. Both
+the oscillator and the countdown chain shall be redundant; however,
+only the oscillator and countdown chain selected by the state vector
+control shall be powered. The oscillator performance shall be as
+described in paragraph 6.4.
+A 4.8 kHz signal shall be generated and sent to PWR for synchronizing
+the spacecraft 2.4 kHz inverters. A detector circuit in the FDS shall
+inhibit this signal when out of tolerance. Frequency references sup-
+plied by the FDS to other subsystems shall not be inhibited by the
+detector circuit. The detector circuit performance shall be as
+: & characterized in paragraph 6.2.
+Pe
+x 4
+po!
+. 8
+4 MJS77-4-2006-1A
+( <o7
+
+| 4.2.3 Coded Command Entry Logic
+
+This redundant logic shall receive coded commands from the CCS or
+
+| FDS SE and process them in hardware. Each unit shall be capable of
+
+! receiving commands from either of the two CCS coded command inter-
+faces. The A unit shall be powered from power converter A and the B
+
+| unit from power converter B. Switching to the redundant set of com-
+
+| mand logic shall be accomplished by switching power converters.
+
+This unit shall perform four basic command processing functions:
+
+a) It shall decode and transfer state vector control commands
+independent of other FDS operations. This function shall be
+disabled during memory load and enabled at the end of load or
+by a POR.
+
+b) Upon receipt of a command to perform a “hardware” load, it shall
+stop processor operation, group the incoming commands into mem-
+| ory words, and load them directly into memory. End of load or
+
+| POR shall command the FDS out of this mode.
+
+ae c) Upon receipt of a command to perform a "software" load, it
+
+me 4 shall pass subsequent command words to the processor for group-
+
+ries ing into memory words. This loading shall be performed without
+a interfering with a running program. When the program recognizes
+(~~ the end of a load, the coded command logic shall be reset. POR
+shall allow recovery from this mode in the event of a processor
+malfunction. The memory protect logic is momentarily overridden
+when writing into protected memory. Commands will be separated
+by greater than 60 ms in this mode.
+
+d) It shall send commands that are not associated with the state
+vector control logic or a software load to the processor where
+they can be software decoded. This will enable the changing of
+several functions by a single 12-bit command if the software
+load technique is not efficient for some changes.
+
+4.2.4 State Vector Control Logic
+
+This single unit shall control all FDS redundancy except the power
+
+converters and the CC ENTRY logic which are selected together
+
+through PWR. State vector commands shall be decoded in the energized
+
+CC ENTRY logic and fed directly to this unit. Only a working power
+
+converter and CC ENTRY logic unit shall be required to change the
+state vector. Recovery shall be possible from any failure outside
+this unit including the FDS timing chain. The state vector control
+| logic shall be powered from the guaranteed bus and shall be indepen-
+K dent of the POR. It must be set at initial turn-on.
+%
+oT
+hake P
+MJS77-4-2006-1A
+at
+i The state vector control logic shall be designed so that a single
+failure will not leave any critical redundancy select line in an
+} indeterminate state. This includes blowing the fuse for this unit
+which will select all A units and remove write protect from both
+| memories.
+| 4.2.5 Processor
+! The FDS processor shall provide the capability to generate sequences
+of control signals to the instrument I/O units, to collect data from
+} I/O units, to perform simple data processing algorithms, and to for-
+i mat and output data to the MDS and DSS I/O units, all under program
+| control. Processor functions fall into five general areas (see
+| Figure 3). These are:
+!
+| a) The execution of instructions by a central processing unit
+| (CPU).
+b) Direct access to memory (DMA) for high speed transfer of data
+| to and from consecutive memory locations.
+; c) Periodic restarting of the program based on a timing “interrupt”
+i occurring every 2.5 ms.
+il Ka
+yt > 7
+( d) The provision for a data path, and control logic, which allow
+‘ direct loading of blocks of data into the FDS memories by the :
+CCS command entry logic. ;
+
+e) Memory access gating which allows either processor to be used
+alone with both memories, or each processor to be used with a
+single memory.
+
+4.2.5.1 Instruction Execution. The FDS instruction set shall provide for:
+
+a) Moving data between special memory registers, general memory,
+and 1/0 units using serial and parallel word transfers along
+with a 5-bit bus used for high speed discrete commanding.
+
+b) Performing arithmetic, logical, and shifting operations on data
+in special registers.
+
+c) Modifying the program sequence by unconditionally jumping or by
+skipping conditionally based on the contents of special
+registers or arithmetic operation results.
+
+d) Controlling which half of the 8 K memory the program is execut-
+ing in through a pair of special OUT instructions; SETJU for
+set jump up and SETJD for set jump down. The program operates
+in the lower 4K until SETJU occurs which causes the next jump
+
+& to transfer control to the given 12-bit address in the upper
+| \ 4 K. Subsequent JUMP's continue to transfer’control with upper
+. 10
+# MJS77-4-2006-1A :
+4 f
+FDS STATE VECTOR
+1
+MEMORY MEMORY
+A B
+| TO TO
+tOGIC IN pewogeeres[gropressi oo) by yeMeme | tOGieIN
+FAST I/O i switcHesA [| | SWITCHES B FAST 1/0
+| {
+| (| DMA CPU CPU DMA
+i A A B B
+ey
+. =
+TIMING TIMING ;
+TIMING TIMING
+SOURCE ce Ah SOURCE
+SELECT A B SELECT
+A B
+TIMING TIMING
+CHAIN A CHAIN A
+TIMING ccs ccs TIMING
+CHAIN B COMMAND COMMAND CHAIN B
+ENTRY A wanes Hebe eemenoe ENTRY B
+|
+TO PROCESSOR SELECT
+GATING IN 1/0 BOXES
+UNDER DIRECT PROGRAM
+CONTROL
+| ’
+Figure 3. FDS Processor Functional Block Diagram
+8 11
+y MJS77-—4-2006-1A
+memory. All referenced addresses for data still refer to
+1 lower memory. An interrupt, a hardware block load, or a SETJD
+: instruction returns control to lower memory.
+
+e) Controlling which half of the 8 K memory the absolute address
+instructions (SRB, EXC, MLD, and MRD) refer to using a pair of
+special OUT instructions; SETAU for set address up and SETAD
+for set address down. SETAU causes these instructions to refer
+to the given address in upper memory without affecting the
+special registers which remain in lower memory. An interrupt,
+a hardware block load, and SETAD all cause these instructions
+to refer to lower memory.
+
+f) Delaying program progression by pausing for a specified number
+of cycles.
+Table 2 lists the FDS instruction set together with execution time in
+. cycles. Each cycle lasts 2.48 us.
+All instructions but the "skip on line count" (SLC) have a fixed
+execution time. The SLC execution time varies to allow the same
+% execution time for a SLC followed by an "initialize output pulse”
+ne (OUT) whether or not the skip is performed. This allows the execu-
+Yr tion of FDS functions to be timed to 2.48 us resolution.
+(oe
+4.2.5.2 Direct Memory Access. The four DMA channels shall provide for high
+speed data transfer through MDS, DSS, ISS, and PRA I/O units. Pro-
+grammed instructions turn each channel on or off, set the channel
+direction to input or output, and load an initial address for each
+channel. This address is automatically incremented each time a word
+passes through the channel. DMA “access windows" occur at least
+once during each instruction. In this way, instruction execution
+times remain constant whether or not DMA is being used. The four
+channels are each assigned a priority so that no unresolved conflict
+can occur if there are simultaneous DMA service requests from more
+than one 1/0 box. The total data rate possible through all four
+channels is at least 379 kbps.
+4.2.5.3 Interrupt. The program address shall be forced to zero every 2.5 ms.
+This causes the correct program to be reentered promptly even ifa
+noise spike should cause an incorrect "jump" in the program. The
+memory protection feature, which guarantees that the program itself
+can't be corrupted, is described in paragraph 4.2.6. The interrupt
+can also be used to avoid programming complexities which might be
+required to make all possible program paths take the same execution
+. time.
+4
+%
+. 12
+——
+, MJS77-4-2006-1A
+(
+Table 2. FDS Instruction Set
+MNEMONIC CYCLES FUNCTION
+1. INPUT/OUTPUT
+OUT 3 INITIALIZE OUTPUT PULSE
+PWD 4 PARALLEL WORD TRANSFER
+swo . nN SERIAL WORD OUT
+sw nN SERIAL WORD IN
+2, MEMORY REFERENCE
+AMR 6 AUTO INDEXED MEMORY READ
+AML 6 AUTO INDEXED MEMORY LOAD ;
+MRD 4 DIRECT MEMORY READ
+MLD 4 DIRECT MEMORY LOAD
+SRB 3 STORE RE (RETURN ADDRESS)
+3. BRANCHING
+JMP 2 JUMP
+SLC 3OR6 SKIP ON LINE COUNT NOT EQUAL TO VALUE
+SKP 3 SKIP ON POSITIVE
+ISP 4 INCREMENT AND SKIP ON POSITIVE
+psP 4 DECREMENT AND SKIP ON POSITIVE :
+Ga SKZ 3 SKIP ON ZERO
+alee | Isz 4 INCREMENT AND SKIP ON ZERO
+Wa DsZz 4 DECREMENT AND SKIP ON ZERO
+rd sKO 3 SKIP ON OVERFLOW .
+SKE 3 SKIP IF INDEX IS EQUAL TO VALUE
+EXC 2 EXECUTE
+SKC 3 SKIP ON CARRY
+4, SHIFTING
+LRS 9 LONG RIGHT SHIFT (ARITHMETIC)
+LLS 9 LONG LEFT SHIFT
+LRR 9 LONG RIGHT ROTATE
+SRS 6 SHORT RIGHT SHIFT
+SLs 6 SHORT LEFT SHIFT
+SRR 6 SHORT RIGHT ROTATE
+ARS 6 SHORT RIGHT SHIFT (ARITHMETIC)
+5, ARITHMETIC AND LOGIC
+ADD 6 ADD
+suB 6 SUBTRACT
+AND 6 LOGICAL AND
+LOR 6 LOGICAL OR
+LXR 6 LOGICAL EXCLUSIVE OR
+6, CONSTANTS
+‘ABS 3 LOAD ABSOLUTE
+7. TIMING
+WAT 2-4097 WAIT
+ww 8. INDEX MODIFICATION
+MCX 4 CONDITIONALLY MODIFY INDEX
+13
+j f MJS77-4-2006-1A
+4
+
+4.2.5.4 Hardware Block Load. The initial FDS memory load and subsequent
+substitutions for large blocks of FDS memory are performed by
+stopping the normal CPU sequencing and giving control of the memory
+to the CCS command entry logic. This logic will load a starting
+address into the CPU and then supply a series of data words to be
+loaded into consecutive locations. The address is automatically
+incremented by the CPU after each word is loaded.
+
+42.545 Memory Access Switching. In normal operation only one processor
+will be operating. The FDS state vector selects the operating
+processor and selects one 8192 word memory as prime and one as
+
+secondary. Operating programs will reside in the prime memory.
+The secondary memory can be accessed for storage and retrieval of
+data blocks. A possible alternate mode of operation is that in
+which both processors operate with all access confined to a single
+8192 memory for each processor.
+4.2.6 Memories
+The FDS shall contain two 8192 word x 16 bit/word memories using
+256 x 1 bit CMOS random access memories (RAMs). Each memory is
+ree constructed using four large scale digital hybrid modules. Each
+(1a hybrid module has a 2048 word x 16 bit/word organization and pro-
+k vides adequate mission radiation shielding by means of the hybrid
+( or package design.
+The state vector control logic shall assign one memory as prime and
+the other as secondary. Programs are executed from the prime memory
+only. Unused primary memory and the secondary memory can be used
+for buffering and parameter storage. The state vector also has a
+bit that controls which half of the 8 K memory is actually accessed
+by inverting the 13th address bit. This allows recovery from
+failures in the special register locations by relocating them and
+redefining the failed locations to be in upper memory.
+Each memory shall have write protect circuitry used to protect the
+program storage during transient conditions. Protection is contigu-
+ous in a single block for each 4 K of memory starting from address
+"900" to 9FF (2560 decimal), to BFF (3072 decimal), or DFF (3584
+decimal). This protect must be overridden to write into these areas
+during memory loads. The memory contents shall be retained as long
+as either power converter is receiving 50 V rms, 2.4 kHz power, or
+the 30 V bus is greater than 15 V.
+4.2.7 Data and Command 1/0
+The FDS shall output data to the DSS for temporary storage and to
+MDS for real-time transmission. Both units shall receive data from
+\ memory using DMA, from the Golay coders or directly from the ISS,
+~~ PRA, and PWS I/O units. In addition, MDS receives Reed-Solomon
+coded data and engineering data at 40 bps as shown in Figure 4.
+# 14
+- = a eT SS SSE
+4 MJS77-4-2006-1A
+J ;
+| DMA DATA i
+GOLAY CODER A —-+
+GOLAY CODER B =
+REED-SOLOMON CODER ————*
+ISS NA (115.2 KBPS) SToST ToT MDS HR
+ISS WA (115.2 KBPS) ——
+PRA (115.2 KBPS) ———
+2 PWS (115.2 KBPS) ——
+LR ENGR (40 BPS) Sap e
+GO VITERBI SYMBOLS —_____+ MDS LR
+\ —
+(K = 7, R = 1/3 OF MDS HR)
+MDS I/O DATA SELECTION
+DMA
+GOLAY CODER A —_——*
+GOLAY CODER B ——-+ ass
+ISS NA (115.2 KBPS) ——— RECORD
+DATA
+ISS WA (115.2 KBPS) rere? -
+PRA (115.2 KBPS) ————
+pws (115.2 KBPS) —___-+
+( DSS I/O DATA SELECTION
+—_
+Figure 4. Data Output Functional Diagram
+a
+je 15
+af y MJS77-4-2006-1A
+od
+
+| ; 4.2.7 Engineering data at 40 bps or the Viterbi encoded MDS high rate
+
+| (contd) channel is selected for output to MDS on the low rate channel.
+
+| Data selection and timing shall be under the processor control of
+
+the prime processor which can allow DMA servicing from the secondary
+
+: processor. The two sets of MDS interface circuits shall both be
+driven by the redundant unit selected. The DSS interface shall not
+be redundant.
+
+Data can be sent to the tape recorder at the tape recorder playback
+rates in addition to the normal recording rates. At 57.6 kbps,
+each bit will be recorded twice (recording at 115.2 kbps). The FDS
+
+shall have the capability to sample every other bit during playback
+
+to preclude transmission of each bit twice. This capability will
+allow recording of slow scan imaging data at a rate of 57.6 kbps
+even though that record rate is not available, directly, on the
+tape recorder.
+
+All serial commands sent to science instruments shall be generated
+. in a single unit associated with each processor. All users shall
+
+receive the same data line put only the desired user shall receive
+
+a word gate. The maximum command word length shall be 12 bits. If
+less than 12 bits are used, they shall be sent as the last bits of
+cn the command. Therefore, the timing is the same for all commands.
+H( € Only one command shall be sent in any 2.5 ms interval.
+. / ;
+No 4.2.8 Golay Coders
+The FDS shall code 3600 bps general science and engineering (GS&E)
+data with a Golay (24, 12) code interleaved to depth 36. The
+format of the coded data output shall be as specified in .
+MJS77-3-280. The Golay coders shall be redundant with the exception
+that both coders are required to generate telemetry modes in which
+Golay coded outputs are sent to the DSS and MDS at the same time at
+different rates.
+4.2.9 Reed-Solomon Encoder
+The FDS shall encode data using the Reed-Soloman (J = 8, E = 16)
+code with an interleaving depth of 4. The maximum data rate is
+22 kbps; however, the rates in excess of 12.8 kbps require complex
+software. The encoding is done in hardware. Constants will be
+stored in memory and periodically loaded into circular hardware
+: register in the coder.
+4.2.10 Viterbi Encoder
+The FDS shall encode the MDS HR data stream using K = 7, R= 1/3
+code and provide the capability to transmit this data to the MDS
+( via the low rate data line. When this encoder is being used, the
+: a MDS HR data line to MDS will be unusable (MDS symbol sync is 3
+times the data rate rather than 2 times as required by the MDS).
+oon
+ae! bes sie atin i Ee Data nS BBA =
+y MJS77-4-2006-1A
+a ~~
+| 4.2.11 Science 1/0 Units
+These units shall perform two basic functions. They shall receive
+instruction words from memory via the processors that specify when
+each signal is to be sent to the science instruments. The I/O unit
+| shall decode that word and initiate the appropriate action.
+| Secondly, they shall receive digital data from the science instru-
+i ments and temporarily buffer it until the processor picks up the
+i data under program control. ,
+| UVS and PPS I/Os shall both contain hardware that performs a float-
+| ing point compression on their data as it is being shifted into the
+| FDS. All UVS and PPS samples shall be compressed and cannot be
+bypassed.
+| 4.2.12 Engineering Logic F
+4.2.12.1 Engineering Tree. The FDS engineering tree shall provide the capa-
+bility for accommodating 243 measurements. The tree shall be
+divided into two nonredundant halves. Three types of measurements
+shall be made: 1) temperature, 2) digital, and 3) 0-3 V analog.
+The number of each type available in the A and B halves shall be as
+{ shown below:
+ce
++. A
+( —
+Temperature 45 45
+Digital 32 16
+0-3 V Analog 45 60
+Measurements shall be 8 bits each and can be taken at a maximum rate
+of one each 6-2/3 ms, (equivalent to a data rate of 1200 bps).
+Assignment of measurements to specific locations on the FDS engi-
+neering tree shall be as specified in MJS77-3-280. The electrical
+interface constraints for the tree are specified in MJS77-3-260,
+Electrical Grounding and Interfacing.
+The standard temperature range of -78° to +100°C shall be used when-
+ever possible; however, provisions shall be included for up to 24
+nonstandard temperature measurements (12 in each half). The exact
+range for nonstandard temperatures is a function of the end points
+and the AT and will not necessarily result in the standard 0 to 255
+DN range.
+
+2612.20 Engineering ADC. The redundant Engineering ADC shall be the dual
+integrating type with word conversion timing based upon an 8-bit
+engineering word at 1200 bps (833-1/3 us/bit). The convert time is
+
+&. \ always the same, i.e., it is independent of the engineering data
+3 ( rate. The integration period is selected to provide heavy rejection
+to sinusoidal components of the 2.4 kHz power. The type of ADC and
+_
+eS 4 oa
+— —
+4 MJS77-4-2006-1A
+‘e~
+j ine conversion cycle employed cancels the small errors due to integrator
+| . time constant variations and commutator offset voltages.
+4.2,12.3 Engineering Readout Structure. The engineering readout structure
+shall be as specified in MJS77-3-280. This structure is generated
+by FDS software via a parameter look-up table stored in FDS memory.
+4.2.12.4 Special Telemetry Interfaces
+|
+4.2.12.4.1 MDS Signal-to-Noise Ratio (SNR) Measurement. The MDS will shift a
+20-bit serial word, MSB first, to the FDS every 62.5 ms which is
+|| related to the STp/No at the input to the command detector unit
+| (CDU). The FDS shall transfer the 16 LSBs of the 20-bit SNR word
+| into a storage register upon receipt on an alert pulse supplied by
+the MDS. The contents of this storage register are inserted into
+| the telemetry stream with the next two samples of the SNR measure—
+| ment. The storage register shall be reset to zero upon being read
+f . out.
+4.2.12.4.2 MDS Oscillator Monitor. The MDS will provide the FDS a 1638.4 Hz
+squarewave signal which is related to the command detector unit
+oscillator frequency. The FDS shall count this signal over intervals
+hy, of 96 s and generate an 8-bit word which defines the signal fre-
+ne quency. The oscillator monitor frequency and counter interval are
+<4 ‘é chosen so that each count represents a frequency change of 6.35 ppm;
+_ and so that the residue remaining in the 7 LSBs of the register is
+centered at midrange when the MDS and FDS oscillator frequencies are
+at their design values. The MSB of the register shall be set to "1"
+when the correct number of overflows have occurred and "0" otherwise.
+At the end of the count interval, the data in the counting register
+shall be transferred to an 8-bit storage register and the count
+register shall be reset. The storage register shall hold the
+telemetry sample until readout or updated with a later sample. The
+storage register shall be reset upon readout. If the storage regis-
+ter is interrogated after being read, but prior to being updated
+with a new sample, the telemetry word shall be all zeros.
+4.2.10.4.3 Propulsion IPU and TCAPU Pressure Measurements. The FDS shall pro-
+vide four 16-bit counters to accumulate pulses supplied by selected
+IPU or TCAPU thrusters. These registers are ported to O and count
+the pulses on the input lines thereafter. Data is sampled in the
+| FDS at the time of occurrence of the data word gate of the most
+significant byte.
+4.3 Data Rates and Modes
+Data rates and modes shall be as specified in MJS77-3-270. Table 3
+shows the data rates possible to MDS.
+\
+(we
+ES 18
+ye .
+4 MJS77-4-2006-1A
+i Table 3. Possible MDS Data Rates
+| 0.010 kbps 4.800 kbps
+0.020 5.400
+} 0.023 1/3 5.600
+| *0.40 5.973 1/3
+0.046 2/3 : 6.300
+| *0.080 6.400
+0.093 1/3 *7.200
+0.100 7.466 2/3
+*0.160 8.400
+0.186 2/3 9.600
+| 0.200 10.800
+0.233 1/3 11.200
+0.300 12.600
+*0.320 12.800
+0.373 1/3 14.400
+0.400 14.933 1/3
+0.466 2/3 16.800
+0.525 19.200
+0.600 *21.600
+' *0.640 22.400
+ee 0.700 25.200
+( 0.746 2/3 28.800
+Sel 0.800 *29.866 2/3
+; 0.900 33.600
+0.933 1/3 38.400
+1.050 43.200
+*1.200 *44.800
+*1.280 50.400
+1.400 57.600
+1.493 1/3 *67.200 :
+1.600 86.400
+1.800 *89.600
+1.866 2/3 100.800
+2.100 *115.200
+2.400 134.400
+*2.560 172.800
+2.700 201.600
+2.800 268.800
+2.986 2/3 345.600
+3.200 » 403.200
+*3.600
+3.733 1/3
+4.200
+| * rates used in standard mission
+‘ f —
+P|
+a 19
+1?
+MJS77-4-2006-1A
+| 4.4 Data Formats
+| Data formats shall be as specified in MJS77-3-280.
+5.0 INTERFACE DEFINITION
+| Sie Electrical Interfaces
+
+The electrical interface shall be:
+
+a) Basic requirements are contained in MJS77-3-260 for electrical
+grounding, electrical bonding, electrical interface circuits,
+and electromagnetic compatibility.
+
+b) Specific system level requirements for electrical interface
+circuits and grounding are contained in the applicable circuit
+data sheets. For additional information, refer to JPL Drawing
+10063288, Circuit Data Sheet Index and Guide.
+
+c) All spacecraft flight and umbilical interface circuits, e.B-5
+subsystem-subsystem, subsystem-launch vehicle, and subsystem—
+
+support equipment through the umbilical connector are listed
+ieee in MJS77-3-110, Functional Block Diagram and Interface
+(b . Listings. All such circuits interfacing with this subsystem
+‘ ( — are reproduced for reference in Table 4 herein.
+
+d) All spacecraft nonflight circuits, including direct access
+circuits, are listed in MJS77-3-1110, Support Equipment Func—
+tional Block Diagrams and Interface Listings -
+
+e) Details of each interface are described in MJS77-3-270.
+5.2 Mechanical Interfaces
+Mechanical interfaces with the spacecraft shall be as specified on
+the JPL Drawing 10062408, FDS Interface Control Drawing, and in
+MJS77-3-180, Configuration.
+5.3 Thermal .
+There are no special FDS thermal requirements. The FA temperature
+range is 0 to +55°C.
+6.0 PERFORMANCE
+6.1 Engineering Analog Measurement Accuracies
+4 The accuracy of analog engineering measurements as read from the
+\ input of the FDS to the engineering ADC output shall be as specified
+~~ below:
+a) 0-3 V measurements: +1 percent of full scale, +1/2 DN
+quantization error.
+é
+iss : 20
+Ss Ss
+|
+MJS77-4-2006-1A
+i \ + Table 4. Electrical Interface Circuits
+| MJS77
+Item: 1,2 Items are numbered consecutively for quick reference
+Subsystem
+(SUB) : 001 Structure subsystem
+002 Radio frequency subsystem :
+003 Modulation/demodulation subsystem
+004 Power subsystem
+005 Computer command subsystem
+007 Attitude and articulation control subsystem
+008 Pyrotechnic subsystem
+009 Cabling subsystem
+010 Propulsion subsystem
+‘ns i 011 Temperature control subsystem
+: ( — 012 : Mechanical devices subsystem
+016 Data storage subsystem
+| 017 $/X-band antenna subsystem
+021 Cosmic ray subsystem
+022 Planetary radio astronomy subsystem
+023 Plasma wave subsystem ,
+025 Low energy charged particle subsystem
+027 Photopolarimeter subsystem
+032 Plasma subsystem
+034 Ultraviolet spectrometer subsystem
+035 Magnetometer subsystem
+036 Imaging science subsystem
+039 Infrared interferometer and radiometer subsystem
+Flow: > Signal flow is to the right (relative to the Sub-SUB
+code)
+< Signal flow is to the left
+{ - Signal flow may be either left or right
+- Circuit
+Name Listed exactly as in MJS77-3-110.
+—
+ss 21
+y MJS77-4-2006-1A
+( wl
+TARLE 4. ELECTRICAL INTERFACE CIRCUTTS
+MJS77 (CONT)
+| ITEM stig SUB NO FLOW = CIRCUIT NAME
+j STRU - FDS
+1. 901-006— U1 > TLM RAY 1 TEMP
+2. 001-006- 02 > TLM RAY 3 TEMP
+3e 001-006- 03 > TLM BAY 5 TEMP
+4. 001-006 04 > TLM RAY 7 TEMP
+5. 001-006- US > TLM RAY 9 TEMP
+6e 001-0067 U6 > TLM RAY 2 TEMP
+Te 001-006 07 > TELM BAY 4 TEMP
+8. 001-006 08 > TLM RAY 6 TEMP
+Se ia 9. 901-006- 09 > TLM RAY 8 TEMP
+to. 001-006— 10 > TLM RAY 10 TEMP
+RFS - FDS
+11. 002-006— U1 < 14.4KHZ, SAX RANT TWTA/SSA
+12. 002-006— 02 > TLM X-BAND TWT CATHONE CUP
+13. 902-006— 03 > TLM X-BAND TT REG V
+14. 02-006— U4 > TLM X-BAND HGA DP
+15. 002-006 05 > TLM X-BAND TWT HFLIX CUR
+16. 002-006- U6 > TLM S-TwT CATHODF/SSA INPUT Clie
+17. 002-006— U7 > TLM S-BAND TWT/SSA REG V
+ta. 002-006- 08 > TLM S-BAND TWT HFLIX CUR
+| 19. 002-006— U9 < S0-4KHZ, SEX-1+ XEX-1" & RCVR ?
+t a” a0. 002-006" 10 < SO+4KHZ, SEX-2+ XEX-?+ & RCVR 2
+a 22
+a .
+eee =
+MJS77-4-2006-1A
+2
+TABLE 4. ELECTRICAL INTERFACE CIRCUITS
+MJUS77 (CONT)
+| ITEM SUB SUB NO FLOW CIRCUIT NAME
+RFS - Fos
+21. 002-006~- 11 > 14.4KHZ STATUS SHIFT CLOCK
+22. 002-006- 12 < RFS STATUS 1 WORN GATE
+23. 002-006" 13° < RFS STATUS 2 WORN GATE
+24. 002-006- 14 > TLM RFS STATUS 1 OUTPUT
+25. 002-006- 15 > TLM RFS STATUS 2 OUTPUT
+266 02-006- 16 > TLM X¥=RAND HYBRID TEMP
+@ 27. 002-006- 17 > TLM RCVR VCO TEMP
+br am "28. 002-006 18 > TLM AUX OSC TEMP
+we 29. 002-006- 19 > TLM X-BAND EX TEMP
+30+ 002-006- 20 > TLM S=RAND TWT/SSA BASF TEMP
+31. 02-006- 21 > TLM X-BAND TWT BASE TEMP
+| 32. 002-006— 22 > TLM X=RBAND RF MONITOR TEMP
+336 002-006— 23 > TLM X-BAND EX CUR
+34. 002-006- 24 > TLM RCVR LO OR
+- 35. 002-006- 25 > TLM RCVR 1 AGCIXR
+36+ 002-006- 26 > TLM RCVR 1 OR 2 VCO Vv COARSE
+37. 02-006- 27 > TLM S=RAND EX CUR
+38. 002-006- 28 > TLM RCVR 2 AGC:XR
+394 02-006- 29 > TLM RCVR RANGING AGC V
+(4 40. 02-006- 30 > TLM RCVR 1 OR 2 VCO v FINE
+a 41. 0U2-006- 31 > TLM RCVR CUR
+23
+——————————————=——=———————_h
+; MJS77-4-2006-1A
+TABLE 4. ELECTRICAL INTERFACE cIRCUTTS
+f MJS77 (CONT)
+ITEM SUB SUB NO FLOW CIRCUIT NAME
+RFS - FDS
+4y2. 002-0067 52 > TLM S<BAND HGA ORIVE
+Udo 002-006- 33 > TELM X=RAND TWT ORIVE
+44, 002-006— 34 > TLM S-BAND TWT DR
+4S. 002-006- 35 > TLM LGA DR
+46. 002-006- 56 > TLM LISO INNER OVEN CUR
+47. 002-006 57 > TLM S-RAND HYRRIN TEMP
+q 4B. 002-006- 38 > TLM XMTR RF SW TEMP
+7 MpS = FDS
+49. 003-006- U1 < TMUMA SYMBOL SYNC
+50-6 003-0067 02 << HIGH RATE CHANNEL DATA TO TMA 5
+51. 003-006- U3 < LOW RATE CHANNEL DATA TO TMURA
+52. 003-0067 04 < TMUMA 14e4KH7 SHTFT CLOCK
+53. 903-006~ U5 < TMU-A STATUS WORN GATF 1
+54. 003-006- 06 < TMUMA STATUS WORN GATE 2
+55. 903+006- U7 > TMU-A STATUS DATA
+56. 003-006 U8 < TMU-R SYMBOL SYNC
+57. 003-006" 09 < HIGH RATE CHANNEL DATA TO TMU-B
+58. 003-006- 10 < LOW RATE CHANNEL DATA TO TMU-R
+59. 003-006- 11 < TMUMB 14-4KHZ SHTFT CLOCK
+( os 60. 003-006~ 12 © TMU-B STATUS WORD GATE. 1 -
+jen te . 24
+———————————————_—
+? MJS77-4-2006-1A
+Dn ( WA
+TABLE 4. ELECTRICAL INTERFACE CIRCUITS
+MJS77 (CONT)
+ITEM SUB SUB NO FLOW CIRCUIT NAME
+MpS - FDS
+| 61. 003-0067 13 < TMU-B STATUS WORD GATE 2
+62. 003-006 14 > TMU-B STATUS DATA
+63. 003-006- 15 > TMU-B ACTIVE UNIT IND
+64. 003-006" 16 > CDU-A SUBCARRIER LOCK
+65. 003-006- 17 > COU-A BIT SYNC LOCK
+66. 003-006- 18 > CDU-A Osc MONITOR
+i 67. 003-006 19 > CNUMA SNR DATA
+tae (/ tas 68+ 003-006 20 > CDU-A SNR ALERT PULSE
+696 003-006 21 > CDU-A SNR CLOCK
+70. 003-006— 22 > CDU-B SUBCARRIER LOCK
+71. 003-006" 23 > COU-R BIT SYNC LOCK
+726 003-0067 24 > chuU-B Osc MONITOR
+736 003-006- 25 > cnhuU-R SNR DATA
+The 003-0067 26 > chuU=-B SNR CLOCK
+75.6 003-0067 27 > chU=-R SNR ALERT PULSF
+76. 003-006- 28 > CDU-R ACTIVE UNIT IND
+PwR - FDS ;
+77. 004-006-007 > 264KHZ PWR TO CONV A
+78. 004=006"D08 > 2+4KHZ PWR To CONV B
+79. 004-006-012 > 30VOC FDS MEMORY PWR
+ja 4 =
+i ——
+= : = ES
+. MJS77-4-2006-1A
+(A
+| TABLE 4. ELECTRICAL INTERFACE CIRCUITS
+MJS77 (CONT)
+ITEM SUB SUB NO FLOW = CIRCUIT NAME
+pwr - FDS
+BO. 004-006- U1 < 4+8KHZ REFERFNCE FREQ
+Bi. 004-006- 02 > TLM RTG 1 CASE TFMP 2
+g2. 004-006- U3 > TLM RTG 1 CASE TFMP 3
+' g3- 004-006 U4 > TLM RTG 2 CASE TFMP 1
+gu. 04-006- 05 > TLM RTG 2 CASE TEMP 3
+gs. 004-006- 06 > TLM RTG 3 CASE TEMP 1
+h B6. 004-006- 07 > TLM RTG 3 CASE TFMP 2
+Cty 7 a7. 004-006- U8 > TLM SHUNT RADIATOR TEMP 1
+° ga. 004-006 09 > TLM SHUNT RADIATOR TEMP 2
+89. 004-006- 10 > TLM BATTERY TEMP ,
+of. 004-006- 11 > TLM SHUNT REG TEMP
+gi. 004-006 12 > TLM RTG 1 OUTPUT V
+924. 004-006- 13 > TLM RTG 2 OUTPUT V
+. 93. 004-006- 14 > TLM RTG 3 OUTPUT V
+gu. 004-006- 15 > TLM RTG 1 OUTPUT I
+95. 004-006- 16 > TLM RTG 2 OUTPUT I
+96. 04-0067 17 > TLM RTG 3 OUTPUT I
+97. 004-006- 18 > TLM DC RUS VOLTAGE
+98. 004-006- 19 > TLM RNM VOLTAGE
+99. 004-006- 20 > TLM SHUNT REGULATOR INPUT I
+al 100+ 004-006" 21 > TLM 24KHZ INVe INPUT I
+a4 26
+MJS77-4-2006-1A
+Te
+TABLE 4. ELECTRICAL INTERFACE cIRCUTTS
+MJS77. (CONT)
+ITEM SUB SUB NO FLOW CIRCUIT NAME
+PwR = FDS
+101. 004-006~ 22 > TEM 2¢4KHZ INVe OUTPUT TI
+102+ 004-006 23 > TLM 2e4KHZ INV. OUTPUT V
+103-6 004-0067 24 > Tum oc BUS I
+1o4. 004-006" 25 > TLM 2.4KHZ INV STATUS
+ccs - FDS
+105. 005-006- V1 > CC STROBE # XR
+(a= 106+ 005-006 02 > CC DATArXR
+¥ 107. 005-006- U3 > CC ENABLE? XR
+toB. 005-006 U4 > TLM CCS OUT 1
+109-6 905-0067 U5 > TEM CCS OUT 2
+110. 005-006 06 < CCS RIT SYNC 1
+Lile 905-006- U7 < CCS RIT SYNC 2
+1126 905-006- U8 < CCS ALERT 1
+113. 905-006 99 < CCS ALERT 2
+114. 005-006 to. < FNS SFQUENCE SYNC 1#XR
+115. 005-0067 11 < FDS SEQUENCE SYNC 27xR
+116+ 005-006- 12 < FNS LO RATE MATAEXR
+117. 05-006- 13 < FOS LO RATE RIT SYNC#XP
+FDS = AACS
+‘fai tia. 096-007- U1 > AACS ANNPESS DATA AsxXP
+K ¢b 27
+P :
+MJS77-4-2006-1A
+Tak +
+TABLE 4. ELECTRICAL INTERFACE CIRCUTTS
+MJS77 (CONT)
+ITEM SUB SUB NO FLOW CIRCUIT NAME
+| Fos - AACS
+119. 006-007- 02 > AACS ADDRESS WORD GATE AIYP
+| 120+ 906-007- 03 > AACS 14,4KHZ SHIFT CLOCK A‘KP
+121. 006-007" 84 > AACS DATA WORD GATE A#XR
+192. 006+007- 05 < AACS MATA 13XR
+123. 006-0077 06 > AACS ADDRESS DATA B#XR
+124. 906-007- U7 > AACS ADDRESS WORD GATE REXP
+q 125. 006-007- 08 > AACS 14,4KHZ SHIFT CLOCK R#XP
+IC € id 126. 006-0077 09 > AACS DATA WORN GATE RFXR
+| . 127. 006-007- 10 < AACS DATA 2+XR
+128. 006-007- 11 < TLM CST T TEMP
+129 006-007- 12 < TLM CST 2 TEMP
+130. 906-007- 13 < TLM SUN SENSOR TEMP
+. 131. 006-007- 14 < TLM SCAN AZ TEMP
+1322 006-007- 15 < TLM A GYRO TEMP
+133. 006-007- 16 < TLM B GYRO TEMP
+134. 006-007- 17 < TLM C GYRO TEMP
+135. 006-007- 18 > MAM 14-4KHZ SHIFT CLOCK A
+136+ 006-007- 19 > MAM DATA WORD GATE A
+137. 006-007- 20 ¢ MAM DATA A
+f
+—
+nee 28
+VA —— = a
+MJS77—4-2006-1A
+TABLE 4. ELECTRICAL INTERFACE CIRCUITS
+MJS77 (CONT)
+ITEM SUB SUB NO FLOW = CIRCUIT NAME
+: FDS - PYRO
+i 138-6 006-908" UL < +P THRUST 1/+A ENG 1 CHAMRER PRES
+139. 006-008" 92 < -P THRUST 1/-A ENG 4 CHAMRER PRES
+1406 n06-008- YS < +Y THRUST 1/+B ENG 2 CHAMBER PRFS
+huis 006-008— 04 < +R THRUST 1/-B ENG 2 CHAMRER PRES
+tug. 006-008- US < TLM CAP BANK A VOLTS
+143-6 006-008- 06 < TLM CAP RANK B VOLTS
+tu. 006-008" 07 < TLM PYRO AMP IND A
+ACT, Lys. 006-008- U8 < TLM PYRO AMP IND B
+1466 006-008- 09 < TLM ISO VALVE POSITION BRL
+147-6 006-008" 10 < TELM ISO VALVE POSITION BR2
+FDS - CABL
+1486 006-0097 o1 < S/CHLV SEPARATION INDICATION
+1496 006-009- V2 < PM=MM SEPARATION INDICATION
+- EDS - PROP
+1506 006-0107 81 «© TEM IPU SOLIO MOTOR TEMP 1
+15le 006-010~ V2 < TELM IPU SOLID MOTOR TEMP 2
+is2. 006-010- 05 < TLM TPU LINE TEMP 1
+153. 006-010- v6 < TLM IP LINE TEMP 2
+, ish. 006-010- 97 < TELM IPU +ROLL ENGINE 1 TEMP
+i
+155. 006-010- 08 < TLM IPU +ROLL ENGINE 2 TEMP
+a 29
+p84
+y MJS77—-4-2006-1A
+(
+TABLE 4. ELECTRICAL INTERFACE CIRCUTTS
+MJS77 (CONT)
+TEM SUB SUB NO FLOW CIRCUIT NAME
+FDS - PROP
+ise. 006-0107 09 < TLM IPU “ROLL ENGINE 1 TEMP
+157. 006-010- 10 ¢ TLM IPU -ROLL ENGINE 2 TEMP
+isa. ovenoao- 2h © TLM TCAPU TANK TFMP 1
+159+ 006-0107 12 < TLM TCAPU TANK TEMP 2
+1eoe 006-010- 13 ¢ TLM TCAPU FEED SYSTEM TEMP 1
+{ Let» 006-010- 14 TLM TCAPU FEFD SYSTEM TEMP 2
+4 1e2~ 9ve-010- 15 ¢ TUM TCAPU SURFACF TEMP 1
+CE (ey 163. 006-010- 16 TLM TCAPU SURFACE TEMP 2
+. 1646 pog-o10- 17 < TUM TcApU +PITCH THR 2 TEMP
+165. 006-0107 18 ¢ TLM TCAPU “PITCH THR ? TEMP
+} 166+ 06-010" 19S TUM TCAPU +YAW THR 2 TEMP
+167+ 906-0107 20 ¢ TUM TCAPU “YAW THR 1 TEMP
+teas n0e-a10- 21 ¢ TLM TCAPU YAW THR 2 TEMP
+169+ 006-010" 22 < TLM TCAPU “ROLL THR 1 TEMP
+170. 006-0107 23 < TLM TCAPU +ROLL THR 2 TEMP
+171. 006-010- 24 ¢ TLM TCAPU “ROLL THR 2 TEMP
+172. 906-010- 25 ¢ TLM IPU SOLID MOTOR CHMBR PRESHXR
+173. 006-0107 26 < TLM TCAPU N2H4 PRESSURE 1
+( 174. 006-0107 27 ¢ TLM TCAPU HE PRESSURE
+, y 175. 006-010" 28 < TIM TcAPU +PITCH TCM THR CH PRES
+= 176. 006-0107 29 TLM TCAPU -PITCH TCM THR CH PRES
+a4 ; 30
+- _
+MJS77-4-2006-1A
+(
+TABLE 4. ELECTRICAL INTERFACE CIRCUITS
+MJUS77 (CONT)
+ITEM SUB SUR NO FLOW CIRCUIT NAME
+Fos = PROP
+177. 006-010 50 < TLM TCAPU +YAW TCM THR CH PRES
+178+ 006-010- 51 < TELM TCApU -YAW TCM THR CH PRES
+FDS = TEMP.
+179. o006-011- U1 < TLY SCI PLUME SHTELD TEMP 1
+1g0. o06-011- v2 < TLM SCI PLUME SHTELD TEMP 2
+Fos - DEV
+h
+res tai 006-012- 02 < TLM RTG BOOM DEPLOY STATUS
+1g2. 006-012- 04 < TLM SCI ROOM DEPLOY STATUS
+1e3. 006-012- U5 < TLM MAG BOOM DEPLOY STATUS
+tau. 006-012- U6 < TLM MAG ROOM RELFASE STATHS
+1aS. 006-012- U7 < TLM SCIENCE LATCH PRESSURE
+FOS - pss
+1a6+ 006-016- YL > CC DATA 2
+1a7. 006-0167 02 > CC STROBE 2
+188. 006-0167 03 >» RECORD DATA
+1g9- 006-016~ 04 > NSS STATUS BIT SYNC
+190. 006-016- 95 > NSS MODE STATUS ALERT
+191. 006-016- 06 > OSS PLAYBACK STATUS ALERT
+( 192. 006-016- U7 > RECORD BIT SYNC
+( i
+a 31
+is
+———————
+y- MJS77-4-2006-1A
+@.. TABLE 4. ELECTRICAL INTERFACE CIRCUITS
+MJS77 (CONT)
+/ Tem SUB SUB NO FLOW = CIRCUIT NAME
+| Fos - pss
+193. 006-016 08 > PLAYRACK BIT SYNC
+Lou. 006-016 09 > CC ENABLE 2
+195. 006-016 10 > 24192 MHZ REFERENCE
+196. 006-016 11 < PLAYBACK DATA
+| 197. 006-016 12 < TLM NSS STATUS
+Loa. 006-016" 13 < TLM DSS MOTOR V
+199. 006-016- 14 < TLM DSS TRANSPORT PRESSURE. .
+moe
+i iG= FOS - SKA
+apd. 006-017— UL < TLM HGA MAIN REFLECTOR TEMP
+opie 006-017— U2 < TLM HGA S-BAND FEED TEMP
+apg. 906-017— US < TLM X-BAND FEED HORN TEMP
+203. 006-017- 04 < TLM LGA RODY TEMP
+FS - CRS
+ape 06-021- UL > CRS 14.4KHZ SHIFT CLOCK A
+a0. 06-021- U2 > CRS 1%+4KHZ SHIFT CLOCK P
+206+ 006-021- 13 > CRS CMD WG
+207s 006-021- 04 > CRS CMD WORD
+28. 06-021- 05 > CRS HV ON
+209s 006-021- 06 > CRS PHA DATA WG A
+‘; ~~ 210. 006-0217 U7 > CRS PHA DATA WG R
+Rt db ; *%
+-. Mg$77-4-2006-14
+(7
+oad TABLE 4. ELECTRICAL INTERFACE CIRCUITS
+MJS77 (CONT)
+ITEM sUB SUB NO FLOW CIRCUIT NAME
+FOS = cRS
+211- 006-021- 8 > CRS RATE DATA WG A
+2126 006-021- 09 > CRS RATE DATA WG B
+213~ 006-0217 10 > CRS DIG STATUS WG
+214. 006-021- 11 > cRS SYNC
+215. 006-021- 12 > CRS ANALOG MUX RESET
+216+ 006-021- 35 > CRS ANALOG MUX STEP
+217+ 906-021- 14 > RS CALIB START
+uaa 218+ 006-021~ 15 > CRS REDUNDANCY SELECT
+2 eed 219. 006-021- 16 © CRS DIG DATA A
+220. 006-021- 17 © CRS DIG DATA R .
+| poi. 006-021- 16 © CRS ANALOG DATA
+222. 006-021- 19 © CRS TELESCOPE TEMP
+223. 006-021- 20 © CRS ELECTRONICS TEMP
+FDS - PRA
+pou. 906-0227 OL > pRA ANC BIT SYNC
+225-4 006-0227 "2 > PRA ANC START
+226. 006-0227 > PRA STATUS WG
+227. 006-022" 94 > PRA 7668KHZ CLOCK
+pop. 006-022~ 05 > PRA MUX STEP
+= 229. 006-0227 %6 > PRA MUX RESET
+~ re
+Ka 33
+is
+/ MJS77-4-2006-1A
+(# TABLE 4. ELECTRICAL INTERFACE CIRCUITS
+MJS77 (CONT)
+ITEM SUB SUB NO FLOW CIRCUIT NAME
+| FDS - PRA
+2306 006-022- 07 > PRA CMD WG
+231+ 006-0227 08, > » PRA CMD WORD
+232. 006-022- 09 > PRA 14.4KHZ SHIFT CLOCK
+233. 006-022- 10 < PRA ANC DATA
+p3u. 006-022" 11 < PRA DIG STATUS DATA
+235. 006-022 12 < PPA ANALOG MUX DATA
+236. 006-022- 13 ¢ PRA ELECTRONIC TEMP
+iw t¢ 937. 006-0227 14 < PRA B ANT DEPLOY
+° 238. 006-022~ 15 < PRA A ANT DEPLOY
+Fns = PWS
+"539. 006-023- 81 7 pws FREQ STEP :
+sega. odeesars-l2e >> PUS CLOcK RESET
+ais 006-0237 04 > PWS INPUT RANGE CONTROL
+oye. 006-023" U5 < PWS INPUT RANGE STATE
+243. 006-0237 07 pws TEMP
+ay. 006-0237 08 < PWS ANALOG OUTPUT A
+245. 006-023" 09 < PWS ANALOG OUTPUT B
+246. 006-023" 10 ¢ pws PWR SUPPLY VOLTAGF.
+247. 006-023" 11 < PWS WAVEFORM DATA
+y "e 24a. 006-023" 12 > pws ADC BIT SYNC
+\
+| att ; 34
+: y MJS77-4-2006-14
+(6
+TABLE 4. ELECTRICAL INTERFACE CIRCUTTS
+MJUS77 (CONT)
+ITEM SUB SUB NO FLOW CIRCUIT NAME
+FDS - PWS
+2496 006-023- 13 > PWS ANC START
+250. 006-023- 14 7 PWS WAVEFORM PWR
+FOS = LecP :
+251. 006-025" OL 7 LECP 14.4KHZ SHIFT CLOCK A
+252. 006-025" U2 > LECP 14.4KHZ SHIFT CLOCK B
+253. 006-025~ 03 > ~LECP CMD WORD A
+Mo osu. 006-0257 U4 > LECP CMp WORD B
+CEOS 255. 006-025" 05 7 LECP CMD WG A
+256. 006-0257 "6 > LECP CMD WG R
+257. 006-025" “7 ? LECP PHA WG A
+258+ 906-025" 0g >-LECP PHA WG R
+259. 006-025" 09 ? LECP REDUNDANCY SELECT
+260+ 006-025" 10 ? LFECP RATE CMM WG
+(2616 p06-025- 11 > LECP RATE/STATUS WG A
+2626 906-0257 12 > LECP RATE/STATUS WG R
+263. 006-025" 13 ? LECP MOTOR STEP
+2645 006-025" 14 ? LEcP MUX STEP
+265. 006-025" 15 ? LECP MUX RESET
+266+ 06-025" 16 ? LECP ADC CLOCK
+4 aii 267. 006-025" 17 < LECP DATA A
+ate 35
+ET
+4 MJS77-4-2006-1A
+( 6 TABLE 4. ELECTRICAL INTERFACE CIRCUTTS
+MJS77 (CONT)
+ITEM SUB SUB NO FLOW CIRCUIT NAME
+FOS 7 LecP
+268. 006-025- 18 < LECP DATA B
+269+ 006-025- 19 < LECP ANALOG ENGR DATA
+270. 006-025- 20 < LECP LEMPA TEL TEMP
+o71. 06-025" 21 < LECP LEPT TEL TEMP
+272. 006-025" 22 < LECP ANALOG CAL MATA
+FNS = PPS
+a 2736 006-027- 01 > PPS 1464 KHZ SHIFT CLOCK
+DANE 274. 006-027* 02 > PPS COMMAND WORD GATE
+275. 006-027" 93 > PPS COMMAND WORD ;
+276+ 006-027 04 > PPS DATA/COUNT CONTROL
+| 277+ 006-027- U6 < PPS DIGITAL SCIENCE DATA
+278. 006-027- U7 < PPS LVPS MON
+279. 006-027- 08 < PPS HVPS MON
+280+ 006-027- 09 < PPS SOLAR SENSOR
+2a1e 006-027~ 10 < PPS FILTER POSITION
+2a2. 006-027~ 11 < PPS ANALYZER POSITION
+2a3. 006-027- 12 < PPS APERTURE POSITION
+2e4. 006-027- 13 < PPS OPTICS TEMP
+285. 006-027- 14 < PPS ELECTRONICS TEMP XDUCER
+} ; 36
+)&
+————————
+- — ae
+7. MJS77-4-2006-1A
+} TABLE 4. ELECTRICAL INTERFACE CIRCUITS
+MJS77 (CONT)
+item sua SUB NO FLOW = CIRCUTT NAME
+: FDS - PLS
+pao. 006-032~ U1 > PLS Ly e4kKHZ SHIFT CLOCK
+aa7. 006-032~ 02 > PLS MUX RESET
+pas. n06-032- 03 > PLS SAMPLE cLock
+agg. 006-032- 04 > PLS DATA WG
+ago. 1Rbg0dSa-*05 “> \HESTCMO WS
+p91. 006-032- 06 > PLS CMO WORD
+2926 006-032" 07 > PLS MUX STEP
+tora 993. 006-032~ 08 > PLS ADC cLock
+pou. 006-032- 09 < PLS OIG DATA
+ngs. 006-032- 10 < PLS ANALOG Mux ollT
+p96. 006-032- 11 < PLS SENSOR TEMP
+5972 006-032" 12 < PLS ELECTRONTCS TEMP
+o98. 006-032" 13 < PLS MODULATOR TEMP
+FDS - uvs
+599. 006-034" 01 > UVS 14e4KHZ SHIFT CLOCK
+300¢ 006-034" v2 > UVS REGISTER LOAN GATF
+gots 006-034" 03 > UVS WORD ADDRESS RESFT
+322 906-034 U4 > UVS MODE CONTROL
+sop. “DOGeOSH-1 8S >> VOWSSEY CONTROL 1
+sou. 006-034" 96 > UVS HV CONTROL 2
+J 37
+ie
+, MJS77-4-2006-1A
+C€ TABLE 4. ELECTRICAL INTERFACE CIRCUTTS
+MuS77 (CONT)
+ITEM $UB SUB NO FLOW CIRCUIT NAME
+Fos - uvs
+305. 006-034" 07 ? UVS HV CONTROL 3
+306. 006-034" "8B < uvs Hv MONITOR
+307+ 906-034" 09 < uvs SCIENCE DATA 1
+308. 906-034" 10 < UVS SCIENCE DATA 2
+5090, 2967034T— 210 < uvs TEMP
+FDS - MAG
+" 310. 006-035~ OL > MAG 14e4KHZ SHIFT CLOCK A
+AC eC @ 311. 006-035" 02 ? MAG 1ue4KHZ SHIFT CLOCK B
+312. 006-035" 3 7 MAG CMD WG A
+313. 006-035~ 04 > MAG CMD WG B
+314. 006-035" U5 ? MAG CMD WORD A
+315. 006-035" V6 ? MAG CMD WORD B
+316. 006-035" 07 ? MAG SAMPLE A
+317. 006-035" U8 ? MAG SAMPLE B
+318. 006-035" "9 ? MAG RESET A
+319. 006-035" 10 ? MAG RESET B
+320. 006-035" 11 ? MAG STATUS WG A
+321. 006-035" 12 ? MAG STATUS WG B
+322. 006-035" 13 MAG SCI DATA WG A
+, 323. 006-035" 14 7 MAG SCI DATA WG R
+= 38
+jen #®
+MJS77-4-2006-1A
+& TABLE 4. ELECTRICAL INTERFACE CIRCUITS
+MJS77 (CONT)
+Tem SUB SUB NO FLOW = CIRCUIT NAME
+Fos = "MAG
+304. 006-035- 15 > “AG IBHEM CLOCK (50400KHZ)
+325. 006-035- 16 > MAG ORHFM CLOCK (53+ 760KHZ) :
+326. 006-035- 17 > MAG IBLFM CLOCK A (60 64R0KHZ)
+307. 006-035- 18 > MAG IRLFM CLOCK R(60.480KHZ)
+328. 006-035" 19 > MAG OALFM CLOCK A(64,.512KHZ)
+309. 006-035- 20 > MAG ORLFM CLOCK R(64.512KHZ)
+330. 006-035" 22 > MAG MUX STEP
+hn 331, 006-035" 23 > MAG MUX RESET
+—— 332. 006-035" 24 < MAG DIG DATA A
+333. 006-035 25 < MAG DIG NATA B
+334. 006-035- 26 < MAG ANALOG MUX ouT
+) 335. 006-035- 27 < “AG TBHFM SENSOR TEMP
+336. 006-035- 28 < MAG ORHFM SENSOR TEMP
+337. 006-035" 29 < MAG IALFM SENSOR TEMP
+338. 006-035- 30 < MAG ORLFM SENSOR TEMP
+FDS . IsS
+339. 006-036- U1 > ISS-NA FRAME GATE
+340. 006-036 U2 > TSS-NA LIGHT FLOOD CONTROL
+3412 006-036— 93 > ISS“NA FRAME ERASE. GATE
+sy26 006-0367 04 > TSS=NA LINE CONTROL GATE
+39
+i
+MJS77-4-2006-1A
+& TABLE 4, ELECTRICAL INTERFACE CIRCUTTS
+MJS77 (CONT)
+ITEM SUB SUB NO FLOW CIRCUIT NAME
+FOS - ISS
+3432 006-0367 U5 > ISS-NA G1 V/GAIN CMD WORD
+344. 006-0367 06 > ISS~NA G1 V/GAIN CMD WORD GATF
+345. 006-036- U7 > ISS-NA GHUTTFR RFSET
+346. 006-036- 08 > ISS-NA GHUTTER CLOSE
+347. 006-036- U9 > ISS-NA SHUTTER OPEN
+348+ 006-036— 10 > TSS"NA FILTER STEP
+F 349. 006-0367 11 > ISS~NA FILTER READ/MUX RESET
+* (( : 350+ 006-036- 12 > ISSNA 14e4KHZ SHIFT CLOCK
+— 351. 006-036- 13 > ISS-NA MUX STEP
+352. 006-036- 14 > ISSNA REAM ON
+353. 006-0367 15 > ISSNA ELECTRONICS CALIBRATE
+; 354, 006-036— 16 > ISS-NA OPTICS CALIBRATE
+355. 006-0367 17 > ISS"WA BEAM ON
+356. 006-0367 18 > ISS"WA ELECTRONICS CALIBRATE
+457. 006-0367 19 > ISS-WA FRAME GATE
+3586 006-036" 29 > ISS-WA LIGHT FLOOD CONTROL
+359. 006-036 21 > ISS"WA FRAME FRASE GATE
+360+ 906-036* 22 > ITSS-WA LINE CONTROL GATE
+361-6 006-036— 23 > ISS"WA G1 V/GAIN CMD WORD
+362. 006-0367 24 > ISS-WA G1 V/GAIN CMD WORD GATF
+Sev 363. 006-036 25 > ISSWA SHUTTER RESET
+rm 40
+js Fe
+: y MJS$77-4-2006-1A
+TABLE 4. ELECTRICAL INTERFACE CIRCUITS
+MUS77 (CONT)
+ITEM SUB SUB NO FLOW CIRCUIT NAME
+Fos - —s«Iss
+364. 006-036" 26 ? ISS-WA SHUTTER CLOSE
+365. 006-036~ 27 7 ISS-WA SHUTTFR OPEN
+366+ 006-036" 28 ? ISS-WA FILTER STEP
+367. 006-036" 29 ? ISG-WA FILTER READ/MUX RESET
+368. 06-036- 30 ? ISS_WA 1464KHZ SHIFT cLocK
+3690 006-367 31 > ISS@WA mux STEP
+4 370+ 006-036- 52 ? ISS-NA ADC BIT SYNC
+ee (( 371. 006-036" 33 ? 1ss_wA ANC BIT SYNC
+; ™ 372. 006-036" 54 ? ISS“NA ADC START
+3736 pve-036- 35 > =TSS"WA ADC START
+374. 006-0367 26 < TSS-NA ADC VIDEO DATA
+3752 006-036~ 37. < ISS“WA ADC VIDEO DATA
+376. 006-036" 38 ISS-NA FILTEP POSITION
+377. 006-036- 59 < ISSeWA FILTER POSITION
+37a. 06-0367 40 < ISS-NA REAR OPTICS TEMP
+379. 006-036~ 41 <¢ ISS-WA OPTICS TEMP
+390. 006-036- 42 < ISS-NA FRONT OPTICS FMP
+zai. 006-036~ 43 < ISS-NA VIDICON TFMP
+3a2- 006-036" 44 < ISS-WA VIDICON TFMP
+( 3g3. 06-0367 45 TSS-NA POWER SUPPLY TFMP
+7 G4 a4. 006-036" 46 < 1SS-WA POWER SUPPLY TEMP
+os 41
+jes
+4 MJS77-4-2006-1A
+TABLE 4. ELECTRICAL INTERFACE CIRCUITS
+MJS77 (CONT) ;
+ITEM SUB SUB NO FLOW CIRCUIT NAME
+FpS - Iss
+385. 006-0567 47 € TSS“NA ANALOG ENGR TLM
+3866 006-0367 48 < ISS-WA ANALOG ENGR TL”
+Fos - MIRIS
+ITEM NUMBERS 387 THRU 404 LISTFD RELOW
+ARE CIRCUITS BETWEFN THE FDS AND
+THE IRIS/MIRIS SUBSYSTEM+ THE IRIS
+AND THE MIRIS HAVE THE SAME INTER=
+- FACE LISTING. CIRCUITS 17 AND: 18 |
+‘s WILL BE IN SYSTEM CABLING AT ALL
+Pha TIMES BUT WILL RE USED ONLY FOR
+LN ' THE MIRIS SUBSYSTEM.
+387. 006-0397 OL ? MIRIS 14e4KHZ SHIFT CLOCK
+3882 006-0397 2 > MIRIS FRAME START
+309. 006-0397 93 ? FNS 4AOHZ NEON RFF FRE@
+390. 006-0397 O04 < MIRIS SCIENCE DATA
+391. 006-0397 05 > MIRIS PLL CARRIER
+392. 006-0397 U6 < MIRIS RAD SURFACF TEMP
+393. 006-039" 07 < MIRIS PRI MIRROR TEMP
+394. 006-039" 08 < MIRIS SEC MIRROR TEMP
+395. 006-039" 09 < MIRIS ELECTRONICS TEMP
+396. 006-039" 10 < MIRIS RADIOMFTER HIGH GAIN ANSLOG
+i
+397. 906-0397 11 < MIRIS RADIOMETER ANALOG |
+i)
+i;
+398. 006-0397 12 < -MIRIS NEON ANALOG
+( 399, 006-039" 13 < MIRIS RAD SURFACE HTR ANALOG
+42
+|
+MJS77—4-2006-1A
+TABLE 4, ELECTRICAL INTERFACE CIRCUITS
+MJS77_ (CONT)
+Tem sUB SUB NO FLOW = CIRCUIT NAME
+Fos - MIRIS .
+ude 006-039 14 < MIRIS PRI MIRROR HTR ANALOG
+uoie 006-039" 15 < MIRIS SEC MIRROR HTR ANALOG
+yo2. 006-039" 16 < MIRIS STANDBY SUPPLY STATUS
+uo. 006-0397 17 > MIRIS CMD WORD GATE
+uo4s 006-039" 18 > MIRIS CMD WORD
+eps 2 o7S”s«*@DS LCE
+ba, ups. 006-206-FU1 << +10VDC PWR FROM LCE
+Woe oss 006-2067FU2 << +5VDC PWR FROM LCE
+uo7e 006-206-F03 < -3VDC PUR FROM LCE
+uo. 006-2067F 04 << CC DATA FROM LCE
+| woos 006-206-FU5 < CC ENABLE FROM LCE
+wo. 006-206-FU6 < CC STRORE FROM LCE
+ite 006-2067FU7 > 264KHZ CC SYNC STGNAL
+Fos: - Lvs
+4i2e 006-LVS™ > MUS ENGINEERING NATA
+43
+MJS77-4-2006-14
+S € b) Standard temperature range (-78° to +100°C) measurements:
++3 percent of full scale, +1/2 DN quantization error.
+c) Nonstandard temperature ranges: +5 percent of full scale,
++1/2 DN quantization error.
+6.2 4.8 kHz Detector
+The detector shall inhibit the signal to PWR if the frequency is not
+4800 Hz, +6 percent (+288 Hz).
+6.3 Power _on Reset
+The FDS shall be in the power reset condition during power up when
+the AC voltage is below 43.5 V (nominal). During power down, FDS
+shall undergo a power reset at 42.0 V (nominal).
+6.4 Master Oscillator Accuracy
+The FDS master oscillators shall operate at 4.8384 MHz +20 ppm over
+the TA temperature range for the life of the mission.
+7.0 PHYSICAL CHARACTERISTICS AND CONSTRAINTS 1
+ye 7.1 Mass
+ves (ic —
+2 : The mass of the FDS shall be as specified in MJS77-3-230, Equipment
+List and Mass Allocations, and is given here for reference only:
+16.3 kg.
+7.2 Power
+| The maximum power consumed by the FDS shall be as specified in
+MJS77-3-250, Power Profile and Allocation, and is given here for
+reference only: 14.0 W.
+7.3 Volume
+The volume of the FDS shall be as specified in Interface Control
+Drawing 10062408.
+7.4 Environmental
+The FDS shall be designed to operate within specification over the
+type approval (TA) temperature range which is -20°C to +75°C. In \
+addition, the subsystem shall be compatible with the requirements of |
+MJS77-3-240, Environmental Design Requirements, and MJS77-3-210, |
+Design Criteria for Spacecraft Temperature Control. |
+44
+ia .
+jes ¢b
+MJS77—-4-2006-1A
+€ i Packaging
+
+The FDS shall be packaged utilizing planar multilayer laminate
+
+packaging technology in accordance with the applicable sections of
+
+MJS77-3-220, Electronic Equipment Design.
+
+7.6 Location
+The FDS shall be located within the spacecraft in the location
+| specified in MJS77-3-180.
+7.7 Identification and Marking
+
+The FDS shall be identified and marked as required in Equipment
+Identification and Marking, Section VII of 618-232, Configuration
+Management Plan.
+
+8.0 SAFETY CONSIDERATIONS
+The MJS77 FDS shall constitute no unusual safety hazard nor require
+any special handling other than normal for spacecraft electronic
+equipment.
+Ba,
+. |
+Xx
+45
+a
+MJS77-4-2006-1A
+C
+S ‘ REVISION LOG
+ECRs
+Revision Date i Incorporated Comments
+A 20 March 1978 36059, 36069, Changes affected by ECRs
+36077, 36107, listed
+36146, 36172,
+36201, 36212,
+36353, 36597, :
+36917
+™
+ne
+\ Ne
+; |
+|
+46
+'

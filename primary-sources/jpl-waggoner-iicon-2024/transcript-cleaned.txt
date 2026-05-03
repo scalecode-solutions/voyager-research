@@ -1,0 +1,962 @@
+hello um so thanks for having me um I
+ 
+want to tell you the incredible work
+that the three teams you see on the
+screen here we had the Voyer flight team
+and anomaly team that helped us resolve
+the anomaly that happened on the flight
+data subsystem and the deep space
+Network which is the set of antennas we
+use to track our spacecraft um the
+biggest question you may have is what's
+a mission assurance manager so I have
+the best job in the whole world whenever
+anything goes wrong with an instrument
+or a spacecraft I get to jump in and
+help solve the problem and additionally
+I'm kind of the independent reviewer um
+you can all imagine back when you were
+younger you'd get together with your
+friends you have this great idea and it
+would go terribly wrong well that
+happens to engineers and professionals
+at all levels and so that's my job is to
+be the adult in the room and make sure
+we don't have
+issues so to get started I want to tell
+you a little bit about the mission so
+you understand why it's so important to
+us and it is very important to us so the
+voyagers launched in
+1977 and they were designed to explore
+the outer planet specifically Jupiter
+and Saturn of course they got to all
+four of them Voyer 2 doing Uranus and
+Neptune and that changed the way we
+thought about the solar system utterly
+changed planetary science after that in
+the 1990s we became a he spheric mission
+the he sphere is a magnetic bubble that
+surrounds the Sun and we're in the heos
+spere it's actually very far far out
+even Beyond planet's orbits and the idea
+here was that Voyer would move out
+Beyond these planets sample the outer
+heliosphere and then perhaps make it
+Interstellar space because nobody knew
+there was a huos spere boundary nobody
+knew how far it was and so that was our
+new goal in 1990 today we've crossed
+that boundary as you'll see and we're
+actually in innerstellar space and I
+think this may be our most important
+data set that we ever collect because
+nobody's going to be here again for
+decades perhaps longer um these two
+spacecraft are deep in their exposive
+space giving us information that's
+critically important why because as you
+can see in the upper corner there other
+stars have you heliosphere as well
+they're called astrospheres so an
+astronomer can collect those photons and
+make an interpretation what they're
+seeing but it's really valuable to have
+the actual understanding of what that
+inner Stiller space might be like that
+those shock waves are interacting with
+so it gives astronomers ground truth in
+terms of interpreting things like this
+the other um the other thing you can see
+here is that this is some data from one
+of our instruments this is the plasma
+wave subsystem um what it does is it
+collects electromagnetic uh information
+frequencies Against Time which we heard
+about earlier today um the PWS actually
+collects plasma waves plasmas are ions
+and electrons that are um embedded in a
+magnetic field when that situation
+happens those particles will exhibit
+wavelike characteristics so this
+instrument's designed to find those all
+these dark splotches are actually uh the
+what happens when a when a corono mass
+injection the things that cause Roars on
+Earth those propagate out for years and
+when they hit the Helia sphere they
+actually ring into Interstellar space so
+Voyer was hearing the the eruptions from
+the Sun even outside the helipa which
+was very cool nobody really expected
+that and you can see this uh a very line
+there's a thin line that goes out uh
+that thin line represents the primary
+plasma frequency and that gives us
+density so this is just one example the
+amazing um science that these
+instruments are still
+providing oh excuse me so this is a a uh
+map of essentially where we were and
+where we are this is astronomical units
+on the the x-axis on the bottom
+astronomic unit is a distance between
+the Earth and the Sun or about eight
+light minutes uh you can see we're well
+out there out from the Sun and uh this
+is the ecliptic latitude in other words
+how far north and south we are if you
+look down at the tiles you can imagine
+one of those is an au Voyer one is about
+as far away as this patio is across so
+and the distance between Earth and Mars
+is about that far so you can see the
+voyers are extremely far
+away oh actually you'll see the uh blue
+boundary there is also where we crossed
+into the inner Stellar space so it was
+much further out than most astronomers
+thought so these are our instruments uh
+we have a magnetometer we have the
+plasma wave subsystem um they're mounted
+they use these antennas the
+magnetometers are on a boom to keep them
+was in the spacecraft the PWS uses these
+whip antennas this is a 13 M boom so
+these are not little spacecraft this is
+a three uh 3 meter across hyen antenna
+um and then we have some particle
+instruments we have the cosmic ray
+subsystem looking at high energy
+particles and then a couple of plasma
+instruments so those are our spacecraft
+and the instruments that are still
+active
+so let's talk about our spacecraft
+status so we are 15 billion miles away
+for Voyager one I'm going to talk mostly
+about Voyer one because that's what
+we're here to talk about our Li time is
+22 and a half hours one way in other
+words that's how long it takes to stick
+of the command to our spacecraft to get
+a roundtrip response it's 45 hours so
+basically we get contact with our
+spacecraft after we do something two
+days later um this uh diagram in the
+upper corner there shows you Voyer one
+and Voyer 2 Crossing outside the
+heliopause it's another graphic um I
+like it because it shows that we're
+actually moving out through the nose of
+the heliopause in other words just by
+dumb luck we ended up leaving the solar
+system in the direction the sun was
+going so the voyagers are no longer
+gravitationally bound of the sun they're
+actually orbiting the center of the
+Galaxy and they have a 230 million year
+period so they're moving about uh 3 Au
+per year faster than the solar
+system so imagine a candle
+um you can see the light from it you can
+feel the heat so all that energy if you
+collect it then take that and divide it
+by six so 1 six of a candle that's 13
+watts of energy so a 70 M station the
+large dish will run the far far right uh
+that station 70 M across can detect that
+signal and pull 160 bits per second out
+of it three 34 met stations that we
+array together they can also perform
+that feed so that's essentially how we
+collect data the spacecraft are always
+broadcasting we can track it as often we
+can get these antennas um we can
+actually go up to 1.2 kilobits per
+second and that's how we get that data I
+showed you earlier it's recorded on our
+fancy digital tape craft recorder it's
+an eight track and it's still reog grade
+um that's uh that data comes down only
+when we can array all the stations so
+this picture happened earlier this year
+this the first time we array all six
+antennas we usually have only five in
+the array so we're uh we're working to
+to try and get more and more antennas
+because we're getting out near the limit
+of This 1.2 kilobits per
+second excuse me we don't have a safe
+mode many spacecraft play it safe when
+something goes wrong they kind of shut
+things down and stop doing things Voyer
+one just resets its processors picks up
+the pieces and goes it has very robust
+wall protection very aggressive we have
+94 years of experience with our flight
+systems between the two spacecraft we
+have about 12 people working on
+spacecraft now so there many of them are
+part-time that's a lot of spacecraft for
+very few on a
+people and then our big our big problem
+that we're dealing with is power and
+thermal these days so we launched with
+uh enough plutonium to power the
+spacecraft it has a half-life of about
+88 years this is a picture of the fuel
+clads when they're fresh they glow red
+hot um they're embedded in in little
+cans that stick off Voyager and there's
+thermac couples around them they
+generate electricity based on the heat
+difference between the interior and the
+exterior um we're down to about as much
+power as a box fan or a rice cooker at
+this point for those big spacecraft
+which is pretty incredible we also just
+started operating them with unregulated
+voltages because we realized we could
+turn we could go off the voltage
+regulator and keep our instruments
+powered which is the the reason we're
+there and um that was kind of a scary
+moment for us but it worked well so so
+far so good generally we have to take
+action within a year or less all the
+time because of our power and thermal
+constraints the less power we have of
+course we risk undervolting our
+spacecraft and power is also dissipated
+so we have thermal issues we may freeze
+our roll lines we'll talk about that a
+little
+more this is a functional block diagram
+of our spacecraft um you can see Voyer
+one looks pretty darn good red is things
+that are failed and black are things
+that are powered off because power and
+then we have a few gold items that are
+just degraded subsystems so I think we
+all wish our our appliances worked this
+well after 47 years um I'll PL out this
+uh right here this is the flight data
+subsystem we're going to be talking a
+lot about that you'll notice there's a
+very thin line going down into the toet
+modulation unit and then down into the
+uh the radio subsystem down there so
+this is the path we're going to talk
+about the path from the flight data
+computer to the temp modulation unit to
+the
+radio um just quickly um speaking of
+things that are wrong to keep our
+spacecraft operating uh we have to make
+changes all the time and it's getting
+more and more frequent back in the early
+part of the last decade um it was not a
+big deal we had things happen
+occasionally that we had to adjust to
+more and more now we're having to take
+steps to either keep from losing an
+instrument avoid degradation or actually
+we prevent the loss of our spacecraft so
+it's getting tougher to fly these with
+our small
+Team all right this is what you guys
+came to he computers in the anomaly so
+we have three very cool computers on the
+Voyer spacecraft and they're two of each
+type for redundancy um these are
+Humanity's oldest continuous
+continuously operating computers so I
+think it's important to remember that is
+as you hear about them these are the
+first reprogrammable de deep space
+flight computers they operate without
+microprocessors and each has its own
+unique GPL constructed Assembly Language
+so the CCs is basically responsible for
+issuing commands to the spacecraft it's
+a viking machine essentially the Viking
+Landers and orbiters used a computer of
+this type and it's an 18-bit interrupt
+driven processor um constructed out of
+transistors it's TTL logic we actually
+use some RC Logic on some of our
+subsystems but this is a fancy TTL
+machine and it has nine or 4,000 words
+of plated wire memory um if you don't
+know what that is you can look it up in
+the internet but it reminds you of
+Rebecca's talk and the uh the weaving
+it's essentially a set of wires and you
+store data on them by putting a small
+magnetic field into the wires and it
+works great after all these years um our
+attitude control subsystem it is used to
+control the attitude and pointing of our
+spacecraft it's a very similar machine
+um it uh it has an extra board that they
+used to make sure that there was enough
+speed to manage the attitude of the
+spacecraft these two are basically alike
+Voyer on on the the command computer
+system we actually use both processors
+because we're short on memory so finally
+the one that matters to us is over on
+the far side that's the fds so this was
+added because during the planning for
+the mission they realized that when when
+Voyager flew through a planetary system
+it was going to overwhelm the spacecraft
+data system all this data coming in and
+under a day essentially um they didn't
+think these computers could handle it so
+they built a seos machine and uh it has
+8,000 words of memory and um this was
+put on board basically to make sure that
+we could process all that data this is a
+very important computer for us because
+it uh basically commands the instruments
+it coets and formats all of our science
+and engineering Telemetry and it
+provides all of our timing
+information so what happened and how did
+we figure it
+out so back in November of last year we
+had a normal pass come up but we had no
+Telemetry so Telemetry is basically
+processed by taking looking for a frame
+marker saying this is a packet of data
+and we're going to decode it and look at
+what it says um we were not getting
+those frame markers and um the only good
+thing was we had a carrier signal
+otherwise we' have been really scared so
+we could see this the carrier but it was
+not being modulated so our deep space
+tracking Network all those antennas they
+worked for several days and they
+determined that we were seeing a
+constant frams of zero and one symbols
+and um there were no Toom Fame markers
+whatsoever so the result here was that
+we had no visibility on our spacecraft
+Voyager will will drift back and forth
+based on sun position and we can see
+that slight signal variation from over a
+few hours uh we could see that our radio
+frequencies were per predict and we see
+in the next few days we could see we
+could command our spacecraft but that
+was it uh somebody on our team pointed
+out this is kind of like having your
+monitor broken and having to find out
+where your cursor is to fix the monitor
+so not a very good situation for us so
+we formed an anomaly team this was about
+another dozen people that were brought
+in who are specialists in various
+disciplines to help us out which is kind
+of the way JPL does these
+things so new initially we realized it
+we had to be the fds the tmu or the
+radio frequency subsystem after a little
+work
+and we changed the frequency this is an
+example by commanding the tmu and the
+RFS but occasionally it didn't work
+which was puzzling we also had What's
+called the open loop recorder which is
+essentially using the DSN instead of
+collect data like a radio telescope and
+what happened was we could see that we
+were getting these modulations which
+told us the clock signal was working
+because the speed was about right so we
+knew that pieces were working across the
+the set of three subsystems but we
+weren't sure what was wrong yet so we we
+pretty much focused on the
+fds um based on the fact that we were
+getting these kinds of Transitions and
+the fds wasn't doing much in response to
+our commands so our top priority was to
+figure out what the FTS was and how it
+worked because unfortunately the person
+who was the real expert had retired
+decades ago and the person who was their
+fill in their backup had retired two
+years ago so it was the worst place it
+could have hit
+us so these are some examples of some of
+the documentation we dug up on the fds
+and I hope you guys can see them that's
+good because we couldn't read
+those so they're all handwritten uh the
+one up on the upper left has got some
+handwriting these are very dim circuit
+diagrams and these are handwritten
+timelines for how to change fds
+processors so this was um we were lucky
+to find these some things we couldn't
+find a lot of it was like this that had
+been scanned and frequently these
+sources were contradictory ambiguous why
+because we changed the way the
+spacecraft worked with every planetary
+encounter and entering the vim and when
+things broke so there was a lot of
+opportunity for ambiguity to arise in
+the documents over the course of 50
+years this is my favorite example so
+this is a page out of an important fds
+document the change bar on the far side
+indicates it's a change but somebody
+went in and made the very cryptic Circle
+the sentence and cross it out and I have
+no idea to this day what it means I have
+no idea um maybe it was important maybe
+they crossed it out because they thought
+Crossing out was important I'm not sure
+so there was other cases like this so we
+were even so confused in some cases we
+weren't sure if we were sending data to
+the fds should it be least significant
+bit first or most significant bit first
+we had that level of uncertainty so the
+only thing we could do is dig in and
+research more and debate so we had a lot
+of debates between our flight team and
+the Tigra team trying to figure out what
+the best thing to do but ultimately we
+just had to kind of suck it up and guess
+at some point and we made the right
+guesses which is good so let me go a
+little deeper into the FTS so you can
+understand what we were dealing with um
+at the
+top I'm just going to take this out at
+the top we have memory a memory B failed
+back in 1981 this is the processor the
+processor runs the flight software
+that's embedded on memory this is I
+can't read this this is how you command
+the fds this is the state vector control
+unit which basically manages the
+Redundant units you see here so if you
+want to change redundancy you use this
+box this is our oscillator and timing
+change this is engineering IO science IO
+tape recorder IO uh modulation IO and
+then our encoders and then we have
+triply redundant power supplies because
+this is volatile memory
+so um a lot of things to look at there
+so what we had to do is pick what was
+most likely to be causing the problem we
+were seeing and balance that against
+what was the most risky thing we could
+or the least risky thing we we could be
+doing some of these we didn't want to
+play with because we just did not want
+to switch those components because of
+the risk involved so it was always a
+balancing TR act the other thing that
+happened was this kind of fell into a
+weekly schedule because we had to wait
+two days for our downlinks so basically
+what we' do is what you see there we'd
+observe we' design our next test we'd
+build the commands radiate them wait two
+days and then observe the
+results so this really was playing 20
+questions with the
+spacecraft um what happened was we we
+came up with this set of things we were
+going to do and um each one represented
+a risk benefit trade if any of these had
+come out positively we would have
+stopped right because we would have had
+an answer for what it was this is like
+playing 20 questions and always getting
+no for your answer no matter what we
+tried the only good thing was is it let
+us knock out things that it would not be
+so if we swapped out the oscillator and
+timing chain we would say well it's not
+that obviously ly and hope that we
+unscrewed something else up on the
+instrument so this is a fishbone fa tree
+um you don't have to read it don't worry
+the important thing is is that there are
+the brown things are things that we
+ruled out and across the top we have
+Mission operations issues um basically
+ground stuff we have safing algorithms
+on the spacecraft that might have might
+have uh tried to change a configuration
+we have a lot of Telecom stuff and then
+at the bottom we have all the fds pieces
+we knocked all these out without any
+telemetry
+by by debate or by trying something like
+that this is the fds in the same type of
+a diagram so again everything Brown has
+been eliminated and you can see at the
+top we took out the MDS we took out the
+uh State vector control and some of the
+other iOS there on the side at the
+bottom we took out State vector control
+and timing um we took out commanding and
+the power um in the next to last and
+over in The Far Side we took out the
+radio stuff again this was either debate
+on the ground trying to Swatch swap a
+component and seeing if we fixed the
+problem or not so without Telemetry this
+is pretty darn good and you can see we
+were left with basically just the fds
+memory or the flight software and
+processor potentially was there but we
+were too scared to touch the processor
+so we just kind of said you know it's
+probably working because we're getting
+timing signals
+out very good so that took us three
+months and then we arrived at this the
+fds is broken so we had narrowed it down
+to that and we finally figured out why
+our Telecom commands weren't working
+some of the time it turns out that the
+team had built some of those as
+contingency commands using something
+called seconds mode which uses the clock
+to trigger the commands most of the time
+we use frame mode so it turns out that
+only the frame commands were the ones
+that weren't working so this told us
+even though we'd forgotten this fact we
+figured it out and it told us that the
+FTS wasn't giving us frames this really
+put the nail in the coffin that we
+understood what the issue was
+so I'm going to put a couple of names
+out here David Cummings at JPL was kind
+of one of the heroes Arman Arslanian was
+the other um David figured out how the
+FTS code work because nobody knew how to
+do it we have data mode so data mode is
+just a different speed of data return
+it's like a different modem setting
+essentially so we had 10 different modes
+only four of those used today and the
+idea behind them is they each collect
+package and Route data from the fds to
+the teamu and then the aana and that's
+that's the way you work if you have to
+you want a different mode to playback
+data from the tape recorder versus
+sending the real-time data versus just
+sending engineering data so each of
+those modes can be thought of as a
+program or at least that's how David
+thought of them and the problem was we
+couldn't start or change these programs
+now underneath those data mode programs
+there's the P tables and these are code
+groupings of sub routines that are
+useful they're collected they tend to
+have the same uh fun same similar
+functions but they're slightly different
+algorithms and then under the p P tables
+there's yet another layer of code so a
+given data mode might use code from
+different PES and what we really had to
+do is get our for data mode uh
+reestablished so David asked the key
+question if code execution was somehow
+stuck on a p table how could we unstick
+it and we thought that was the most
+likely case because commands just
+weren't having an impact so it turns out
+there's two variables mode which is uh
+what you command from the ground and C
+mode which the software sets and these
+determine what a data mode you're in and
+these just flat weren't working we
+thought so we decided to use Hardware
+pokes instead of using a a nice safe
+method where you tell the processor
+please write this data to this location
+we're just saying here's some data put
+it in that address and these are
+dangerous we've lost uh we lost Viking
+one we lost Mars Global surveyor to
+Hardware pokes so we don't like to use
+them we' never used them in Voyager but
+in this case we deemed it the safest way
+to proceed so we built 20 pokes so both
+variables for each of the 10 modes and
+we link that on March 1st and it didn't
+look very
+promising but the DSN was uh was using
+the olr and what this is what they saw
+this is residual subcarrier plot on the
+bottom on the far side there and where
+the two lines are very fixed that's our
+dial tone right that's the zeros and
+ones as it looks in this this type of
+plot you can see that when we sent the
+other uh some set some of the variables
+we got a response which was the first
+time we'd seen the FTS do anything in 4
+months so this was pretty exciting
+um we left it in that one you can see
+there at the end where it was sending
+something down um and this told us the
+processor responded number one it told
+us memory was sound and it told us that
+this was likely a memory corruption um
+now since we weren't producing Telemetry
+markers we couldn't read this as
+Telemetry this is just stuff coming down
+so the DSN it's worth a paper in itself
+the DSN figured out this amazing way to
+decode this data and give us what the
+data
+represented and it turns out it
+represented something really cool um
+this was an accidental memory duve
+unbelievably so the processor we left it
+in that mode somehow it's a direct
+memory access machine somehow it just
+said I'm going to read memory and it was
+sending us memory dunk completely free
+um so it was we basically could say the
+whole memory and we noticed immediately
+that there were 256 contiguous words
+1400 to 14 FF that were corrupted or had
+the potentially be corrupted and these
+were all unfortunately in that layer of
+code under the P tables so these are
+routines that are used by every every
+piece of the fds basically um and then
+additionally one of our Engineers
+determined the next day that this was a
+single Ram chip in the FTS that is
+responsible for the fifth bit in each
+address location so we understood what
+was going on so this is kind of
+cool I got permission to actually show
+you assembly this is the address then
+this is the actual code that's supposed
+to be there if the the word doesn't have
+yellow then it should have one in the
+fifth bit but if it's supposed to be
+zero you can see everything's off by a
+bit these are the labels in the assembly
+this is the actual op codes it looks
+kind of like 885 processor and then this
+is uh the data associated with it and
+then the comments so that's what
+assembly looks
+like for the fds and Voyager and each
+computer has a different Assembly
+Language so now the hard part how do you
+fix that took us three months to figure
+out what was wrong
+so we had three priorities because we
+didn't have toet we didn't have any
+memory one was demonstrate we could
+control the processor again two is get
+engineering back because that would tell
+us our spacecraft was healthy and
+finally we don't have a mission if we
+can't get science back so the real issue
+here was the 1990s memory constraint
+they loaded up this special version it
+was code that just went everywhere
+because you have those layers of code
+and they wanted to reuse everything with
+only 8,000 words you reuse every snippet
+of code you can so the code just jumped
+constantly all over the place um
+additionally our flight team had never
+buil a load this big and this was a new
+process using these Hardware pokes so
+our flight team had to do a lot of extra
+too so earlier when all that
+investigative work was going on we found
+some object code and it turned out this
+was a program called minum rot that had
+not been used in 35 years and uh it it
+actually does this small amount of
+framed clock Terry sending it back to
+the ground and it's framed which was
+exciting for us and um we thought that
+would be our good hell World program and
+additionally they took M minm rot and
+they morphed it this is where Arman
+began to help out they morphed it into a
+program that would use that same framing
+but give us an mro so in prep we told
+the fds to not generate frames because
+we didn't want the processor to wake up
+and begin issuing commanding that was on
+board and loaded on our spacecraft so we
+turned off frames we upin and linked
+minum Rod that means we set uh we loaded
+the program and we put the pointer at
+zero where minum rot loads that's how we
+link and it actually worked um we got
+Telemetry using this uh we had a custom
+tool that they developed for us again
+and then we sent meno the next week and
+that worked as well so so far so good we
+had the processor under
+control next we had to repair the codes
+this is 256 instructions that had to be
+relocated we had to preserve the
+behavior of course to get our data back
+but tying was key because anytime we
+added a step to do these extra jumps it
+would play with the timing of the
+program which could kill us so we
+understood we had to be super careful
+with the timing so the last the only
+benefit we had was that we were
+cannibalizing one of these obsolete data
+modes we had now the challenges these
+guys faced were incredible we didn't
+know that we had the right instruction
+set I showed you in the instruction set
+there we didn't know that was the one
+that was used to build the software back
+when there was an assembler we didn't
+know that the source code version was
+the same as what was running on board to
+spacecraft we had a listing of the code
+but but it was a Microsoft Word document
+it was optical character recognition
+scan so we didn't know if there were
+errors in it um we have no assembler so
+they're they're just playing with bits
+there's no simulator and there's no test
+bed so there were a few challenges I so
+basically this was bar bar knuckle
+binary
+manipulation and they had to think of
+all the problems I'm sure you guys are
+far better than I am at thinking the
+problems associated with with playing
+with memory like this you could override
+something you can fail to recognize
+jumps you how do you debug it and fly on
+a flying spacecraft and how do you know
+you're not missing something in those
+instruction sets and codes and the list
+goes on and on so what they did is they
+took every possible thing that could go
+wrong they made a list and then they
+iterated their code adjustments with
+that list with multiple people and that
+was essentially how they came with these
+patches um and we said that was okay
+because we
+were we said that was okay because we're
+effectively no Telemetry without that
+and frankly how bad could things get
+worse than they were so we uploaded this
+and linked it on April 20th and this was
+a big day we got Telemetry coming down
+for the first time this is uh Armen in
+the blue and David in the green and then
+this is our flight team our tiny little
+Flight Team celebrating so that was a
+good
+day but we weren't done yet so now we
+have to get the science back and we were
+worried because it took a lot of code to
+get one mode back now we have three it
+turns out it wasn't that bad the code
+reuse was was pretty amable to what they
+done but we did have some other problems
+um again we were out of space we used it
+all up the engineering high rate memory
+that we were cannibalizing it was gone
+so we found an old Memo from the 1980s
+that mentioned free memory we looked at
+the memory readouts and it looked like
+it was just not being used so we assumed
+it was free and went with that um this
+was an upper memory and it wasn't in
+right protected region of memory which
+is a concern because we'd like it to be
+right protected but if we went to lower
+memory it takes an extra step to go
+between high and low memory so we were
+worried about the timing applications
+again so we ate the risk that we were
+writing to unwrite protected memory and
+we patched it on May 18th and it worked
+as well so I want to kind of highlight
+that one because I keep saying this
+little statement like it's really easy
+these guys did four patches we uplinked
+them but I want to show you just how
+hard it was what they
+did so this is a map along the bottom
+it's zero to 255 words trust me and then
+the next row up that's kind of slanted
+you'll just keep counting up right these
+are addresses incrementing along there
+this is upper memory 4,000 to 8,000 so
+this is essentially a memory map an
+Excel this blue line going across this
+is the the failed chip so all these
+locations were trashed we didn't need
+the little piece that's called copy in
+the middle there but all the rest of
+this had to be relocated you can see
+that they took some of the sub routines
+and they broke them into pieces they
+stuffed them anywhere they could find in
+space all over the memory this is all
+upper memory they put in 14 14 different
+specific uh relocations of code in this
+case to recover the functionality that
+was lost in the blue line additionally
+this is now from 0 to 8,000 addresses
+and 100 addresses across these are all
+of the new and modified instructions
+that they had to do they had the change
+to to reference this relocated code
+again no assembler no test bed no
+simulator these guys were
+awesome then finally we had to restore
+our spacecraft and instruments so um we
+got our frames turned back on we had to
+resync our cxs we got the autonomous
+sequencing roughly going we're still
+playing with that because things got
+pretty screwed up and three of the four
+instruments that stopped working
+properly because the fds is kind of
+their caretaker and one of them has this
+little motor the the upper half of this
+instrument rotates 180° in 8 discreet
+steps every uh 2 minutes or so it's
+stepped over 8 million times in Flight
+it got stuck during this downtime so we
+we reinitialized the instrument and it
+looked pretty bad for a while and then
+little by little it broke itself free
+and began to work again which was really
+good news for us so basically at the end
+of May we were back to nominal
+operations and then we had uh two data
+modes for the PWS to play back and
+record and those were confirmed in July
+and that's how you fix your 47y old
+computer from 15 billion miles
+away that was pretty
+cool and just you know I didn't do that
+that was the that was David and Arman
+they were amazing so um I'm not going to
+go over this whole slide because some of
+this is internal but um I just gave this
+talk Thursday for the first time so you
+guys are the first people outside of JPL
+to hear it um I think the voyagers give
+this beautiful balance in their software
+between operational flexibility balanced
+against understandability and intrinsic
+robustness in other words Voyer software
+is understandable it can recover from
+almost anything but it's also flexible
+and that's a hard balance I think
+nowadays most of the spacecraft I work
+on you can't tell what the software is
+going to do because you have competing
+algorithms you have so many so many
+possible triggers for called actions
+that you can't anticipate them in
+simulators so I've seen cases where we
+get algorithms fighting it out over
+battery control or something like that
+and you just can't figure out even the
+experts can't figure out what they're
+doing we could figure out with what
+Voyer was doing even without Telemetry
+um I think the negative that really hurt
+us was our spacecraft have been healthy
+for decades and that uh that certainly
+contributes to loss of knowledge um and
+then I think um we talked a little bit
+about um Fabric and maintaining data you
+guys thought lost in accessible
+documentation voyager's been through so
+many media transitions right paper
+through scanning through CD discs
+through tape drives through we used
+paper tape um and cards at the beginning
+our some of our ground software was was
+basically on a Unix system but it's
+emulating a water cooled univac from the
+1970s um all this stuff is is evolving
+constantly in over a 50-year mission we
+didn't have the money to maintain it so
+we got got into the situation where the
+documentation was bad so I agree that's
+a really difficult problem and we need
+to do a little better with that um but
+we do have some final Bulls we're we're
+dealing with some of these um issues we
+had because we want to get out to around
+200 Au which would be in uh let's see
+2035 I don't know if we will get there
+um so the gray boxes are are years the
+gold numbers underneath them are the
+actual Aus were away these bars with
+lecp CRS Megan PWS that's when the
+instruments get turned off they've
+already been on about six years longer
+than we thought we need we would have to
+turn them off because of the changes
+we've made um these little covered boxes
+if I take one of those away this
+timeline shrinks by that amount these
+are all steps that we take to increase
+the timeline so our goal is to keep them
+alive until 20 2030s something like that
+but you can see that I've got an
+estimated survival probability there in
+the light pink um the probability of us
+making Beyond 2028 begins to drop pretty
+quickly so we've got at least four or
+five more years in them I think we're
+also having some Thruster issues that
+may be the end we're going to do a
+Thruster Branch swap in the next two
+weeks so keep your fingers
+crossed and then last we are an
+inspiration Mission this uh this really
+taught us that we matter to and inspire
+people around the world our project
+manager Susie DOD calls these Humanity
+spacecraft because people do care about
+them we had universally positive and
+supportive media coverage during the an
+aloy which is pretty rare these days for
+any event we had 90 significant media
+hits hundreds of Internet stories on our
+website was the big story of the year
+and we had social media um mentions and
+and benchmarks way above average but
+best of all we get really cool fan mail
+so Dana
+[Applause]
