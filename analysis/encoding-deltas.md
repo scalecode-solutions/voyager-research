@@ -116,7 +116,39 @@ instructions that take asymmetric operands (SUB is the only
 non-commutative one in ADD/LXR/AND/LOR/SUB — order matters), to
 disambiguate them from a class that ignores order.
 
-### Δ4 — Slide 25 LXR with sub-op nibble 0
+### Δ4 — SLC sub-op spans 3-bit-decode values 4 AND 5
+
+Discovered while searching for an instruction at sub-high=5.
+
+**Wooddell encoding** (FF42, Figure 2):
+```
+SLC: 1001 | 1 | 0 | VALUE (10 bits)
+     prim   12  11  10..1
+```
+
+So SLC's sub-op uses **only 2 bits** (bits 12-11 = 1,0), while
+bit 10 is the MSB of the 10-bit VALUE field.
+
+A 3-bit sub-high decoder reading bits 12-10 sees:
+- VALUE < 512 (bit 9 of VALUE = 0) → bits 12-10 = 100 → sub-high = 4
+- VALUE ≥ 512 (bit 9 of VALUE = 1) → bits 12-10 = 101 → sub-high = 5
+
+So **sub-high = 5 is not a separate instruction class** — it's
+SLC with high VALUE bit set. Verified empirically:
+
+```
+SLC 800 = 0x9B20 = 1001 1011 0010 0000
+                  prim 12=1 11=0 10=1 ...rest of VALUE
+                   →  bits 12-10 read as 101 = 5 in 3-bit decode
+                   →  VALUE = 0x320 = 800 ✓
+```
+
+This isn't a *delta* in the strict sense (Wooddell's spec is
+correct; our decoder was just too coarse), but it explains why
+the apparent gap at sub-high=5 doesn't represent missing
+instructions. Decoder updated to dispatch both 4 and 5 to SLC.
+
+### Δ5 — Slide 25 LXR with sub-op nibble 0
 
 **Slide 25 shows:**
 ```
